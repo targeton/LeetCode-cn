@@ -30,21 +30,19 @@
  *
  */
 func letterCombinations(digits string) []string {
-	cache := map[byte]string{'2': "abc", '3': "def", '4': "ghi", '5': "jkl", '6': "mno", '7': "pqrs", '8': "tuv", '9': "wxyz"}
+	cache := []string{"0", "1", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"}
 	var res []string
 	if len(digits) < 1 {
 		return res
 	}
-	combination(&res, &cache, digits, "", 0)
+	res = append(res, "")
+	for len(res) > 0 && len(res[0]) < len(digits) {
+		tmp := res[0]
+		res = res[1:]
+		ss := cache[int(digits[len(tmp)]-'0')]
+		for i := 0; i < len(ss); i++ {
+			res = append(res, tmp+string(ss[i]))
+		}
+	}
 	return res
-}
-
-func combination(res *[]string, cache *map[byte]string, digits string, tmp string, pos int) {
-	if len(digits) == pos {
-		*res = append(*res, tmp)
-		return
-	}
-	for i := 0; i < len((*cache)[digits[pos]]); i++ {
-		combination(res, cache, digits, tmp+string((*cache)[digits[pos]][i]), pos+1)
-	}
 }
