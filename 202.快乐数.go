@@ -31,22 +31,21 @@
  *
  */
 func isHappy(n int) bool {
-	cache := make(map[int]struct{})
-	for true {
-		tmp := n
-		n = 0
-		for tmp != 0 {
-			m := tmp % 10
-			n += m * m
-			tmp = tmp / 10
+	numSum := func(x int) int {
+		sum := 0
+		for x != 0 {
+			sum += (x % 10) * (x % 10)
+			x = x / 10
 		}
-		if n == 1 {
-			return true
-		}
-		if _, ok := cache[n]; ok {
+		return sum
+	}
+	slow, fast := n, n
+	for {
+		slow = numSum(slow)
+		fast = numSum(numSum(fast))
+		if slow == fast {
 			break
 		}
-		cache[n] = struct{}{}
 	}
-	return false
+	return slow == 1
 }
