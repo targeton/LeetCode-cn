@@ -35,11 +35,9 @@ func exist(board [][]byte, word string) bool {
 	if board == nil || len(board) < 1 {
 		return false
 	}
-	delta := [][]int{[]int{-1, 0}, []int{0, -1}, []int{1, 0}, []int{0, 1}}
-	path := make(map[string]struct{})
 	for i := 0; i < len(board); i++ {
 		for j := 0; j < len(board[0]); j++ {
-			if isExist(board, word, path, delta, 0, i, j) {
+			if isExist(board, word, 0, i, j) {
 				return true
 			}
 		}
@@ -47,23 +45,18 @@ func exist(board [][]byte, word string) bool {
 	return false
 }
 
-func isExist(board [][]byte, word string, path map[string]struct{}, delta [][]int, pos, i, j int) bool {
+func isExist(board [][]byte, word string, pos, i, j int) bool {
 	if pos == len(word) {
 		return true
 	}
 	if i < 0 || i >= len(board) || j < 0 || j >= len(board[0]) {
 		return false
 	}
-	key := string(i) + "|" + string(j)
-	if _, ok := path[key]; !ok && board[i][j] == word[pos] {
-		path[key] = struct{}{}
-		for k := 0; k < 4; k++ {
-			if isExist(board, word, path, delta, pos+1, i+delta[k][0], j+delta[k][1]) {
-				return true
-			}
-		}
-		delete(path, key)
-		return false
+	if board[i][j] == word[pos] {
+		board[i][j] ^= byte(255)
+		exist := isExist(board, word, pos+1, i-1, j) || isExist(board, word, pos+1, i, j-1) || isExist(board, word, pos+1, i+1, j) || isExist(board, word, pos+1, i, j+1)
+		board[i][j] ^= byte(255)
+		return exist
 	} else {
 		return false
 	}
