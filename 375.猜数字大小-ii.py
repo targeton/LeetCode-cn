@@ -43,10 +43,8 @@ class Solution(object):
         :type n: int
         :rtype: int
         """
-        class Need(dict):
-            def __missing__(self,(lo,hi)):
-                if lo>=hi:
-                    return 0
-                ret=self[lo,hi]=min(x+max(self[lo,x-1],self[x+1,hi]) for x in range(lo,hi))
-                return ret
-        return Need()[1,n]         
+        need = [[0 for i in range(n+1)] for j in range(n+1)]
+        for lo in range(n,0,-1):
+            for hi in range(lo+1,n+1):
+                need[lo][hi] = min(x+max(need[lo][x-1],need[x+1][hi]) for x in range(lo,hi))
+        return need[1][n]        
