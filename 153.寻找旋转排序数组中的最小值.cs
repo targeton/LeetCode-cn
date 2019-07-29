@@ -34,25 +34,19 @@
  */
 public class Solution {
     public int FindMin(int[] nums) {
-        int lo = 0;
-        int hi = nums.Length-1;
-        while(lo<hi){
-            int mid = lo + (hi-lo)/2;
-            if(nums[lo] < nums[mid]){
-                if(nums[lo]<nums[hi]){
-                    hi=mid;
-                }else{
-                    lo=mid+1;
-                }
+        int start=0, end=nums.Length-1;
+        while(start < end){
+            if(nums[start]<nums[end]){
+                return nums[start];
+            }
+            int mid = start+(end-start)/2;
+            if(nums[start]<nums[mid]){
+                start = mid+1;
             }else{
-                if(nums[mid]>nums[hi]){
-                    lo=mid+1;
-                }else{
-                    hi=mid;
-                }
+                end=mid;
             }
         }
-        return nums[lo];
+        return nums[start];
     }
 }
 
