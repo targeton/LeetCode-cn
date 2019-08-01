@@ -43,21 +43,13 @@
  * 
  */
 public class Solution {
-    public int[] Intersect(int[] nums1, int[] nums2) {        
-        Array.Sort(nums1);
-        Array.Sort(nums2);
-        var result = new List<int>();
-        int i=0, j=0;
-        while (i<nums1.Length && j<nums2.Length)
-        {
-            if(nums1[i] == nums2[j]){
-                result.Add(nums1[i]);
-                i++;
-                j++;
-            }else if(nums1[i]<nums2[j]){
-                i++;
-            }else{
-                j++;
+    public int[] Intersect(int[] nums1, int[] nums2) { 
+        var result = new List<int>();       
+        var dic1 = nums1.ToLookup(i=>i);
+        var dic2 = nums2.ToLookup(i=>i);
+        foreach(var item in dic1){
+            if(dic2.Contains(item.Key)){                
+                result.AddRange(Enumerable.Repeat(item.Key,Math.Min(item.Count(),dic2[item.Key].Count())));
             }
         }
         return result.ToArray();
