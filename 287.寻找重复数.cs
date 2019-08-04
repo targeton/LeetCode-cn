@@ -40,20 +40,21 @@
  */
 public class Solution {
     public int FindDuplicate(int[] nums) {
-        int lo = 1, hi = nums.Length - 1;
-        while(lo < hi){
-            int mid = lo + (hi - lo)/2;
-            int count = 0;
-            foreach (var item in nums)
-                if(item<=mid)
-                    count++;
-            if(count<=mid){
-                lo = mid+1;
-            }else{
-                hi = mid;
+        if(nums.Length>1){
+            int slow = nums[0];
+            int fast = nums[nums[0]];
+            while(slow!=fast){
+                slow = nums[slow];
+                fast = nums[nums[fast]];
             }
+            fast = 0;
+            while(fast != slow){
+                fast = nums[fast];
+                slow = nums[slow];
+            }
+            return slow;
         }
-        return lo;
+        return -1;
     }
 }
 
