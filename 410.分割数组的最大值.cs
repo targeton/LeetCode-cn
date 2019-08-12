@@ -42,41 +42,29 @@
  */
 public class Solution {
     public int SplitArray(int[] nums, int m) {
-        int max = 0;
-        long sum = 0;
-        foreach (var n in nums){
-            if(max < n)
-                max = n;
-            sum += n;
+        int L = nums.Length;
+        int[] S = new int[L+1];
+        S[0] = 0;
+        for (int i = 0; i < L; i++)
+        {
+            S[i+1] = S[i]+nums[i];
         }
-        if(m == 1)
-            return (int)sum;
-        long lo = max;
-        long hi = sum;
-        while(lo <= hi){
-            long mid = lo+(hi-lo)/2;
-            if(Valid(mid,nums,m)){
-                hi = mid - 1;
-            }else{
-                lo = mid + 1;
+        int[] dp = new int[L];
+        for(int i = 0; i<L; i++)
+            dp[i] = S[L] - S[i];
+        for (int s = 1; s < m; s++)
+        {
+            for (int i = 0; i < L-s; i++)
+            {
+                dp[i] = Int32.MaxValue;
+                for(int j = i+1; j <= L-s; j++){
+                    int t = Math.Max(dp[j],S[j]-S[i]);
+                    if(t < dp[i])
+                        dp[i] = t;
+                }
             }
         }
-        return (int)lo;
-    }
-
-    private bool Valid(long target, int[] nums, int m){
-        int count = 1;
-        long total = 0;
-        foreach (var n in nums){
-            total += n;
-            if(total > target){
-                total = n;
-                count++;
-                if(count > m)
-                    return false;
-            }
-        }
-        return true;
+        return dp[0];
     }
 }
 
