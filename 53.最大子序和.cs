@@ -29,16 +29,15 @@
  */
 public class Solution {
     public int MaxSubArray(int[] nums) {
-        int result = Int32.MinValue;
-        for(int i = 0; i < nums.Length; i++){
-            int value = 0;
-            for(int j = i; j < nums.Length; j++){
-                value += nums[j];
-                if(value > result)
-                    result = value;
-            }
+        int n = nums.Length;
+        int[] dp = new int[n];
+        dp[0] = nums[0];
+        int max = dp[0];
+        for(int i = 1; i < n; i++){
+            dp[i] = nums[i] + (dp[i-1] > 0 ? dp[i-1] : 0);
+            max = Math.Max(max, dp[i]);
         }
-        return result;
+        return max;
     }
 }
 
