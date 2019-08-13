@@ -36,7 +36,14 @@
  */
 public class Solution {
     public int Rob(int[] nums) {
-        
+        int hop1 = 0, hop2 = 0;
+        foreach (var n in nums)
+        {
+            int tmp = hop1+n > hop2 ? hop1+n : hop2;
+            hop1 = hop2;
+            hop2 = tmp;
+        }
+        return hop2;
     }
 }
 
