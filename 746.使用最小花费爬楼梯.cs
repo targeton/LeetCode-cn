@@ -45,14 +45,10 @@
  */
 public class Solution {
     public int MinCostClimbingStairs(int[] cost) {
-        int N = cost.Length;
-        int[] dp = new int[N];
-        dp[0] = cost[0];
-        dp[1] = cost[1];
-        for(int i = 2; i < N; i++){
-            dp[i] = cost[i] + Math.Min(dp[i-1], dp[i-2]);
+        for(int i=2; i<cost.Length; i++){
+            cost[i] += Math.Min(cost[i-1], cost[i-2]);
         }
-        return Math.Min(dp[N-1],dp[N-2]);
+        return Math.Min(cost[cost.Length-1],cost[cost.Length-2]);
     }
 }
 
