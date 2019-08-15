@@ -41,14 +41,28 @@
  * 
  */
 public class Solution {
-    public bool IsSubsequence(string s, string t) {
-        int index = 0;
-        foreach(var c in t)
+    public bool IsSubsequence(string s, string t) {        
+        // solution for lots of incoming S (S1, S2, S3, ... ,)
+        Dictionary<char,List<int>> dic = new Dictionary<char, List<int>>();
+        for (int i = 0; i < t.Length; i++)
         {
-            if(index < s.Length && s[index] == c)
-                index++;
+            if(!dic.ContainsKey(t[i]))
+                dic[t[i]] = new List<int>();    
+            dic[t[i]].Add(i);
         }
-        return index >= s.Length;
+        int prev = 0;
+        for (int i = 0; i < s.Length; i++)
+        {
+            if(!dic.ContainsKey(s[i]))
+                return false;
+            int j = Array.BinarySearch(dic[s[i]].ToArray(), prev);
+            if(j < 0)
+                j = -j - 1;
+            if(j == dic[s[i]].Count())
+                return false;
+            prev = dic[s[i]][j] + 1;
+        }
+        return true;
     }
 }
 
