@@ -46,25 +46,13 @@
  * 
  */
 public class Solution {
-    public int MinFallingPathSum(int[][] A) {
-        int n = A.Length;
-        int[] dp = new int[n+2];
-        dp[0] = int.MaxValue;
-        dp[n+1] = int.MaxValue;
-        for(int i=0; i<n; i++){
-            dp[i+1] = A[0][i];
-        }
-        for(int i=1; i<n; i++){
-            int[] array = new int[n+2];
-            array[0] = dp[0];
-            array[n+1] = dp[n+1];
-            for(int j=0; j<n; j++){
-                var tmp = new List<int>(){dp[j], dp[j+1], dp[j+2]};
-                array[j+1] = tmp.Min() + A[i][j];
+    public int MinFallingPathSum(int[][] A) {        
+        for(int i=1; i<A.Length; i++){
+            for(int j=0; j<A.Length; j++){
+                A[i][j] += Math.Min(Math.Min(A[i-1][j],A[i-1][Math.Max(0,j-1)]),Math.Min(A[i-1][j],A[i-1][Math.Min(A.Length-1,j+1)]));
             }
-            dp = array;
         }
-        return dp.Skip(1).Take(n).Min();
+        return A[A.Length-1].Min();
     }
 }
 
