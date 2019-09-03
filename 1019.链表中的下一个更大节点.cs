@@ -62,17 +62,24 @@
  *     public ListNode(int x) { val = x; }
  * }
  */
+ using System.Collections.Generic;
 public class Solution {
     public int[] NextLargerNodes(ListNode head) {
-        List<int> result = new List<int>();
-        while(head != null){
-            var p = head;
-            while(p!= null && p.val <= head.val)
-                p = p.next;
-            result.Add(p == null ? 0 : p.val);
+        var tmp = new List<int>();
+        while(head != null) {
+            tmp.Add(head.val);
             head = head.next;
         }
-        return result.ToArray();
+        var stack = new Stack<int>();
+        int[] result = new int[tmp.Count];
+        for (int i = 0; i < tmp.Count; i++)
+        {
+            while(stack.Count > 0 && tmp[stack.Peek()] < tmp[i]){
+                result[stack.Pop()] = tmp[i];
+            }
+            stack.Push(i);
+        }
+        return result;
     }
 }
 
