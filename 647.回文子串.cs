@@ -41,18 +41,22 @@
  * 
  */
 public class Solution {
+    int count = 0;
     public int CountSubstrings(string s) {
-        int n = s.Length;
-        int result = 0;
-        bool[,] dp = new bool[n,n];
-        for(int i = n-1; i >= 0; i--){
-            for(int j = i; j < n; j++){
-                dp[i,j] = s[i] == s[j] && (j-i < 3 || dp[i+1,j-1]);
-                if(dp[i,j])
-                    result++;
-            }
+        if(string.IsNullOrEmpty(s))
+            return 0;
+        for(int i=0;i<s.Length;i++){
+            Extend(s,i,i);
+            Extend(s,i,i+1);
         }
-        return result;
+        return count;
+    }
+    private void Extend(string s,int left,int right){
+        while(left >= 0 && right < s.Length && s[left] == s[right]){
+            count++;
+            left--;
+            right++;
+        }
     }
 }
 
