@@ -43,15 +43,12 @@
  * 
  */
 public class Solution {
-    private Dictionary<string,int> _cache = new Dictionary<string,int>();
     public int UniquePaths(int m, int n) {
-        if(m == 1 || n == 1)
-            return 1;
-        string key = String.Format("{0}|{1}",m,n);
-        if(_cache.ContainsKey(key))
-            return _cache[key];
-        _cache[key] = UniquePaths(m-1,n) + UniquePaths(m, n-1);
-        return _cache[key];
+        int[,] dp = new int[m,n];
+        for(int i=0; i<m; i++)
+            for(int j=0; j<n; j++)
+                dp[i,j] = (i==0 || j==0) ? 1 : dp[i-1,j] + dp[i,j-1];
+        return dp[m-1,n-1];
     }
 }
 
