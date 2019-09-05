@@ -44,11 +44,19 @@
  */
 public class Solution {
     public int UniquePaths(int m, int n) {
-        int[,] dp = new int[m,n];
-        for(int i=0; i<m; i++)
-            for(int j=0; j<n; j++)
-                dp[i,j] = (i==0 || j==0) ? 1 : dp[i-1,j] + dp[i,j-1];
-        return dp[m-1,n-1];
+        if(m == 1 || n == 1)
+            return 1;
+        int count = 0;
+        m--;
+        n--;
+        int min = m > n ? n : m;
+        long sum = 1;
+        long sum2 = 1;
+        for(int i = 0; i < min; i++){
+            sum *= (m + n - i);
+            sum2 *= (i + 1);
+        }
+        return (int)(sum / sum2);
     }
 }
 
