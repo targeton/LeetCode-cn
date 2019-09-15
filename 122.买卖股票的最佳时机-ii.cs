@@ -46,28 +46,12 @@
  */
 public class Solution {
     public int MaxProfit(int[] prices) {
-        if(prices == null || prices.Length <= 0)
-            return 0;
-        int low = int.MaxValue, high = 0, sum = 0;
-        for (int i = 0; i < prices.Length; i++)
+        int sum = 0;
+        for (int i = 0; i < prices.Length-1; i++)
         {
-            if(high == 0){
-                if(low >= prices[i])
-                    low = prices[i];
-                else
-                    high = prices[i];    
-            }else{
-                if(high <= prices[i])
-                    high = prices[i];
-                else{
-                    sum += high-low;
-                    low = prices[i];
-                    high = 0;
-                }
-            }
+            if(prices[i+1] > prices[i])
+                sum += prices[i+1] - prices[i];
         }
-        if(high != 0)
-            sum += high - low;
         return sum;
     }
 }
