@@ -48,28 +48,26 @@ public class Solution {
     public int MaxProfit(int[] prices) {
         if(prices == null || prices.Length <= 0)
             return 0;
-        var stack = new Stack<int>();
-        stack.Push(prices[0]);
-        for (int i = 1; i < prices.Length; i++)
+        int low = int.MaxValue, high = 0, sum = 0;
+        for (int i = 0; i < prices.Length; i++)
         {
-            if(stack.Count() % 2 == 1){
-                if(stack.Peek() >= prices[i])
-                    stack.Pop();
-                stack.Push(prices[i]);
+            if(high == 0){
+                if(low >= prices[i])
+                    low = prices[i];
+                else
+                    high = prices[i];    
             }else{
-                if(stack.Peek() <= prices[i])
-                    stack.Pop();
-                stack.Push(prices[i]);
+                if(high <= prices[i])
+                    high = prices[i];
+                else{
+                    sum += high-low;
+                    low = prices[i];
+                    high = 0;
+                }
             }
         }
-        if(stack.Count() % 2 == 1)
-            stack.Pop();
-        int sum = 0;
-        while(stack.Count()>0){
-            int high = stack.Pop();
-            int low = stack.Pop();
+        if(high != 0)
             sum += high - low;
-        }
         return sum;
     }
 }
