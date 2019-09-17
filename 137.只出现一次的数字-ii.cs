@@ -33,16 +33,13 @@
  */
 public class Solution {
     public int SingleNumber(int[] nums) {
-        int x1=0, x2=0, mask=0;
+        int ones=0, twos=0;
         for (int i = 0; i < nums.Length; i++)
         {
-            x2 ^= x1 & nums[i];
-            x1 ^= nums[i];            
-            mask = ~(x2 & x1);
-            x1 &= mask;
-            x2 &= mask;
+            ones = (ones ^ nums[i]) & ~twos;
+            twos = (twos ^ nums[i]) & ~ones;
         }
-        return x1;
+        return ones;
     }
 }
 
