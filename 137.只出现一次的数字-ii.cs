@@ -33,22 +33,16 @@
  */
 public class Solution {
     public int SingleNumber(int[] nums) {
-        int ans = 0;
-        for (int i = 0; i < 32; i++)
+        int x1=0, x2=0, mask=0;
+        for (int i = 0; i < nums.Length; i++)
         {
-            int sum = 0;
-            for (int j = 0; j < nums.Length; j++)
-            {
-                if(((nums[j]>>i) & 1) == 1){
-                    sum++;
-                    sum %= 3;
-                }
-            }
-            if(sum != 0){
-                ans |= sum << i;
-            }
+            x2 ^= x1 & nums[i];
+            x1 ^= nums[i];            
+            mask = ~(x2 & x1);
+            x1 &= mask;
+            x2 &= mask;
         }
-        return ans;
+        return x1;
     }
 }
 
