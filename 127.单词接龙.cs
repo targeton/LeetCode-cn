@@ -59,35 +59,42 @@
  using System.Collections.Generic;
 public class Solution {
     public int LadderLength(string beginWord, string endWord, IList<string> wordList) {
-        var dict = new HashSet<string>(wordList);
-        if(!dict.Contains(endWord))
+        ISet<string> wordSet = new HashSet<string>(wordList);
+        if(!wordSet.Contains(endWord))
             return 0;
-        var reached = new HashSet<string>();
-        reached.Add(beginWord);
-        int ladder = 0;
-        while (reached.Count() > 0)
-        {
-            ladder++;
-            var tmp = new HashSet<string>();
-            foreach (var word in reached)
+        ISet<string> first = new HashSet<string>(){ beginWord };
+        ISet<string> second = new HashSet<string>(){ endWord };
+        int counter = 0;
+        while(first.Any() && second.Any()){
+            counter++;
+            if(first.Count > second.Count){
+                ISet<string> tmp = first;
+                first = second;
+                second = tmp;
+            }
+            ISet<string> helper = new HashSet<string>();
+            foreach (var word in first)
             {
-                if(word == endWord)
-                    return ladder;                
-                var sb = new StringBuilder(word);
-                for (int j = 0; j < sb.Length; j++)
+                char[] arr = word.ToCharArray();
+                for (int i = 0; i < arr.Length; i++)
                 {
-                    char old = sb[j];
-                    for(char c = 'a'; c <= 'z'; c++){
-                        sb[j] = c;
-                        if(dict.Contains(sb.ToString())){
-                            tmp.Add(sb.ToString());
-                            dict.Remove(sb.ToString());
-                        }
+                    char old = arr[i];
+                    for(char c='a'; c<='z'; c++){
+                        if(arr[i] == c)
+                            continue;
+                        arr[i] = c;
+                        string next = new string(arr);
+                        if(second.Contains(next))
+                            return counter + 1;
+                        if(wordSet.Contains(next)){
+                            helper.Add(next);
+                            wordSet.Remove(next);
+                        }                        
                     }
-                    sb[j]=old;                    
+                    arr[i] = old;
                 }
             }
-            reached = tmp;            
+            first = helper;
         }
         return 0;
     }
