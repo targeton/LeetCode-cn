@@ -41,14 +41,20 @@
  *     public TreeNode(int x) { val = x; }
  * }
  */
+//  using System.Collections.Generic;
 public class Solution {
     public IList<int> PreorderTraversal(TreeNode root) {
         var result = new List<int>();
-        if(root == null)
-            return result;
-        result.Add(root.val);
-        result.AddRange(PreorderTraversal(root.left));
-        result.AddRange(PreorderTraversal(root.right));
+        var stack = new Stack<TreeNode>();
+        stack.Push(root);
+        while(stack.Count > 0){
+            var node = stack.Pop();
+            if(node == null)
+                continue;
+            result.Add(node.val);
+            stack.Push(node.right);
+            stack.Push(node.left);
+        }
         return result;
     }
 }
