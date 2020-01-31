@@ -29,22 +29,16 @@ public class Solution {
     public int CountPrimes(int n) {
         bool[] notPrimes = new bool[n];
         int count = 0;
-        int pos = (int)Math.Sqrt(n) + 1;
-        for (int i = 2; i < pos; i++)
+        for (int i = 2; i < n; i++)
         {
             if(notPrimes[i] == false)
+                count++;
+            if(i > n / i)
+                continue;
+            for (int j = i * i; j < n; j = j + i)
             {
-                count++;
-                for(int j=2; i * j < n; j++)
-                {
-                    notPrimes[i*j] = true;
-                }
-            }            
-        }
-        for (int i = pos; i < n; i++)
-        {
-            if(notPrimes[i] == false)
-                count++;
+                notPrimes[j] = true;
+            }
         }
         return count;
     }
