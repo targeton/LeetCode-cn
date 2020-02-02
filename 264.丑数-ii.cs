@@ -35,36 +35,26 @@
 // @lc code=start
 public class Solution {
     public int NthUglyNumber(int n) {
-        long num = 1;
-        var twoQ = new Queue<long>();
-        twoQ.Enqueue(2L);
-        var threeQ = new Queue<long>();
-        threeQ.Enqueue(3L);
-        var fiveQ = new Queue<long>();
-        fiveQ.Enqueue(5L);
-        while(n-- > 1){
-            if(twoQ.Peek() < threeQ.Peek()){
-                if(twoQ.Peek() < fiveQ.Peek()){
-                    num = twoQ.Dequeue();
-                    twoQ.Enqueue(num * 2);
-                    threeQ.Enqueue(num * 3);
-                    fiveQ.Enqueue(num * 5);
-                }else{
-                    num = fiveQ.Dequeue();
-                    fiveQ.Enqueue(num * 5);
-                }
-            }else{
-                if(threeQ.Peek() < fiveQ.Peek()){
-                    num = threeQ.Dequeue();
-                    threeQ.Enqueue(num * 3);
-                    fiveQ.Enqueue(num * 5);
-                }else{
-                    num = fiveQ.Dequeue();
-                    fiveQ.Enqueue(num * 5);
-                }
+        int[] dp = new int[n];
+        dp[0] = 1;
+        int twoIndex = 0, threeIndex = 0, fiveIndex = 0;
+        for(int i = 1; i < n; i++){
+            var two = dp[twoIndex] * 2;
+            var three = dp[threeIndex] * 3;
+            var five = dp[fiveIndex] * 5;
+            var min = Math.Min(two, Math.Min(three, five));
+            if(min == two){
+                twoIndex++;
             }
+            if(min == three){
+                threeIndex++;
+            }
+            if(min == five){
+                fiveIndex++;
+            }
+            dp[i] = min;
         }
-        return (int)num;
+        return dp[n-1];
     }
 }
 // @lc code=end
