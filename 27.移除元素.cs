@@ -62,15 +62,16 @@
 // @lc code=start
 public class Solution {
     public int RemoveElement(int[] nums, int val) {
-        int i = 0;
-        for (int j = 0; j < nums.Length; j++)
-        {
-            if(nums[j] != val){
-                nums[i] = nums[j];
+        int i = 0, n = nums.Length;
+        while(i < n){
+            if(nums[i] == val){
+                nums[i] = nums[n-1];
+                n--;
+            }else{
                 i++;
             }
-        }
-        return i;
+        }        
+        return n;
     }
 }
 // @lc code=end
