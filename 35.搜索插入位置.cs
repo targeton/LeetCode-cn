@@ -46,15 +46,15 @@
 // @lc code=start
 public class Solution {
     public int SearchInsert(int[] nums, int target) {
-        int p = 0, q = nums.Length;
-        while(p < q){
+        int p = 0, q = nums.Length - 1;
+        while(p <= q){
             var mid  = (p + q) / 2;
+            if(nums[mid] == target)
+                return mid;
             if(nums[mid] < target)
                 p = mid + 1;
-            else if(nums[mid] == target)
-                return mid;
             else
-                q = mid;
+                q = mid - 1;
         }
         return p;
     }
