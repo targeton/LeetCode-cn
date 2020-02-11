@@ -50,27 +50,29 @@
 // @lc code=start
 public class Solution {
     public string CountAndSay(int n) {
-        if(n == 1)
-            return "1";
-        var prev = CountAndSay(n-1);
-        var sb = new System.Text.StringBuilder();  
-        char ch = prev[0];      
-        int count = 0;
-        for (int i = 0; i < prev.Length; i++)
-        {
-            if(prev[i] == ch){
-                count++;
+        var result = "1";
+        var index = 1;
+        while(index < n){
+            var ch = result[0];
+            int count = 1;
+            var sb = new StringBuilder();
+            for (int i = 1; i < result.Length; i++)
+            {
+                if(result[i] == ch){
+                    count++;
+                }else{
+                    sb.Append(count);
+                    sb.Append(ch);
+                    ch = result[i];
+                    count = 1;
+                }
             }
-            else{
-                sb.Append(count);
-                sb.Append(ch);
-                ch = prev[i];
-                count = 1;
-            }
+            sb.Append(count);
+            sb.Append(ch);
+            result = sb.ToString();
+            index++;
         }
-        sb.Append(count);
-        sb.Append(ch);
-        return sb.ToString();
+        return result;
     }
 }
 // @lc code=end
