@@ -58,7 +58,11 @@
 // @lc code=start
 public class Solution {
     public bool IsValid(string s) {
-        var stack = new System.Collections.Generic.Stack<char>();
+        var stack = new Stack<char>();
+        var dic = new System.Collections.Hashtable();
+        dic.Add(')','(');
+        dic.Add(']','[');
+        dic.Add('}','{');
         for (int i = 0; i < s.Length; i++)
         {
             if (s[i] == '(' || s[i] == '[' || s[i] == '{')
@@ -68,7 +72,7 @@ public class Solution {
                 if(stack.Count == 0)
                     return false;
                 var top = stack.Pop();
-                if((s[i] == ')' && top == '(') || (s[i] == ']' && top == '[') || (s[i] == '}' && top == '{'))
+                if(top == (char)dic[s[i]])
                     continue;
                 else
                     return false;
