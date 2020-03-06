@@ -33,34 +33,93 @@
  */
 
 // @lc code=start
-public class Solution {
-    public int FindKthLargest(int[] nums, int k) {
-        var list = new List<int>();
-        for(int i = 0; i < k; i++){
-            list.Add(nums[i]);
-        }
-        list.Sort();
-        for(int i = k; i < nums.Length; i++){
-            if(nums[i] > list[0]){
-                list.RemoveAt(0);
-                int pos = BinarySearch(list, nums[i]);
-                list.Insert(pos,nums[i]);
+public class Solution
+{
+    // public int FindKthLargest(int[] nums, int k) {
+    //     var list = new List<int>();
+    //     for(int i = 0; i < k; i++){
+    //         list.Add(nums[i]);
+    //     }
+    //     list.Sort();
+    //     for(int i = k; i < nums.Length; i++){
+    //         if(nums[i] > list[0]){
+    //             list.RemoveAt(0);
+    //             int pos = BinarySearch(list, nums[i]);
+    //             list.Insert(pos,nums[i]);
+    //         }
+    //     }
+    //     return list[0];
+    // }
+
+    // //寻找第一个大于等于target的位置
+    // private int BinarySearch(List<int> list, int target){
+    //     int p = 0, q = list.Count();
+    //     while(p < q) {
+    //         int mid = (p + q) / 2;
+    //         if(list[mid] < target)
+    //             p = mid + 1;
+    //         else
+    //             q = mid;
+    //     }
+    //     return p;
+    // }
+
+    public int FindKthLargest(int[] nums, int k)
+    {
+        int[] minHeap = InitMinHeap(nums.Take(k).ToArray());
+        for (int i = k; i < nums.Length; i++)
+        {
+            if(nums[i] > minHeap[0]){
+                Pop(ref minHeap);
+                Push(ref minHeap, k - 1, nums[i]);
             }
         }
-        return list[0];
+        return minHeap[0];
     }
 
-    //寻找第一个大于等于target的位置
-    private int BinarySearch(List<int> list, int target){
-        int p = 0, q = list.Count();
-        while(p < q) {
-            int mid = (p + q) / 2;
-            if(list[mid] < target)
-                p = mid + 1;
-            else
-                q = mid;
+    private int[] InitMinHeap(int[] input)
+    {
+        int[] result = new int[input.Length];
+        for (int i = 0; i < input.Length; i++)
+        {
+            Push(ref result, i, input[i]);
         }
-        return p;
+        return result;
+    }
+
+    private void Push(ref int[] minHeap, int pos, int item){
+        minHeap[pos] = item;
+        while (pos > 0)
+        {
+            var root = (pos - 1) / 2;
+            if(minHeap[root] > minHeap[pos]){
+                var tmp = minHeap[root];
+                minHeap[root] = minHeap[pos];
+                minHeap[pos] = tmp;
+            }
+            pos = root;
+        }
+    }
+
+    private void Pop(ref int[] minHeap){
+        var last = minHeap.Length - 1;
+        minHeap[0] = minHeap[last];
+        minHeap[last] = int.MaxValue;
+        int root = 0;
+        while (root < last)
+        {
+            int left = root * 2 + 1;
+            int right = root * 2 + 2;
+            if(left >= last)
+                break;
+            var next = minHeap[left] < minHeap[right] ? left : right;
+            if(minHeap[root] < minHeap[next])
+                break;
+            var tmp = minHeap[root];
+            minHeap[root] = minHeap[next];
+            minHeap[next] = tmp;
+            root = next;
+        }
     }
 }
 // @lc code=end
