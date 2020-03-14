@@ -36,15 +36,16 @@
  */
 public class Solution {
     public ListNode ReverseList(ListNode head) {
-        ListNode tmp = null;
-        ListNode result = null;
-        while(head != null){
-            tmp = head.next;
-            head.next = result;
-            result = head;
-            head = tmp;
-        }
-        return result;
+        ListNode prev = null;
+        return ReverseList(head, prev);
+    }
+
+    private ListNode ReverseList(ListNode head, ListNode prev){
+        if(head == null)
+            return prev;
+        var tmp = head.next;
+        head.next = prev;
+        return ReverseList(tmp, head);
     }
 }
 // @lc code=end
