@@ -36,8 +36,7 @@
  */
 public class Solution {
     public ListNode ReverseList(ListNode head) {
-        ListNode prev = null;
-        return ReverseList(head, prev);
+        return ReverseList(head, null);
     }
 
     private ListNode ReverseList(ListNode head, ListNode prev){
