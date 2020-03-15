@@ -36,32 +36,19 @@
  */
 public class Solution {
     public ListNode ReverseBetween(ListNode head, int m, int n) {
-        ListNode prev = null;
-        ListNode mPos = null;
-        ListNode result = head;
-        int index = 0;
-        while(index < n){
-            index++;
-            if(index < m){
-                prev = head;
-                head = head.next;
-                continue;
-            }
-            if(index == m){
-                mPos = head;
-            }
+        if(n == 1){
+            return head;
+        }
+        if(m == 1){
+            var result = ReverseBetween(head.next, 1, n-1);
             var tmp = head.next;
-            head.next = prev;
-            prev = head;
-            head = tmp;
+            head.next = tmp.next;
+            tmp.next = head;
+            return result;
         }
-        if(mPos.next != null){
-            mPos.next.next = prev;
-        }
-        mPos.next = head;
-        if(m == 1)
-            result = prev;
-        return result;
+        var find = ReverseBetween(head.next, m-1, n-1);        
+        head.next = find;
+        return head;
     }
 }
 // @lc code=end
