@@ -41,39 +41,97 @@
  */
 
 // @lc code=start
-public class Solution {
-    public int NumIslands(char[][] grid) {
-        if(grid == null || grid.Length == 0)
-            return 0;
-        int[] xDelta = new int[]{-1,0,1,0};
-        int[] yDelta = new int[]{0,-1,0,1};
-        int result = 0;
-        var queue = new Queue<int[]>();
-        int xL = grid.Length, yL = grid[0].Length;
-        // 遍历二维网格，如果当前位置为陆地，则通过宽度优先搜索，搜索该位置横纵方向是否有相邻陆地，取队列头元素时将该位置的陆地置0，防止重复计数
-        for(int i = 0; i < xL; i++){
-            for(int j = 0; j < yL; j++){
-                if(grid[i][j] == '0')
-                    continue;
-                grid[i][j] = '0';
-                result++;
-                queue.Enqueue(new int[]{i,j});
-                while(queue.Count() > 0){
-                    int[] item = queue.Dequeue();
-                    for(int k = 0; k < 4; k++){
-                        int ii = item[0] + xDelta[k];
-                        int jj = item[1] + yDelta[k];
-                        if(ii < 0 || ii >= xL || jj < 0 || jj >= yL)
-                            continue;
-                        if(grid[ii][jj] == '1'){
-                            queue.Enqueue(new int[]{ii, jj});
-                            grid[ii][jj] = '0';
-                        }
+public class Solution
+{
+    // 并查集
+    class UnionFind
+    {
+        private int _count;
+        private int[] _roots;
+        private int[] _ranks;
+
+        public UnionFind(char[][] grid)
+        {
+            _count = 0;
+            int m = grid.Length, n = grid[0].Length;
+            _roots = new int[m * n];
+            _ranks = new int[m * n];
+            for (int i = 0; i < m; ++i)
+            {
+                for (int j = 0; j < n; ++j)
+                {
+                    if (grid[i][j] == '1')
+                    {
+                        ++_count;
+                        _roots[i * n + j] = i * n + j;
                     }
+                    _ranks[i * n + j] = 0;
                 }
             }
         }
-        return result;
+
+        public int Find(int i)
+        {
+            // while (_roots[i] != i)
+            // {
+            //     i = _roots[i];
+            // }
+            // return i;
+            if (_roots[i] != i)
+                _roots[i] = Find(_roots[i]);
+            return _roots[i];
+        }
+
+        public void Union(int x, int y)
+        {
+            int rootX = Find(x);
+            int rootY = Find(y);
+            if (rootX != rootY)
+            {
+                if (_ranks[rootX] < _ranks[rootY])
+                {
+                    _roots[rootX] = rootY;
+                }
+                else if (_ranks[rootX] > _ranks[rootY])
+                {
+                    _roots[rootY] = rootX;
+                }
+                else
+                {
+                    _roots[rootY] = rootX;
+                    _ranks[rootX] += 1;
+                }
+                --_count;
+            }
+        }
+
+        public int Count() { return _count; }
+    }
+
+    public int NumIslands(char[][] grid)
+    {
+        if (grid == null || grid.Length == 0 || grid[0].Length == 0)
+            return 0;
+        int xL = grid.Length, yL = grid[0].Length;
+        var uf = new UnionFind(grid);
+        for (int i = 0; i < xL; i++)
+        {
+            for (int j = 0; j < yL; j++)
+            {
+                if (grid[i][j] == '1') {
+                    grid[i][j] = '0';
+                    if (i - 1 >= 0 && grid[i - 1][j] == '1')
+                        uf.Union(i * yL + j, (i - 1) * yL + j);
+                    if (i + 1 < xL && grid[i + 1][j] == '1')
+                        uf.Union(i * yL + j, (i + 1) * yL + j);
+                    if (j - 1 >= 0 && grid[i][j - 1] == '1')
+                        uf.Union(i * yL + j, i * yL + j - 1);
+                    if (j + 1 < yL && grid[i][j + 1] == '1')
+                        uf.Union(i * yL + j, i * yL + j + 1);
+                }
+            }
+        }
+        return uf.Count();
     }
 }
 // @lc code=end
