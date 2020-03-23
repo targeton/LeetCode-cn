@@ -37,22 +37,29 @@ public class Solution {
     public int LengthOfLIS(int[] nums) {
         if(nums == null || nums.Length == 0)
             return 0;        
-        int[] dp = new int[nums.Length];
-        dp[0] = 1;
-        for (int i = 1; i < nums.Length; i++) {
-            int max = 1;
-            for(int j = 0; j < i; j++) {
-                if(nums[i] > nums[j]) {
-                    if(dp[j] + 1 > max) {
-                        max = dp[j] + 1;
-                    }
-                }
+        List<int> list = new List<int>(){nums[0]};
+        for(int i = 1; i < nums.Length; i++) {
+            if(nums[i] > list[list.Count() - 1]) {
+                list.Add(nums[i]);
+            } else {
+                var pos = FindPos(list, nums[i]);
+                list[pos] = nums[i];
             }
-            dp[i] = max;
         }
-        int result = 0;
-        result = dp.Max();
-        return result;
+        return list.Count();
+    }
+
+    private int FindPos(List<int> list, int target) {
+        int p = -1, q = list.Count() - 1;
+        while(p < q) {
+            int mid = (p + q + 1) / 2;
+            if(list[mid] < target) {
+                p = mid;
+            } else {
+                q = mid - 1;
+            }
+        }
+        return p + 1;
     }
 }
 // @lc code=end
