@@ -41,30 +41,34 @@
 // @lc code=start
 public class Solution {
     public int MaximumGap(int[] nums) {
-        QuickSort(ref nums, 0, nums.Length);
-        int max = 0;
-        for(int i = 0; i < nums.Length - 1; i++) {
-            if(nums[i+1] - nums[i] > max)
-                max = nums[i+1] - nums[i];
-        }
-        return max;
-    }
-
-    private void QuickSort(ref int[] nums, int p, int q) {
-        if(p >= q)
-            return;
-        int head = nums[p];
-        int i = p;
-        for(int j = p + 1; j < q; j++) {
-            if(nums[j] < head) {
-                nums[i] = nums[j];
-                nums[j] = nums[i+1];
-                i += 1;
+        if(nums == null || nums.Length < 2)
+            return 0;
+        int divide = 1;
+        int max = nums.Max();
+        while (max / divide > 0) {
+            List<int>[] cache = new List<int>[10];
+            for (int i = 0; i < nums.Length; i++) {
+                int pos = nums[i] / divide % 10;
+                if (cache[pos] == null) 
+                    cache[pos] = new List<int>();
+                cache[pos].Add(nums[i]);
             }
+            int index = 0;
+            for (int i = 0; i < 10; i++) {
+                if (cache[i] == null)
+                    continue;
+                for (int j = 0; j < cache[i].Count(); j++) {
+                    nums[index++] = cache[i][j];
+                }
+            }
+            divide *= 10;
         }
-        nums[i] = head;
-        QuickSort(ref nums, p, i);
-        QuickSort(ref nums, i+1, q);
+        int gap = 0;
+        for (int i = 0; i < nums.Length - 1; i++) {
+            if (nums[i+1] - nums[i] > gap)
+                gap = nums[i+1] - nums[i];
+        }
+        return gap;
     }
 }
 // @lc code=end
