@@ -43,30 +43,34 @@ public class Solution {
     public int MaximumGap(int[] nums) {
         if(nums == null || nums.Length < 2)
             return 0;
-        int divide = 1;
-        int max = nums.Max();
-        while (max / divide > 0) {
-            List<int>[] cache = new List<int>[10];
-            for (int i = 0; i < nums.Length; i++) {
-                int pos = nums[i] / divide % 10;
-                if (cache[pos] == null) 
-                    cache[pos] = new List<int>();
-                cache[pos].Add(nums[i]);
-            }
-            int index = 0;
-            for (int i = 0; i < 10; i++) {
-                if (cache[i] == null)
-                    continue;
-                for (int j = 0; j < cache[i].Count(); j++) {
-                    nums[index++] = cache[i][j];
-                }
-            }
-            divide *= 10;
+        int min = nums.Min(), max = nums.Max();
+        // calculate gap of nums, if nums is evenly distributed then the calculated gap is max gap, else the max gap must lager than the calculated gap
+        int bucketSize = Math.Max(1, (max - min) / (nums.Length - 1));
+        List<int>[] buckets = new List<int>[(max - min) / bucketSize + 1];
+        for(int i = 0; i < nums.Length; i++) {
+            // determin bucket which nums[i] should be divided into 
+            int pos = (nums[i] - min) / bucketSize;
+            if(buckets[pos] == null) {
+                buckets[pos] = new List<int>();
+                // set bucket's min and max
+                buckets[pos].Add(nums[i]);
+                buckets[pos].Add(nums[i]);
+            } else {
+                // compare to bucket's min and max
+                if (buckets[pos][0] > nums[i])
+                    buckets[pos][0] = nums[i];
+                if (buckets[pos][1] < nums[i])
+                    buckets[pos][1] = nums[i];
+            }            
         }
-        int gap = 0;
-        for (int i = 0; i < nums.Length - 1; i++) {
-            if (nums[i+1] - nums[i] > gap)
-                gap = nums[i+1] - nums[i];
+        // get max gap of buckets
+        int prev = min, gap = 0;
+        for (int i = 0; i < buckets.Length; i++) {
+            if (buckets[i] == null)
+                continue;
+            if(buckets[i][0] - prev > gap)
+                gap = buckets[i][0] - prev;
+            prev = buckets[i][1];
         }
         return gap;
     }
