@@ -57,6 +57,8 @@ class Solution:
             nums[index] = i
             if self.isValid(nums, index):
                 tmp = '.' * len(nums)
+                # attention: index and path will resume original value when dfs come back.
+                # It's importent to resume state variables's value when we use backtracking
                 self.dfs(nums, index+1, path+[tmp[:i]+'Q'+tmp[i+1:]] , res)
     
     def isValid(self, nums, n):
