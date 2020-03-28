@@ -45,14 +45,7 @@ public class Solution {
     public int MinDepth(TreeNode root) {
         if(root == null)
             return 0;
-        return FindMinDepth(root);
-    }
-    private int FindMinDepth(TreeNode root){
-        if(root == null)
-            return int.MaxValue;
-        if(root.left == null && root.right == null)
-            return 1;
-        return Math.Min(FindMinDepth(root.left),FindMinDepth(root.right)) + 1;
+        return root.left == null ? (root.right == null ? 1 : MinDepth(root.right) + 1) : (root.right == null ? MinDepth(root.left) + 1 : Math.Min(MinDepth(root.left), MinDepth(root.right)) + 1);
     }
 }
 
