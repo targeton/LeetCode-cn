@@ -44,16 +44,13 @@
 # cdd
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
-        if not s or len(s) == 0:
-            return 0
-        sub = [1]*len(s)
-        for i in range(1,len(s)):
-            tmp = 0
-            for j in range(i)[::-1]:
-                if s[j] == s[i]:
-                    tmp = i - j
-                    break
-            sub[i] = min(tmp, sub[i-1]+1) if tmp > 0 else sub[i-1]+1
-        return max(sub)
+        dic = {}
+        prev, res = -1, 0
+        for i,ss in enumerate(s):
+            if ss in dic:
+                prev = max(prev, dic[ss])
+            dic[ss] = i
+            res = max(i-prev, res)
+        return res
 # @lc code=end
 
