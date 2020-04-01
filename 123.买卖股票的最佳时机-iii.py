@@ -47,32 +47,17 @@
 # @lc code=start
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
-        # if not prices: return 0
-        # maxint = 2**32-1
-
-        # profit = [[[0 for _ in range(2)] for _ in range(3)] for _ in range(len(prices))]
-
-        # profit[0][0][0], profit[0][0][1] = 0, -prices[0]
-        # profit[0][1][0], profit[0][1][1] = -maxint, -maxint
-        # profit[0][2][0], profit[0][2][1] = -maxint, -maxint
-
-        # for i in range(1, len(prices)):
-        #     profit[i][0][0] = profit[i-1][0][0]
-        #     profit[i][0][1] = max(profit[i-1][0][1], profit[i-1][0][0]-prices[i])
-
-        #     profit[i][1][0] = max(profit[i-1][1][0], profit[i-1][0][1]+prices[i])
-        #     profit[i][1][1] = max(profit[i-1][1][1], profit[i-1][1][0]-prices[i])
-
-        #     profit[i][2][0] = max(profit[i-1][2][0], profit[i-1][1][1]+prices[i])
-        
-        # d=len(prices)-1
-        # return max(profit[d][0][0], profit[d][1][0], profit[d][2][0])
-        buy1,sell1,buy2,sell2 = 2**32-1,0,2**32-1,0
+        # general solution of dynamic programming:
+        # state: dp[i][j][k], reprensents the maximum profit on holding k shares after j-th transaction on i-th day. k is assigned 0 or 1, have or not have stock
+        # state transfer equation: dp[i][j][0] = max(dp[i-1][j][0], dp[i-1][j][1]+p[i]) and dp[i][j][1] = max(dp[i-1][j][1], dp[i-1][j-1][0]-p[i]). p is the price of stock
+        # base case: dp[-1][j][0] = dp[i][0][0] = 0, dp[-1][j][1] = dp[i][0][1] = -infinity
+        # we can optimize memory by space compression, just like the following solution:
+        buy1,sell1,buy2,sell2 = float('-inf'), 0, float('-inf'),0
         for p in prices:
-            buy1 = min(buy1, p)
-            sell1 = max(sell1, p-buy1)
-            buy2 = min(buy2, p-sell1)
-            sell2 = max(sell2, p-buy2)
+            buy1 = max(buy1, -p)
+            sell1 = max(sell1, buy1+p)
+            buy2 = max(buy2, sell1-p)
+            sell2 = max(sell2, buy2+p)
         return sell2
 # @lc code=end
 
