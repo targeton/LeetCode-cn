@@ -32,18 +32,16 @@
 # @lc code=start
 class Solution:
     def numSquares(self, n: int) -> int:
-        # greedy + recursive, condition setting of greedy is: n can be divided by count, count from 1,2,...
-        squares_num = [x**2 for x in range(0, int(n**0.5)+1)]
-        def isDivided(n, count):
-            if count == 1:
-                return n in squares_num
-            for k in squares_num:
-                if isDivided(n-k,count-1):
-                    return True
-            return False
-        
-        for count in range(1, n+1):
-            if isDivided(n,count):
-                return count
+        s, visited = [(n,0)], set()
+        while len(s) > 0:
+            item = s.pop(0)
+            candidates = [item[0] - x**2 for x in range(1, int(item[0]**0.5)+1)]  
+            for c in candidates:
+                newItem = (c, item[1]+1)
+                if c == 0:
+                    return newItem[1]
+                elif c not in visited:
+                    visited.add(c)
+                    s.append(newItem)
 # @lc code=end
 
