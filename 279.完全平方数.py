@@ -32,15 +32,18 @@
 # @lc code=start
 class Solution:
     def numSquares(self, n: int) -> int:
-        # dynamic programming: numSquares(n) = min(numSquares(n-k)+1) k∈square_num
-        square_num = [x**2 for x in range(0, int(n**0.5) + 1)]
-        dp = [float('inf')]*(n+1)
-        dp[0] = 0
-        for i in range(1, n+1):
-            for square in square_num:
-                if i < square:
-                    break
-                dp[i] = min(dp[i], dp[i-square]+1)
-        return dp[-1]
+        # greedy + recursive, condition setting of greedy is: n can be divided by count, count from 1,2,...
+        squares_num = [x**2 for x in range(0, int(n**0.5)+1)]
+        def isDivided(n, count):
+            if count == 1:
+                return n in squares_num
+            for k in squares_num:
+                if isDivided(n-k,count-1):
+                    return True
+            return False
+        
+        for count in range(1, n+1):
+            if isDivided(n,count):
+                return count
 # @lc code=end
 
