@@ -32,18 +32,15 @@
 # @lc code=start
 class Solution:
     def numSquares(self, n: int) -> int:
-        s, index = set(), 1
-        s.add(n)
-        while len(s) > 0:
-            ss = set()
-            for i in s:
-                m = int(math.sqrt(i))
-                for j in [i-x**2 for x in range(m,0,-1)]:
-                    ss.add(j)
-            if 0 in ss:
-                return index
-            else:
-                index += 1
-                s = ss               
+        # dynamic programming: numSquares(n) = min(numSquares(n-k)+1) k∈square_num
+        square_num = [x**2 for x in range(0, int(n**0.5) + 1)]
+        dp = [float('inf')]*(n+1)
+        dp[0] = 0
+        for i in range(1, n+1):
+            for square in square_num:
+                if i < square:
+                    break
+                dp[i] = min(dp[i], dp[i-square]+1)
+        return dp[-1]
 # @lc code=end
 
