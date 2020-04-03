@@ -32,16 +32,19 @@
 # @lc code=start
 class Solution:
     def numSquares(self, n: int) -> int:
-        s, visited = [(n,0)], set()
-        while len(s) > 0:
-            item = s.pop(0)
-            candidates = [item[0] - x**2 for x in range(1, int(item[0]**0.5)+1)]  
-            for c in candidates:
-                newItem = (c, item[1]+1)
-                if c == 0:
-                    return newItem[1]
-                elif c not in visited:
-                    visited.add(c)
-                    s.append(newItem)
+        square_nums = [x**2 for x in range(1,int(n**0.5)+1)]
+        queue = {n}
+        level = 0
+        while queue:
+            level += 1
+            new_queue = set()
+            for q in queue:
+                if q in square_nums:
+                    return level
+                for square in square_nums:
+                    if q < square:
+                        break
+                    new_queue.add(q - square)
+            queue = new_queue
 # @lc code=end
 
