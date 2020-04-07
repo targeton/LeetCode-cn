@@ -52,7 +52,14 @@ class Solution:
     def invertTree(self, root: TreeNode) -> TreeNode:
         if not root:
             return None
-        root.left, root.right = self.invertTree(root.right), self.invertTree(root.left)
+        q = [root]
+        while len(q) > 0:
+            tmp = q.pop(0)
+            tmp.left, tmp.right = tmp.right, tmp.left
+            if tmp.left:
+                q.append(tmp.left)
+            if tmp.right:
+                q.append(tmp.right)
         return root
 # @lc code=end
 
