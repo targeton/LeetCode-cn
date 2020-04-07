@@ -62,15 +62,14 @@
 
 class Solution:
     def isBalanced(self, root: TreeNode) -> bool:
-        def get_depth(root):
-            if root == None:
+        def dfs(root):
+            if not root:
                 return 0
-            return max(get_depth(root.left), get_depth(root.right))+1
-        if root == None:
-            return True
-        if abs(get_depth(root.left) - get_depth(root.right)) > 1:
-            return False
-        else:
-            return self.isBalanced(root.left) and self.isBalanced(root.right)
+            l, r = dfs(root.left), dfs(root.right)
+            if l == -1 or r == -1 or abs(l-r) > 1:
+                return -1
+            return max(l,r)+1
+        return dfs(root) != -1
+            
 # @lc code=end
 
