@@ -49,14 +49,17 @@
 
 class Solution:
     def isSymmetric(self, root: TreeNode) -> bool:
-        def isMirror(left: TreeNode, right: TreeNode):
-            if left == None and right == None:
-                return True
-            if left == None or right == None:
-                return False
-            return left.val == right.val and isMirror(left.left, right.right) and isMirror(left.right, right.left)
-        
         if not root:
             return True
-        return isMirror(root.left, root.right)
+        q = [root.left, root.right]
+        while len(q) > 0:
+            l, r = q.pop(0), q.pop(0)
+            if l == None and r == None:
+                continue
+            if l == None or r == None:
+                return False
+            if l.val != r.val:
+                return False
+            q.extend([l.left, r.right, l.right, r.left])
+        return True
 # @lc code=end
