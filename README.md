@@ -1,2 +1,4 @@
 # LeetCode-cn
-解决方案记录
+记录LeetCode算法解决方案
+
+
