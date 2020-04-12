@@ -56,6 +56,14 @@
 
 class Solution:
     def isUnivalTree(self, root: TreeNode) -> bool:
-        
+        if not root:
+            return True
+        if not root.left and not root.right:
+            return True
+        if not root.left:
+            return root.val == root.right.val and self.isUnivalTree(root.right)
+        if not root.right:
+            return root.val == root.left.val and self.isUnivalTree(root.left)
+        return root.val == root.left.val and root.val == root.right.val and self.isUnivalTree(root.left) and self.isUnivalTree(root.right)
 # @lc code=end
 
