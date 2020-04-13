@@ -2,7 +2,7 @@
 # LeetCode-CN Solutions
 Solved problems of [LeetCode](https://leetcode-cn.com/problemset/all/)
 
-All(140)  Easy(55)  Medium(61)  Hard(24)
+All(141)  Easy(55)  Medium(62)  Hard(24)
 
 Problem|Solution|Level
 :---|:---:|:---:
@@ -39,6 +39,7 @@ Problem|Solution|Level
 [52.n皇后-ii](https://leetcode-cn.com/problems/n-queens-ii/description/)|[python3](./Solutions/52.n皇后-ii.py)|Hard
 [53.最大子序和](https://leetcode-cn.com/problems/maximum-subarray/description/)|[csharp](./Solutions/53.最大子序和.cs)|Easy
 [55.跳跃游戏](https://leetcode-cn.com/problems/jump-game/description/)|[python3](./Solutions/55.跳跃游戏.py)|Medium
+[56.合并区间](https://leetcode-cn.com/problems/merge-intervals/description/)|[python3](./Solutions/56.合并区间.py)|Medium
 [58.最后一个单词的长度](https://leetcode-cn.com/problems/length-of-last-word/description/)|[python3](./Solutions/58.最后一个单词的长度.py)|Easy
 [62.不同路径](https://leetcode-cn.com/problems/unique-paths/description/)|[csharp](./Solutions/62.不同路径.cs)|Medium
 [63.不同路径-ii](https://leetcode-cn.com/problems/unique-paths-ii/description/)|[csharp](./Solutions/63.不同路径-ii.cs)|Medium
