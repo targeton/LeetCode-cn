@@ -40,12 +40,10 @@ class Solution:
     def canJump(self, nums: List[int]) -> bool:
         if not nums:
             return False
-        p, q = 0, nums[0]
-        while p <= q:
-            q = max(q, p+nums[p])
-            if q >= len(nums)-1:
-                return True
-            p += 1
-        return False                          
+        pos = 0
+        for i, n in enumerate(nums):
+            if i <= pos and i+n > pos:
+                pos = i+n
+        return pos >= len(nums)-1
 # @lc code=end
 
