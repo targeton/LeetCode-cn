@@ -65,7 +65,7 @@ class Solution:
         ans = ma - mi
         for i in range(len(A)-1):
             a,b = A[i],A[i+1]
-            ans = min(ans, max(ma-K,a+k) - min(mi+K, b-K))
+            ans = min(ans, max(ma-K,a+K) - min(mi+K, b-K))
         return ans
 
 # @lc code=end
