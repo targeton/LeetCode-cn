@@ -2,7 +2,7 @@
 # LeetCode-CN Solutions
 Solved problems of [LeetCode](https://leetcode-cn.com/problemset/all/)
 
-All(137)  Easy(55)  Medium(58)  Hard(24)
+All(139)  Easy(55)  Medium(60)  Hard(24)
 
 Problem|Solution|Level
 :---|:---:|:---:
@@ -124,6 +124,7 @@ Problem|Solution|Level
 [480.滑动窗口中位数](https://leetcode-cn.com/problems/sliding-window-median/description/)|[csharp](./Solutions/480.滑动窗口中位数.cs)|Hard
 [553.最优除法](https://leetcode-cn.com/problems/optimal-division/description/)|[csharp](./Solutions/553.最优除法.cs)|Medium
 [617.合并二叉树](https://leetcode-cn.com/problems/merge-two-binary-trees/description/)|[python3](./Solutions/617.合并二叉树.py)|Easy
+[621.任务调度器](https://leetcode-cn.com/problems/task-scheduler/description/)|[python3](./Solutions/621.任务调度器.py)|Medium
 [647.回文子串](https://leetcode-cn.com/problems/palindromic-substrings/description/)|[csharp](./Solutions/647.回文子串.cs)|Medium
 [658.找到-k-个最接近的元素](https://leetcode-cn.com/problems/find-k-closest-elements/description/)|[csharp](./Solutions/658.找到-k-个最接近的元素.cs)|Medium
 [703.数据流中的第k大元素](https://leetcode-cn.com/problems/kth-largest-element-in-a-stream/description/)|[python3](./Solutions/703.数据流中的第k大元素.py)|Easy
@@ -133,6 +134,7 @@ Problem|Solution|Level
 [746.使用最小花费爬楼梯](https://leetcode-cn.com/problems/min-cost-climbing-stairs/description/)|[csharp](./Solutions/746.使用最小花费爬楼梯.cs)|Easy
 [754.到达终点数字](https://leetcode-cn.com/problems/reach-a-number/description/)|[csharp](./Solutions/754.到达终点数字.cs)|Easy
 [757.设置交集大小至少为-2](https://leetcode-cn.com/problems/set-intersection-size-at-least-two/description/)|[python3](./Solutions/757.设置交集大小至少为-2.py)|Hard
+[781.森林中的兔子](https://leetcode-cn.com/problems/rabbits-in-forest/description/)|[python3](./Solutions/781.森林中的兔子.py)|Medium
 [877.石子游戏](https://leetcode-cn.com/problems/stone-game/description/)|[csharp](./Solutions/877.石子游戏.cs)|Medium
 [908.最小差值-i](https://leetcode-cn.com/problems/smallest-range-i/description/)|[python3](./Solutions/908.最小差值-i.py)|Easy
 [910.最小差值-ii](https://leetcode-cn.com/problems/smallest-range-ii/description/)|[python3](./Solutions/910.最小差值-ii.py)|Medium
