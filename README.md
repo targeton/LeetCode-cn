@@ -2,7 +2,7 @@
 # LeetCode-CN Solutions
 Solved problems of [LeetCode](https://leetcode-cn.com/problemset/all/)
 
-All(143)  Easy(55)  Medium(64)  Hard(24)
+All(144)  Easy(56)  Medium(64)  Hard(24)
 
 Problem|Solution|Level
 :---|:---:|:---:
@@ -144,6 +144,7 @@ Problem|Solution|Level
 [910.最小差值-ii](https://leetcode-cn.com/problems/smallest-range-ii/description/)|[python3](./Solutions/910.最小差值-ii.py)|Medium
 [931.下降路径最小和](https://leetcode-cn.com/problems/minimum-falling-path-sum/description/)|[csharp](./Solutions/931.下降路径最小和.cs)|Medium
 [965.单值二叉树](https://leetcode-cn.com/problems/univalued-binary-tree/description/)|[python3](./Solutions/965.单值二叉树.py)|Easy
+[977.有序数组的平方](https://leetcode-cn.com/problems/squares-of-a-sorted-array/description/)|[python3](./Solutions/977.有序数组的平方.py)|Easy
 [1019.链表中的下一个更大节点](https://leetcode-cn.com/problems/next-greater-node-in-linked-list/description/)|[csharp](./Solutions/1019.链表中的下一个更大节点.cs)|Medium
 [1025.除数博弈](https://leetcode-cn.com/problems/divisor-game/description/)|[csharp](./Solutions/1025.除数博弈.cs)|Easy
 [1130.叶值的最小代价生成树](https://leetcode-cn.com/problems/minimum-cost-tree-from-leaf-values/description/)|[csharp](./Solutions/1130.叶值的最小代价生成树.cs)|Medium
