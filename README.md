@@ -2,7 +2,7 @@
 # LeetCode-CN Solutions
 Solved problems of [LeetCode](https://leetcode-cn.com/problemset/all/)
 
-All(145)  Easy(57)  Medium(64)  Hard(24)
+All(146)  Easy(57)  Medium(64)  Hard(25)
 
 Problem|Solution|Level
 :---|:---:|:---:
@@ -138,6 +138,7 @@ Problem|Solution|Level
 [746.使用最小花费爬楼梯](https://leetcode-cn.com/problems/min-cost-climbing-stairs/description/)|[csharp](./Solutions/746.使用最小花费爬楼梯.cs)|Easy
 [754.到达终点数字](https://leetcode-cn.com/problems/reach-a-number/description/)|[csharp](./Solutions/754.到达终点数字.cs)|Easy
 [757.设置交集大小至少为-2](https://leetcode-cn.com/problems/set-intersection-size-at-least-two/description/)|[python3](./Solutions/757.设置交集大小至少为-2.py)|Hard
+[778.水位上升的泳池中游泳](https://leetcode-cn.com/problems/swim-in-rising-water/description/)|[python3](./Solutions/778.水位上升的泳池中游泳.py)|Hard
 [781.森林中的兔子](https://leetcode-cn.com/problems/rabbits-in-forest/description/)|[python3](./Solutions/781.森林中的兔子.py)|Medium
 [877.石子游戏](https://leetcode-cn.com/problems/stone-game/description/)|[csharp](./Solutions/877.石子游戏.cs)|Medium
 [908.最小差值-i](https://leetcode-cn.com/problems/smallest-range-i/description/)|[python3](./Solutions/908.最小差值-i.py)|Easy
