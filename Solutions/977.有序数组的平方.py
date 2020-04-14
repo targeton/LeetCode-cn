@@ -44,28 +44,24 @@
 # @lc code=start
 class Solution:
     def sortedSquares(self, A: List[int]) -> List[int]:
-        if not A:
-            return None
-        res = [0]*len(A)
-        p, q, index = 0, len(A)-1, len(A) - 1
-        while index >= 0:
-            if (A[p] ^ A[q]) & 0x8000 == 0x8000:
-                if abs(A[p]) > abs(A[q]):
-                    res[index] = A[p]**2
-                    p += 1
-                else:
-                    res[index] = A[q]**2
-                    q -= 1
-                index -= 1
+        res = []
+        j, N = 0, len(A)
+        while j < N and A[j] < 0:
+            j += 1
+        i = j-1
+        while i >= 0 and j < N:
+            if A[i]**2 > A[j]**2:
+                res.append(A[j]**2)
+                j += 1
             else:
-                if A[p] >= 0:
-                    for i in range(q,p-1,-1):
-                        res[index] = A[i]**2
-                        index -= 1
-                else:
-                    for i in range(p,q+1):
-                        res[index] = A[i]**2
-                        index -= 1
+                res.append(A[i]**2)
+                i -= 1
+        while i >= 0:
+            res.append(A[i]**2)
+            i -= 1
+        while j < N:
+            res.append(A[j]**2)
+            j += 1
         return res
 # @lc code=end
 
