@@ -2,7 +2,7 @@
 # LeetCode-CN Solutions
 Solved problems of [LeetCode](https://leetcode-cn.com/problemset/all/)
 
-All(144)  Easy(56)  Medium(64)  Hard(24)
+All(145)  Easy(57)  Medium(64)  Hard(24)
 
 Problem|Solution|Level
 :---|:---:|:---:
@@ -148,5 +148,6 @@ Problem|Solution|Level
 [1019.链表中的下一个更大节点](https://leetcode-cn.com/problems/next-greater-node-in-linked-list/description/)|[csharp](./Solutions/1019.链表中的下一个更大节点.cs)|Medium
 [1025.除数博弈](https://leetcode-cn.com/problems/divisor-game/description/)|[csharp](./Solutions/1025.除数博弈.cs)|Easy
 [1130.叶值的最小代价生成树](https://leetcode-cn.com/problems/minimum-cost-tree-from-leaf-values/description/)|[csharp](./Solutions/1130.叶值的最小代价生成树.cs)|Medium
+[1137.第-n-个泰波那契数](https://leetcode-cn.com/problems/n-th-tribonacci-number/description/)|[python3](./Solutions/1137.第-n-个泰波那契数.py)|Easy
 [1140.石子游戏-ii](https://leetcode-cn.com/problems/stone-game-ii/description/)|[csharp](./Solutions/1140.石子游戏-ii.cs)|Medium
 [1306.跳跃游戏-iii](https://leetcode-cn.com/problems/jump-game-iii/description/)|[csharp](./Solutions/1306.跳跃游戏-iii.cs)|Medium
