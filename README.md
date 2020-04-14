@@ -2,7 +2,7 @@
 # LeetCode-CN Solutions
 Solved problems of [LeetCode](https://leetcode-cn.com/problemset/all/)
 
-All(141)  Easy(55)  Medium(62)  Hard(24)
+All(142)  Easy(55)  Medium(63)  Hard(24)
 
 Problem|Solution|Level
 :---|:---:|:---:
@@ -100,6 +100,7 @@ Problem|Solution|Level
 [235.二叉搜索树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-search-tree/description/)|[csharp](./Solutions/235.二叉搜索树的最近公共祖先.cs)|Easy
 [236.二叉树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/description/)|[csharp](./Solutions/236.二叉树的最近公共祖先.cs)|Medium
 [239.滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/description/)|[csharp](./Solutions/239.滑动窗口最大值.cs)|Hard
+[240.搜索二维矩阵-ii](https://leetcode-cn.com/problems/search-a-2d-matrix-ii/description/)|[python3](./Solutions/240.搜索二维矩阵-ii.py)|Medium
 [260.只出现一次的数字-iii](https://leetcode-cn.com/problems/single-number-iii/description/)|[csharp](./Solutions/260.只出现一次的数字-iii.cs)|Medium
 [263.丑数](https://leetcode-cn.com/problems/ugly-number/description/)|[csharp](./Solutions/263.丑数.cs)|Easy
 [264.丑数-ii](https://leetcode-cn.com/problems/ugly-number-ii/description/)|[csharp](./Solutions/264.丑数-ii.cs)|Medium
