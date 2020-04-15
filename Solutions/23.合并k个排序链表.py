@@ -36,20 +36,19 @@
 
 class Solution:
     def mergeKLists(self, lists: List[ListNode]) -> ListNode:
-        dummy, N = ListNode(-1), len(lists)
+        pq = []
+        for i,n in enumerate(lists):
+            if not n:
+                continue
+            heapq.heappush(pq,(n.val, i))
+        dummy = ListNode(-1)
         cur = dummy
-        tmp = [lists[i] for i in range(N)]
-        while True:
-            index, mi = -1, float('inf')
-            for i in range(N):
-                if not tmp[i]:
-                    continue
-                if tmp[i].val < mi:
-                    index, mi = i, tmp[i].val
-            if index < 0:
-                break
-            cur.next, tmp[index] = tmp[index], tmp[index].next
+        while len(pq) > 0:
+            _, i = heapq.heappop(pq)
+            cur.next, lists[i] = lists[i], lists[i].next
             cur = cur.next
+            if lists[i]:
+                heapq.heappush(pq, (lists[i].val, i))
         return dummy.next
 
 # @lc code=end
