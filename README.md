@@ -2,7 +2,7 @@
 # LeetCode-CN Solutions
 Solved problems of [LeetCode](https://leetcode-cn.com/problemset/all/)
 
-All(146)  Easy(57)  Medium(64)  Hard(25)
+All(147)  Easy(58)  Medium(64)  Hard(25)
 
 Problem|Solution|Level
 :---|:---:|:---:
@@ -131,6 +131,7 @@ Problem|Solution|Level
 [621.任务调度器](https://leetcode-cn.com/problems/task-scheduler/description/)|[python3](./Solutions/621.任务调度器.py)|Medium
 [647.回文子串](https://leetcode-cn.com/problems/palindromic-substrings/description/)|[csharp](./Solutions/647.回文子串.cs)|Medium
 [658.找到-k-个最接近的元素](https://leetcode-cn.com/problems/find-k-closest-elements/description/)|[csharp](./Solutions/658.找到-k-个最接近的元素.cs)|Medium
+[674.最长连续递增序列](https://leetcode-cn.com/problems/longest-continuous-increasing-subsequence/description/)|[python3](./Solutions/674.最长连续递增序列.py)|Easy
 [703.数据流中的第k大元素](https://leetcode-cn.com/problems/kth-largest-element-in-a-stream/description/)|[python3](./Solutions/703.数据流中的第k大元素.py)|Easy
 [704.二分查找](https://leetcode-cn.com/problems/binary-search/description/)|[golang](./Solutions/704.二分查找.go)|Easy
 [719.找出第-k-小的距离对](https://leetcode-cn.com/problems/find-k-th-smallest-pair-distance/description/)|[csharp](./Solutions/719.找出第-k-小的距离对.cs)|Hard
