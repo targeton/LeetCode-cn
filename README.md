@@ -2,7 +2,7 @@
 # LeetCode-CN Solutions
 Solved problems of [LeetCode](https://leetcode-cn.com/problemset/all/)
 
-All(147)  Easy(58)  Medium(64)  Hard(25)
+All(148)  Easy(59)  Medium(64)  Hard(25)
 
 Problem|Solution|Level
 :---|:---:|:---:
@@ -129,6 +129,7 @@ Problem|Solution|Level
 [553.最优除法](https://leetcode-cn.com/problems/optimal-division/description/)|[csharp](./Solutions/553.最优除法.cs)|Medium
 [617.合并二叉树](https://leetcode-cn.com/problems/merge-two-binary-trees/description/)|[python3](./Solutions/617.合并二叉树.py)|Easy
 [621.任务调度器](https://leetcode-cn.com/problems/task-scheduler/description/)|[python3](./Solutions/621.任务调度器.py)|Medium
+[637.二叉树的层平均值](https://leetcode-cn.com/problems/average-of-levels-in-binary-tree/description/)|[python3](./Solutions/637.二叉树的层平均值.py)|Easy
 [647.回文子串](https://leetcode-cn.com/problems/palindromic-substrings/description/)|[csharp](./Solutions/647.回文子串.cs)|Medium
 [658.找到-k-个最接近的元素](https://leetcode-cn.com/problems/find-k-closest-elements/description/)|[csharp](./Solutions/658.找到-k-个最接近的元素.cs)|Medium
 [674.最长连续递增序列](https://leetcode-cn.com/problems/longest-continuous-increasing-subsequence/description/)|[python3](./Solutions/674.最长连续递增序列.py)|Easy
