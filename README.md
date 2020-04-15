@@ -2,7 +2,7 @@
 # LeetCode-CN Solutions
 Solved problems of [LeetCode](https://leetcode-cn.com/problemset/all/)
 
-All(150)  Easy(59)  Medium(64)  Hard(27)
+All(151)  Easy(60)  Medium(64)  Hard(27)
 
 Problem|Solution|Level
 :---|:---:|:---:
@@ -102,6 +102,7 @@ Problem|Solution|Level
 [232.用栈实现队列](https://leetcode-cn.com/problems/implement-queue-using-stacks/description/)|[csharp](./Solutions/232.用栈实现队列.cs)|Easy
 [235.二叉搜索树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-search-tree/description/)|[csharp](./Solutions/235.二叉搜索树的最近公共祖先.cs)|Easy
 [236.二叉树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/description/)|[csharp](./Solutions/236.二叉树的最近公共祖先.cs)|Medium
+[237.删除链表中的节点](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/description/)|[python3](./Solutions/237.删除链表中的节点.py)|Easy
 [239.滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/description/)|[csharp](./Solutions/239.滑动窗口最大值.cs)|Hard
 [240.搜索二维矩阵-ii](https://leetcode-cn.com/problems/search-a-2d-matrix-ii/description/)|[python3](./Solutions/240.搜索二维矩阵-ii.py)|Medium
 [260.只出现一次的数字-iii](https://leetcode-cn.com/problems/single-number-iii/description/)|[csharp](./Solutions/260.只出现一次的数字-iii.cs)|Medium
