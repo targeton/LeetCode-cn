@@ -54,19 +54,14 @@ class Solution:
         """
         if not root:
             return
-        def preTraversal(node, q):
-            if not node:
-                return
-            q.append(node)
-            preTraversal(node.left, q)
-            preTraversal(node.right, q)
-        q = []
-        preTraversal(root, q)
-        q.pop(0)
-        cur = root
-        while len(q) > 0:
-            cur.right = q.pop(0)
-            cur.left = None
-            cur = cur.right
+        self.flatten(root.left)
+        self.flatten(root.right)
+        if root.left:
+            pre = root.left
+            while pre.right:
+                pre = pre.right
+            pre.right = root.right
+            root.right = root.left
+            root.left = None
 # @lc code=end
 
