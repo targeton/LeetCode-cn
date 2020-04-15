@@ -2,7 +2,7 @@
 # LeetCode-CN Solutions
 Solved problems of [LeetCode](https://leetcode-cn.com/problemset/all/)
 
-All(151)  Easy(60)  Medium(64)  Hard(27)
+All(152)  Easy(60)  Medium(65)  Hard(27)
 
 Problem|Solution|Level
 :---|:---:|:---:
@@ -65,6 +65,7 @@ Problem|Solution|Level
 [111.二叉树的最小深度](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/description/)|[csharp](./Solutions/111.二叉树的最小深度.cs)|Easy
 [112.路径总和](https://leetcode-cn.com/problems/path-sum/description/)|[csharp](./Solutions/112.路径总和.cs)|Easy
 [113.路径总和-ii](https://leetcode-cn.com/problems/path-sum-ii/description/)|[csharp](./Solutions/113.路径总和-ii.cs)|Medium
+[114.二叉树展开为链表](https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list/description/)|[python3](./Solutions/114.二叉树展开为链表.py)|Medium
 [121.买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/description/)|[csharp](./Solutions/121.买卖股票的最佳时机.cs) [python3](./Solutions/121.买卖股票的最佳时机.py)|Easy
 [122.买卖股票的最佳时机-ii](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/description/)|[csharp](./Solutions/122.买卖股票的最佳时机-ii.cs) [python3](./Solutions/122.买卖股票的最佳时机-ii.py)|Easy
 [123.买卖股票的最佳时机-iii](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii/description/)|[csharp](./Solutions/123.买卖股票的最佳时机-iii.cs) [python3](./Solutions/123.买卖股票的最佳时机-iii.py)|Hard
