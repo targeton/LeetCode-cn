@@ -2,7 +2,7 @@
 # LeetCode-CN Solutions
 Solved problems of [LeetCode](https://leetcode-cn.com/problemset/all/)
 
-All(154)  Easy(61)  Medium(66)  Hard(27)
+All(155)  Easy(61)  Medium(66)  Hard(28)
 
 Problem|Solution|Level
 :---|:---:|:---:
@@ -33,6 +33,7 @@ Problem|Solution|Level
 [35.搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/description/)|[csharp](./Solutions/35.搜索插入位置.cs)|Easy
 [36.有效的数独](https://leetcode-cn.com/problems/valid-sudoku/description/)|[csharp](./Solutions/36.有效的数独.cs)|Medium
 [38.报数](https://leetcode-cn.com/problems/count-and-say/description/)|[csharp](./Solutions/38.报数.cs)|Easy
+[42.接雨水](https://leetcode-cn.com/problems/trapping-rain-water/description/)|[python3](./Solutions/42.接雨水.py)|Hard
 [44.通配符匹配](https://leetcode-cn.com/problems/wildcard-matching/description/)|[csharp](./Solutions/44.通配符匹配.cs)|Hard
 [46.全排列](https://leetcode-cn.com/problems/permutations/description/)|[csharp](./Solutions/46.全排列.cs)|Medium
 [47.全排列-ii](https://leetcode-cn.com/problems/permutations-ii/description/)|[csharp](./Solutions/47.全排列-ii.cs)|Medium
