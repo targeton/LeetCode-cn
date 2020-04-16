@@ -2,7 +2,7 @@
 # LeetCode-CN Solutions
 Solved problems of [LeetCode](https://leetcode-cn.com/problemset/all/)
 
-All(153)  Easy(61)  Medium(65)  Hard(27)
+All(154)  Easy(61)  Medium(66)  Hard(27)
 
 Problem|Solution|Level
 :---|:---:|:---:
@@ -159,3 +159,4 @@ Problem|Solution|Level
 [1137.第-n-个泰波那契数](https://leetcode-cn.com/problems/n-th-tribonacci-number/description/)|[python3](./Solutions/1137.第-n-个泰波那契数.py)|Easy
 [1140.石子游戏-ii](https://leetcode-cn.com/problems/stone-game-ii/description/)|[csharp](./Solutions/1140.石子游戏-ii.cs)|Medium
 [1306.跳跃游戏-iii](https://leetcode-cn.com/problems/jump-game-iii/description/)|[csharp](./Solutions/1306.跳跃游戏-iii.cs)|Medium
+[1366.通过投票对团队排名](https://leetcode-cn.com/problems/rank-teams-by-votes/description/)|[python3](./Solutions/1366.通过投票对团队排名.py)|Medium
