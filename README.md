@@ -2,7 +2,7 @@
 # LeetCode-CN Solutions
 Solved problems of [LeetCode](https://leetcode-cn.com/problemset/all/)
 
-All(152)  Easy(60)  Medium(65)  Hard(27)
+All(153)  Easy(61)  Medium(65)  Hard(27)
 
 Problem|Solution|Level
 :---|:---:|:---:
@@ -127,6 +127,7 @@ Problem|Solution|Level
 [375.猜数字大小-ii](https://leetcode-cn.com/problems/guess-number-higher-or-lower-ii/description/)|[python](./Solutions/375.猜数字大小-ii.py)|Medium
 [391.完美矩形](https://leetcode-cn.com/problems/perfect-rectangle/description/)|[python3](./Solutions/391.完美矩形.py)|Hard
 [392.判断子序列](https://leetcode-cn.com/problems/is-subsequence/description/)|[csharp](./Solutions/392.判断子序列.cs)|Medium
+[404.左叶子之和](https://leetcode-cn.com/problems/sum-of-left-leaves/description/)|[python3](./Solutions/404.左叶子之和.py)|Easy
 [410.分割数组的最大值](https://leetcode-cn.com/problems/split-array-largest-sum/description/)|[csharp](./Solutions/410.分割数组的最大值.cs)|Hard
 [424.替换后的最长重复字符](https://leetcode-cn.com/problems/longest-repeating-character-replacement/description/)|[python3](./Solutions/424.替换后的最长重复字符.py)|Medium
 [480.滑动窗口中位数](https://leetcode-cn.com/problems/sliding-window-median/description/)|[csharp](./Solutions/480.滑动窗口中位数.cs)|Hard
