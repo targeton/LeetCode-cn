@@ -56,27 +56,28 @@
 class BSTIterator:
 
     def __init__(self, root: TreeNode):
-        def inorder(node):
-            if not node:
-                return
-            inorder(node.left)
-            self.queue.append(node.val)
-            inorder(node.right)
-        
-        self.queue = []
-        inorder(root)
+        self.stack = []
+        self._leftmost_inorder(root)
+
+    def _leftmost_inorder(self, root):
+        while root:
+            self.stack.append(root)
+            root = root.left
 
     def next(self) -> int:
         """
         @return the next smallest number
         """
-        return self.queue.pop(0)
+        item = self.stack.pop()
+        if item.right:
+            self._leftmost_inorder(item.right)
+        return item.val
 
     def hasNext(self) -> bool:
         """
         @return whether we have a next smallest number
         """
-        return len(self.queue) > 0
+        return len(self.stack) > 0
 
 
 # Your BSTIterator object will be instantiated and called as such:
