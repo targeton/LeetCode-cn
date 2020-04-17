@@ -2,7 +2,7 @@
 # LeetCode-CN Solutions
 Solved problems of [LeetCode](https://leetcode-cn.com/problemset/all/)
 
-All(157)  Easy(62)  Medium(67)  Hard(28)
+All(158)  Easy(62)  Medium(68)  Hard(28)
 
 Problem|Solution|Level
 :---|:---:|:---:
@@ -51,6 +51,7 @@ Problem|Solution|Level
 [70.爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/description/)|[csharp](./Solutions/70.爬楼梯.cs)|Easy
 [72.编辑距离](https://leetcode-cn.com/problems/edit-distance/description/)|[csharp](./Solutions/72.编辑距离.cs)|Hard
 [74.搜索二维矩阵](https://leetcode-cn.com/problems/search-a-2d-matrix/description/)|[python3](./Solutions/74.搜索二维矩阵.py)|Medium
+[77.组合](https://leetcode-cn.com/problems/combinations/description/)|[python3](./Solutions/77.组合.py)|Medium
 [79.单词搜索](https://leetcode-cn.com/problems/word-search/description/)|[golang](./Solutions/79.单词搜索.go)|Medium
 [83.删除排序链表中的重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/description/)|[golang](./Solutions/83.删除排序链表中的重复元素.go)|Easy
 [84.柱状图中最大的矩形](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/description/)|[golang](./Solutions/84.柱状图中最大的矩形.go)|Hard
