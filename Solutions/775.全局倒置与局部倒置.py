@@ -51,11 +51,8 @@ class Solution:
     def isIdealPermutation(self, A: List[int]) -> bool:
         if not A:
             return True   
-        N = len(A)
-        floor = N
-        for i in range(N-1,1,-1):
-            floor = min(A[i],floor)
-            if A[i-2] > floor:
+        for i in range(len(A)):
+            if abs(i-A[i]) > 1:
                 return False
         return True
 # @lc code=end
