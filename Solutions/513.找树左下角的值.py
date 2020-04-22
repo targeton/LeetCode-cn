@@ -63,9 +63,15 @@
 
 class Solution:
     def findBottomLeftValue(self, root: TreeNode) -> int:
-        prev, cur = [], [root]
-        while cur:
-            prev, cur = cur[:], [n for node in cur for n in (node.left, node.right) if n]
-        return prev[0].val
+        def dfs(node, depth, maxDepth, res):
+            if not node:
+                return
+            if depth > maxDepth[0]:
+                res[0], maxDepth[0] = node, depth
+            dfs(node.left, depth+1, maxDepth, res)
+            dfs(node.right, depth+1, maxDepth, res)
+        maxDepth, res = [0], [None]
+        dfs(root, 1, maxDepth, res)
+        return res[0].val
 # @lc code=end
 
