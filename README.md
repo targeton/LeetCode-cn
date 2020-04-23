@@ -2,7 +2,7 @@
 # LeetCode-CN Solutions
 Solved problems of [LeetCode](https://leetcode-cn.com/problemset/all/)
 
-All(167)  Easy(64)  Medium(75)  Hard(28)
+All(168)  Easy(64)  Medium(76)  Hard(28)
 
 Problem|Solution|Level
 :---|:---:|:---:
@@ -123,6 +123,7 @@ Problem|Solution|Level
 [303.区域和检索-数组不可变](https://leetcode-cn.com/problems/range-sum-query-immutable/description/)|[csharp](./Solutions/303.区域和检索-数组不可变.cs)|Easy
 [309.最佳买卖股票时机含冷冻期](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/description/)|[python3](./Solutions/309.最佳买卖股票时机含冷冻期.py)|Medium
 [313.超级丑数](https://leetcode-cn.com/problems/super-ugly-number/description/)|[csharp](./Solutions/313.超级丑数.cs)|Medium
+[319.灯泡开关](https://leetcode-cn.com/problems/bulb-switcher/description/)|[python3](./Solutions/319.灯泡开关.py)|Medium
 [326.3-的幂](https://leetcode-cn.com/problems/power-of-three/description/)|[csharp](./Solutions/326.3-的幂.cs)|Easy
 [338.比特位计数](https://leetcode-cn.com/problems/counting-bits/description/)|[csharp](./Solutions/338.比特位计数.cs)|Medium
 [342.4-的幂](https://leetcode-cn.com/problems/power-of-four/description/)|[csharp](./Solutions/342.4-的幂.cs)|Easy
