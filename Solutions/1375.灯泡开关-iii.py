@@ -79,10 +79,10 @@
 # @lc code=start
 class Solution:
     def numTimesAllBlue(self, light: List[int]) -> int:
-        res, tmp = 0, []
-        for l in light:
-            bisect.insort(tmp,l)
-            res += 1 if tmp[-1] == len(tmp) else 0
+        res, ma = 0, 0
+        for i,l in enumerate(light):
+            ma = max(ma,l)
+            res += 1 if ma == i+1 else 0
         return res
 # @lc code=end
 
