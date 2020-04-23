@@ -2,7 +2,7 @@
 # LeetCode-CN Solutions
 Solved problems of [LeetCode](https://leetcode-cn.com/problemset/all/)
 
-All(165)  Easy(64)  Medium(73)  Hard(28)
+All(166)  Easy(64)  Medium(74)  Hard(28)
 
 Problem|Solution|Level
 :---|:---:|:---:
@@ -22,6 +22,7 @@ Problem|Solution|Level
 [17.电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/description/)|[golang](./Solutions/17.电话号码的字母组合.go)|Medium
 [20.有效的括号](https://leetcode-cn.com/problems/valid-parentheses/description/)|[csharp](./Solutions/20.有效的括号.cs)|Easy
 [21.合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/description/)|[csharp](./Solutions/21.合并两个有序链表.cs)|Easy
+[22.括号生成](https://leetcode-cn.com/problems/generate-parentheses/description/)|[python3](./Solutions/22.括号生成.py)|Medium
 [23.合并k个排序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists/description/)|[python3](./Solutions/23.合并k个排序链表.py)|Hard
 [24.两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/description/)|[csharp](./Solutions/24.两两交换链表中的节点.cs)|Medium
 [25.k-个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/description/)|[csharp](./Solutions/25.k-个一组翻转链表.cs)|Hard
