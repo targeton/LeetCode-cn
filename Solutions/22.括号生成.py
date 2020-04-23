@@ -32,20 +32,38 @@
 #
 
 # @lc code=start
+
+# # iteration solution
+# class Solution:
+#     def generateParenthesis(self, n: int) -> List[str]:
+#         candidates = [(n,n,'')]
+#         res = []
+#         while candidates:
+#             item = candidates.pop(0)
+#             if item[0] == item[1] == 0:
+#                 res.append(item[2])
+#                 continue
+#             if item[0] <= item[1] and item[0] > 0:
+#                 candidates.append((item[0]-1,item[1],item[2]+'('))
+#             if item[0] < item[1] and item[0] >= 0:
+#                 candidates.append((item[0], item[1]-1, item[2]+')'))
+            
+#         return res
+
+# backtrack solution
 class Solution:
     def generateParenthesis(self, n: int) -> List[str]:
-        candidates = [(n,n,'')]
-        res = []
-        while candidates:
-            item = candidates.pop(0)
-            if item[0] == item[1] == 0:
-                res.append(item[2])
-                continue
-            if item[0] <= item[1] and item[0] > 0:
-                candidates.append((item[0]-1,item[1],item[2]+'('))
-            if item[0] < item[1] and item[0] >= 0:
-                candidates.append((item[0], item[1]-1, item[2]+')'))
-            
+        def generate(l,r,res,cur):
+            if l == 0 and r == 0:
+                res.append(cur)
+                return
+            if l <= r and l > 0:
+                generate(l-1, r, res, cur+'(')
+            if l < r and l >= 0:
+                generate(l, r-1, res, cur+')')
+        
+        res, cur = [], ''
+        generate(n, n, res, cur)
         return res
 # @lc code=end
 
