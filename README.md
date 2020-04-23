@@ -80,7 +80,7 @@ Problem|Solution|Level
 [140.单词拆分-ii](https://leetcode-cn.com/problems/word-break-ii/description/)|[csharp](./Solutions/140.单词拆分-ii.cs)|Hard
 [141.环形链表](https://leetcode-cn.com/problems/linked-list-cycle/description/)|[csharp](./Solutions/141.环形链表.cs)|Easy
 [142.环形链表-ii](https://leetcode-cn.com/problems/linked-list-cycle-ii/description/)|[csharp](./Solutions/142.环形链表-ii.cs)|Medium
-[144.二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/description/)|[csharp](./Solutions/144.二叉树的前序遍历.cs)|Medium
+[144.二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/description/)|[csharp](./Solutions/144.二叉树的前序遍历.cs) [python3](./Solutions/144.二叉树的前序遍历.py)|Medium
 [145.二叉树的后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/description/)|[csharp](./Solutions/145.二叉树的后序遍历.cs)|Hard
 [146.lru缓存机制](https://leetcode-cn.com/problems/lru-cache/description/)|[csharp](./Solutions/146.lru缓存机制.cs)|Medium
 [152.乘积最大子序列](https://leetcode-cn.com/problems/maximum-product-subarray/description/)|[csharp](./Solutions/152.乘积最大子序列.cs)|Medium
