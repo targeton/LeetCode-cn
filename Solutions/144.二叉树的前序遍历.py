@@ -42,14 +42,22 @@
 class Solution:
     def preorderTraversal(self, root: TreeNode) -> List[int]:
         res = []
-        cur, stack = root, []
-        while cur or stack:
-            if cur:
+        cur, prev = root, None
+        while cur:
+            if not cur.left:
                 res.append(cur.val)
-                stack.append(cur)
-                cur = cur.left
+                cur = cur.right
             else:
-                cur = stack.pop().right
+                prev = cur.left
+                while prev.right and prev.right != cur:
+                    prev = prev.right
+                if not prev.right:
+                    res.append(cur.val)
+                    prev.right = cur
+                    cur = cur.left
+                else:
+                    prev.right = None
+                    cur = cur.right
         return res
 # @lc code=end
 
