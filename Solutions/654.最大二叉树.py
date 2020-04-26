@@ -59,16 +59,17 @@
 
 class Solution:
     def constructMaximumBinaryTree(self, nums: List[int]) -> TreeNode:
-        dic = {n:i for i,n in enumerate(nums)}
-        def construct(first,last):
-            if first >= last:
-                return None
-            ma = max(nums[first:last])
-            node = TreeNode(ma)
-            node.left = construct(first, dic[ma])
-            node.right = construct(dic[ma]+1, last)
-            return node
-        res = construct(0,len(nums))
-        return res
+        if not nums:
+            return None
+        stack = []
+        for n in nums:
+            node = TreeNode(n)
+            while stack and stack[-1].val < node.val:
+                node.left = stack[-1]
+                stack.pop()
+            if stack:
+                stack[-1].right = node
+            stack.append(node)
+        return stack[0]
 # @lc code=end
 
