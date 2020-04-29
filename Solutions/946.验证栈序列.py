@@ -49,21 +49,12 @@
 # @lc code=start
 class Solution:
     def validateStackSequences(self, pushed: List[int], popped: List[int]) -> bool:
-        if len(pushed) < 1:
-            return True
-        tmp = [pushed.pop(0)]
-        while pushed or popped:
-            while tmp and popped and tmp[-1] == popped[0]:
-                tmp.pop()
+        stack = []
+        for n in pushed:
+            stack.append(n)
+            while stack and popped and stack[-1] == popped[0]:
+                stack.pop()
                 popped.pop(0)
-            if pushed:
-                tmp.append(pushed.pop(0))
-            else:
-                break
-
-        if not tmp and not popped:
-            return True
-        else:
-            return False        
+        return not stack and not popped     
 # @lc code=end
 
