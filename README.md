@@ -2,7 +2,7 @@
 # LeetCode-CN Solutions
 Solved problems of [LeetCode](https://leetcode-cn.com/problemset/all/)
 
-All(171)  Easy(64)  Medium(79)  Hard(28)
+All(172)  Easy(64)  Medium(80)  Hard(28)
 
 Problem|Solution|Level
 :---|:---:|:---:
@@ -166,6 +166,7 @@ Problem|Solution|Level
 [908.最小差值-i](https://leetcode-cn.com/problems/smallest-range-i/description/)|[python3](./Solutions/908.最小差值-i.py)|Easy
 [910.最小差值-ii](https://leetcode-cn.com/problems/smallest-range-ii/description/)|[python3](./Solutions/910.最小差值-ii.py)|Medium
 [931.下降路径最小和](https://leetcode-cn.com/problems/minimum-falling-path-sum/description/)|[csharp](./Solutions/931.下降路径最小和.cs)|Medium
+[946.验证栈序列](https://leetcode-cn.com/problems/validate-stack-sequences/description/)|[python3](./Solutions/946.验证栈序列.py)|Medium
 [965.单值二叉树](https://leetcode-cn.com/problems/univalued-binary-tree/description/)|[python3](./Solutions/965.单值二叉树.py)|Easy
 [977.有序数组的平方](https://leetcode-cn.com/problems/squares-of-a-sorted-array/description/)|[python3](./Solutions/977.有序数组的平方.py)|Easy
 [1010.总持续时间可被-60-整除的歌曲](https://leetcode-cn.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/description/)|[python3](./Solutions/1010.总持续时间可被-60-整除的歌曲.py)|Easy
