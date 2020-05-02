@@ -2,7 +2,7 @@
 # LeetCode-CN Solutions
 Solved problems of [LeetCode](https://leetcode-cn.com/problemset/all/)
 
-All(173)  Easy(65)  Medium(80)  Hard(28)
+All(175)  Easy(66)  Medium(81)  Hard(28)
 
 Problem|Solution|Level
 :---|:---:|:---:
@@ -28,6 +28,7 @@ Problem|Solution|Level
 [25.k-个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/description/)|[csharp](./Solutions/25.k-个一组翻转链表.cs)|Hard
 [26.删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/description/)|[csharp](./Solutions/26.删除排序数组中的重复项.cs) [golang](./Solutions/26.删除排序数组中的重复项.go)|Easy
 [27.移除元素](https://leetcode-cn.com/problems/remove-element/description/)|[csharp](./Solutions/27.移除元素.cs)|Easy
+[28.实现-str-str](https://leetcode-cn.com/problems/implement-strstr/description/)|[python3](./Solutions/28.实现-str-str.py)|Easy
 [32.最长有效括号](https://leetcode-cn.com/problems/longest-valid-parentheses/description/)|[csharp](./Solutions/32.最长有效括号.cs)|Hard
 [33.搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/description/)|[golang](./Solutions/33.搜索旋转排序数组.go)|Medium
 [34.在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/)|[csharp](./Solutions/34.在排序数组中查找元素的第一个和最后一个位置.cs)|Medium
@@ -173,6 +174,7 @@ Problem|Solution|Level
 [1010.总持续时间可被-60-整除的歌曲](https://leetcode-cn.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/description/)|[python3](./Solutions/1010.总持续时间可被-60-整除的歌曲.py)|Easy
 [1019.链表中的下一个更大节点](https://leetcode-cn.com/problems/next-greater-node-in-linked-list/description/)|[csharp](./Solutions/1019.链表中的下一个更大节点.cs)|Medium
 [1025.除数博弈](https://leetcode-cn.com/problems/divisor-game/description/)|[csharp](./Solutions/1025.除数博弈.cs)|Easy
+[1035.不相交的线](https://leetcode-cn.com/problems/uncrossed-lines/description/)|[python3](./Solutions/1035.不相交的线.py)|Medium
 [1130.叶值的最小代价生成树](https://leetcode-cn.com/problems/minimum-cost-tree-from-leaf-values/description/)|[csharp](./Solutions/1130.叶值的最小代价生成树.cs)|Medium
 [1137.第-n-个泰波那契数](https://leetcode-cn.com/problems/n-th-tribonacci-number/description/)|[python3](./Solutions/1137.第-n-个泰波那契数.py)|Easy
 [1140.石子游戏-ii](https://leetcode-cn.com/problems/stone-game-ii/description/)|[csharp](./Solutions/1140.石子游戏-ii.cs)|Medium
