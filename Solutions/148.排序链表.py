@@ -37,24 +37,25 @@
 
 class Solution:
     def sortList(self, head: ListNode) -> ListNode:
-        def quickSort(start, end):
-            if start == end:
-                return
-            tmp = start.val
-            p, q = start, start.next
-            while q != end:
-                if q.val < tmp:
-                    p.val = q.val
-                    p = p.next
-                    q.val = p.val
-                q = q.next
-            p.val = tmp
-            quickSort(start, p)
-            quickSort(p.next, end)
+        if not head or not head.next:
+            return head
+        slow, fast = head, head.next
+        while fast and fast.next:
+            slow = slow.next
+            fast = fast.next.next
+        mid, slow.next = slow.next, None
+        left = self.sortList(head)
+        right = self.sortList(mid)
+        h = res = ListNode(-1)
+        while left and right:
+            if left.val <= right.val:
+                h.next, left = left, left.next
+            else:
+                h.next, right = right, right.next
+            h = h.next
+        h.next = left if left else right
+        return res.next
         
-        quickSort(head, None)
-        return head
-
         
 # @lc code=end
 
