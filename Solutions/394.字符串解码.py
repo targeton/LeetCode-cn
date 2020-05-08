@@ -34,24 +34,18 @@
 # @lc code=start
 class Solution:
     def decodeString(self, s: str) -> str:
-        stack = []
-        for ch in s:
-            if ch == ']':
-                tmp = ''
-                while stack and stack[-1] != '[':
-                    tmp = stack.pop() + tmp
-                stack.pop()
-                repeat = ''
-                while stack and '0' <= stack[-1] <= '9':
-                    repeat = stack.pop() + repeat
-                repeat = int(repeat)
-                tmp = tmp*repeat  
-                stack.append(tmp)  
+        stack, res, multi = [], '', 0
+        for c in s:
+            if '0' <= c <= '9':
+                multi = 10*multi + int(c)
+            elif c == '[':
+                stack.append([multi, res])
+                res, multi = '', 0
+            elif c == ']':
+                cur_multi, last_res = stack.pop()
+                res = last_res + cur_multi * res
             else:
-                stack.append(ch)
-        res = ""
-        while stack:
-            res = stack.pop() + res
+                res += c
         return res
 
 # @lc code=end
