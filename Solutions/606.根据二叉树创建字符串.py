@@ -62,22 +62,13 @@
 
 class Solution:
     def tree2str(self, t: TreeNode) -> str:
-        res = ''
-        def dfs(node):
-            nonlocal res
-            if not node:
-                return
-            res += str(node.val)
-            if not node.left and not node.right:
-                return
-            res += '('
-            dfs(node.left)
-            res += ')'
-            if node.right:
-                res += '('
-                dfs(node.right)
-                res += ')'
-        dfs(t)
-        return res
+        if not t:
+            return ""
+        elif not t.left and not t.right:
+            return str(t.val) + ""
+        elif not t.right:
+            return str(t.val) + "(" + self.tree2str(t.left) + ")"
+        else:
+            return str(t.val) + "(" + self.tree2str(t.left) + ")" + "(" + self.tree2str(t.right) + ")"
 # @lc code=end
 
