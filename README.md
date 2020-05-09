@@ -2,7 +2,7 @@
 # LeetCode-CN Solutions
 Solved problems of [LeetCode](https://leetcode-cn.com/problemset/all/)
 
-All(179)  Easy(67)  Medium(84)  Hard(28)
+All(180)  Easy(68)  Medium(84)  Hard(28)
 
 Problem|Solution|Level
 :---|:---:|:---:
@@ -147,6 +147,7 @@ Problem|Solution|Level
 [513.找树左下角的值](https://leetcode-cn.com/problems/find-bottom-left-tree-value/description/)|[python3](./Solutions/513.找树左下角的值.py)|Medium
 [515.在每个树行中找最大值](https://leetcode-cn.com/problems/find-largest-value-in-each-tree-row/description/)|[python3](./Solutions/515.在每个树行中找最大值.py)|Medium
 [553.最优除法](https://leetcode-cn.com/problems/optimal-division/description/)|[csharp](./Solutions/553.最优除法.cs)|Medium
+[606.根据二叉树创建字符串](https://leetcode-cn.com/problems/construct-string-from-binary-tree/description/)|[python3](./Solutions/606.根据二叉树创建字符串.py)|Easy
 [617.合并二叉树](https://leetcode-cn.com/problems/merge-two-binary-trees/description/)|[python3](./Solutions/617.合并二叉树.py)|Easy
 [621.任务调度器](https://leetcode-cn.com/problems/task-scheduler/description/)|[python3](./Solutions/621.任务调度器.py)|Medium
 [637.二叉树的层平均值](https://leetcode-cn.com/problems/average-of-levels-in-binary-tree/description/)|[python3](./Solutions/637.二叉树的层平均值.py)|Easy
