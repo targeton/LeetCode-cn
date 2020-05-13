@@ -2,7 +2,7 @@
 # LeetCode-CN Solutions
 Solved problems of [LeetCode](https://leetcode-cn.com/problemset/all/)
 
-All(181)  Easy(68)  Medium(85)  Hard(28)
+All(183)  Easy(68)  Medium(87)  Hard(28)
 
 Problem|Solution|Level
 :---|:---:|:---:
@@ -147,6 +147,7 @@ Problem|Solution|Level
 [513.找树左下角的值](https://leetcode-cn.com/problems/find-bottom-left-tree-value/description/)|[python3](./Solutions/513.找树左下角的值.py)|Medium
 [515.在每个树行中找最大值](https://leetcode-cn.com/problems/find-largest-value-in-each-tree-row/description/)|[python3](./Solutions/515.在每个树行中找最大值.py)|Medium
 [553.最优除法](https://leetcode-cn.com/problems/optimal-division/description/)|[csharp](./Solutions/553.最优除法.cs)|Medium
+[583.两个字符串的删除操作](https://leetcode-cn.com/problems/delete-operation-for-two-strings/description/)|[python3](./Solutions/583.两个字符串的删除操作.py)|Medium
 [606.根据二叉树创建字符串](https://leetcode-cn.com/problems/construct-string-from-binary-tree/description/)|[python3](./Solutions/606.根据二叉树创建字符串.py)|Easy
 [617.合并二叉树](https://leetcode-cn.com/problems/merge-two-binary-trees/description/)|[python3](./Solutions/617.合并二叉树.py)|Easy
 [621.任务调度器](https://leetcode-cn.com/problems/task-scheduler/description/)|[python3](./Solutions/621.任务调度器.py)|Medium
@@ -183,6 +184,7 @@ Problem|Solution|Level
 [1130.叶值的最小代价生成树](https://leetcode-cn.com/problems/minimum-cost-tree-from-leaf-values/description/)|[csharp](./Solutions/1130.叶值的最小代价生成树.cs)|Medium
 [1137.第-n-个泰波那契数](https://leetcode-cn.com/problems/n-th-tribonacci-number/description/)|[python3](./Solutions/1137.第-n-个泰波那契数.py)|Easy
 [1140.石子游戏-ii](https://leetcode-cn.com/problems/stone-game-ii/description/)|[csharp](./Solutions/1140.石子游戏-ii.cs)|Medium
+[1144.递减元素使数组呈锯齿状](https://leetcode-cn.com/problems/decrease-elements-to-make-array-zigzag/description/)|[python3](./Solutions/1144.递减元素使数组呈锯齿状.py)|Medium
 [1300.转变数组后最接近目标值的数组和](https://leetcode-cn.com/problems/sum-of-mutated-array-closest-to-target/description/)|[python3](./Solutions/1300.转变数组后最接近目标值的数组和.py)|Medium
 [1306.跳跃游戏-iii](https://leetcode-cn.com/problems/jump-game-iii/description/)|[csharp](./Solutions/1306.跳跃游戏-iii.cs)|Medium
 [1366.通过投票对团队排名](https://leetcode-cn.com/problems/rank-teams-by-votes/description/)|[python3](./Solutions/1366.通过投票对团队排名.py)|Medium
