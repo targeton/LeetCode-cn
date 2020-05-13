@@ -2,7 +2,7 @@
 # LeetCode-CN Solutions
 Solved problems of [LeetCode](https://leetcode-cn.com/problemset/all/)
 
-All(183)  Easy(68)  Medium(87)  Hard(28)
+All(184)  Easy(68)  Medium(88)  Hard(28)
 
 Problem|Solution|Level
 :---|:---:|:---:
@@ -184,6 +184,7 @@ Problem|Solution|Level
 [1130.叶值的最小代价生成树](https://leetcode-cn.com/problems/minimum-cost-tree-from-leaf-values/description/)|[csharp](./Solutions/1130.叶值的最小代价生成树.cs)|Medium
 [1137.第-n-个泰波那契数](https://leetcode-cn.com/problems/n-th-tribonacci-number/description/)|[python3](./Solutions/1137.第-n-个泰波那契数.py)|Easy
 [1140.石子游戏-ii](https://leetcode-cn.com/problems/stone-game-ii/description/)|[csharp](./Solutions/1140.石子游戏-ii.cs)|Medium
+[1143.最长公共子序列](https://leetcode-cn.com/problems/longest-common-subsequence/description/)|[python3](./Solutions/1143.最长公共子序列.py)|Medium
 [1144.递减元素使数组呈锯齿状](https://leetcode-cn.com/problems/decrease-elements-to-make-array-zigzag/description/)|[python3](./Solutions/1144.递减元素使数组呈锯齿状.py)|Medium
 [1300.转变数组后最接近目标值的数组和](https://leetcode-cn.com/problems/sum-of-mutated-array-closest-to-target/description/)|[python3](./Solutions/1300.转变数组后最接近目标值的数组和.py)|Medium
 [1306.跳跃游戏-iii](https://leetcode-cn.com/problems/jump-game-iii/description/)|[csharp](./Solutions/1306.跳跃游戏-iii.cs)|Medium
