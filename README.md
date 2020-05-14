@@ -2,7 +2,7 @@
 # LeetCode-CN Solutions
 Solved problems of [LeetCode](https://leetcode-cn.com/problemset/all/)
 
-All(185)  Easy(69)  Medium(88)  Hard(28)
+All(186)  Easy(69)  Medium(89)  Hard(28)
 
 Problem|Solution|Level
 :---|:---:|:---:
@@ -153,6 +153,7 @@ Problem|Solution|Level
 [617.合并二叉树](https://leetcode-cn.com/problems/merge-two-binary-trees/description/)|[python3](./Solutions/617.合并二叉树.py)|Easy
 [621.任务调度器](https://leetcode-cn.com/problems/task-scheduler/description/)|[python3](./Solutions/621.任务调度器.py)|Medium
 [637.二叉树的层平均值](https://leetcode-cn.com/problems/average-of-levels-in-binary-tree/description/)|[python3](./Solutions/637.二叉树的层平均值.py)|Easy
+[640.求解方程](https://leetcode-cn.com/problems/solve-the-equation/description/)|[python3](./Solutions/640.求解方程.py)|Medium
 [647.回文子串](https://leetcode-cn.com/problems/palindromic-substrings/description/)|[csharp](./Solutions/647.回文子串.cs)|Medium
 [654.最大二叉树](https://leetcode-cn.com/problems/maximum-binary-tree/description/)|[python3](./Solutions/654.最大二叉树.py)|Medium
 [658.找到-k-个最接近的元素](https://leetcode-cn.com/problems/find-k-closest-elements/description/)|[csharp](./Solutions/658.找到-k-个最接近的元素.cs)|Medium
