@@ -2,7 +2,7 @@
 # LeetCode-CN Solutions
 Solved problems of [LeetCode](https://leetcode-cn.com/problemset/all/)
 
-All(188)  Easy(69)  Medium(91)  Hard(28)
+All(189)  Easy(69)  Medium(92)  Hard(28)
 
 Problem|Solution|Level
 :---|:---:|:---:
@@ -171,6 +171,7 @@ Problem|Solution|Level
 [775.全局倒置与局部倒置](https://leetcode-cn.com/problems/global-and-local-inversions/description/)|[python3](./Solutions/775.全局倒置与局部倒置.py)|Medium
 [778.水位上升的泳池中游泳](https://leetcode-cn.com/problems/swim-in-rising-water/description/)|[python3](./Solutions/778.水位上升的泳池中游泳.py)|Hard
 [781.森林中的兔子](https://leetcode-cn.com/problems/rabbits-in-forest/description/)|[python3](./Solutions/781.森林中的兔子.py)|Medium
+[789.逃脱阻碍者](https://leetcode-cn.com/problems/escape-the-ghosts/description/)|[python3](./Solutions/789.逃脱阻碍者.py)|Medium
 [836.矩形重叠](https://leetcode-cn.com/problems/rectangle-overlap/description/)|[python3](./Solutions/836.矩形重叠.py)|Easy
 [875.爱吃香蕉的珂珂](https://leetcode-cn.com/problems/koko-eating-bananas/description/)|[python3](./Solutions/875.爱吃香蕉的珂珂.py)|Medium
 [876.链表的中间结点](https://leetcode-cn.com/problems/middle-of-the-linked-list/description/)|[python3](./Solutions/876.链表的中间结点.py)|Easy
