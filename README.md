@@ -2,7 +2,7 @@
 # LeetCode-CN Solutions
 Solved problems of [LeetCode](https://leetcode-cn.com/problemset/all/)
 
-All(190)  Easy(69)  Medium(93)  Hard(28)
+All(191)  Easy(69)  Medium(94)  Hard(28)
 
 Problem|Solution|Level
 :---|:---:|:---:
@@ -196,3 +196,4 @@ Problem|Solution|Level
 [1306.跳跃游戏-iii](https://leetcode-cn.com/problems/jump-game-iii/description/)|[csharp](./Solutions/1306.跳跃游戏-iii.cs)|Medium
 [1366.通过投票对团队排名](https://leetcode-cn.com/problems/rank-teams-by-votes/description/)|[python3](./Solutions/1366.通过投票对团队排名.py)|Medium
 [1375.灯泡开关-iii](https://leetcode-cn.com/problems/bulb-switcher-iii/description/)|[python3](./Solutions/1375.灯泡开关-iii.py)|Medium
+[1379.找出克隆二叉树中的相同节点](https://leetcode-cn.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/description/)|[python3](./Solutions/1379.找出克隆二叉树中的相同节点.py)|Medium
