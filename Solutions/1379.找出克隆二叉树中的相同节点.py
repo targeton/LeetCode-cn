@@ -101,29 +101,40 @@
 
 class Solution:
     def getTargetCopy(self, original: TreeNode, cloned: TreeNode, target: TreeNode) -> TreeNode:
-        def dfs(node, target, p):
-            if not node:
-                return False
-            if node is target:
-                return True
-            p.append('L')
-            if not dfs(node.left, target, p):
-                p.pop()
-                p.append('R')
-                if not dfs(node.right, target, p):
-                    p.pop()
+        find, row, col = False, -1, 0
+        q = [original]
+        while q and not find:
+            tmp = []
+            row, col = row + 1, 0
+            while q:
+                item = q.pop(0)
+                if item is target:
+                    find = True
+                    break
                 else:
-                    return True
-            else:
-                return True
-                
-        path = []
-        dfs(original, target, path)
-        res = cloned
-        while path:
-            step = path.pop(0)
-            res = res.left if step == 'L' else res.right
-        return res
+                    col += 1
+                    if item.left:
+                        tmp.append(item.left)
+                    if item.right:
+                        tmp.append(item.right)
+            q = tmp
         
+        q = [cloned]
+        while row > 0:
+            tmp = []
+            while q:
+                item = q.pop(0)
+                if item.left:
+                    tmp.append(item.left)
+                if item.right:
+                    tmp.append(item.right)
+            q = tmp
+            row -= 1
+        while col > 0:
+            q.pop(0)
+            col -= 1
+            
+        return q.pop(0)
+
 # @lc code=end
 
