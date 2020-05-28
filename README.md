@@ -2,7 +2,7 @@
 # LeetCode-CN Solutions
 Solved problems of [LeetCode](https://leetcode-cn.com/problemset/all/)
 
-All(194)  Easy(69)  Medium(95)  Hard(30)
+All(195)  Easy(70)  Medium(95)  Hard(30)
 
 Problem|Solution|Level
 :---|:---:|:---:
@@ -139,6 +139,7 @@ Problem|Solution|Level
 [368.最大整除子集](https://leetcode-cn.com/problems/largest-divisible-subset/description/)|[python3](./Solutions/368.最大整除子集.py)|Medium
 [374.猜数字大小](https://leetcode-cn.com/problems/guess-number-higher-or-lower/description/)|[python](./Solutions/374.猜数字大小.py)|Easy
 [375.猜数字大小-ii](https://leetcode-cn.com/problems/guess-number-higher-or-lower-ii/description/)|[python](./Solutions/375.猜数字大小-ii.py)|Medium
+[389.找不同](https://leetcode-cn.com/problems/find-the-difference/description/)|[python3](./Solutions/389.找不同.py)|Easy
 [391.完美矩形](https://leetcode-cn.com/problems/perfect-rectangle/description/)|[python3](./Solutions/391.完美矩形.py)|Hard
 [392.判断子序列](https://leetcode-cn.com/problems/is-subsequence/description/)|[csharp](./Solutions/392.判断子序列.cs)|Medium
 [394.字符串解码](https://leetcode-cn.com/problems/decode-string/description/)|[python3](./Solutions/394.字符串解码.py)|Medium
