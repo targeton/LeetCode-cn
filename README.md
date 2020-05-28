@@ -2,7 +2,7 @@
 # LeetCode-CN Solutions
 Solved problems of [LeetCode](https://leetcode-cn.com/problemset/all/)
 
-All(195)  Easy(70)  Medium(95)  Hard(30)
+All(196)  Easy(71)  Medium(95)  Hard(30)
 
 Problem|Solution|Level
 :---|:---:|:---:
@@ -178,6 +178,7 @@ Problem|Solution|Level
 [875.爱吃香蕉的珂珂](https://leetcode-cn.com/problems/koko-eating-bananas/description/)|[python3](./Solutions/875.爱吃香蕉的珂珂.py)|Medium
 [876.链表的中间结点](https://leetcode-cn.com/problems/middle-of-the-linked-list/description/)|[python3](./Solutions/876.链表的中间结点.py)|Easy
 [877.石子游戏](https://leetcode-cn.com/problems/stone-game/description/)|[csharp](./Solutions/877.石子游戏.cs)|Medium
+[896.单调数列](https://leetcode-cn.com/problems/monotonic-array/description/)|[python3](./Solutions/896.单调数列.py)|Easy
 [908.最小差值-i](https://leetcode-cn.com/problems/smallest-range-i/description/)|[python3](./Solutions/908.最小差值-i.py)|Easy
 [910.最小差值-ii](https://leetcode-cn.com/problems/smallest-range-ii/description/)|[python3](./Solutions/910.最小差值-ii.py)|Medium
 [931.下降路径最小和](https://leetcode-cn.com/problems/minimum-falling-path-sum/description/)|[csharp](./Solutions/931.下降路径最小和.cs)|Medium
