@@ -2,7 +2,7 @@
 # LeetCode-CN Solutions
 Solved problems of [LeetCode](https://leetcode-cn.com/problemset/all/)
 
-All(192)  Easy(69)  Medium(94)  Hard(29)
+All(193)  Easy(69)  Medium(94)  Hard(30)
 
 Problem|Solution|Level
 :---|:---:|:---:
@@ -198,3 +198,4 @@ Problem|Solution|Level
 [1375.灯泡开关-iii](https://leetcode-cn.com/problems/bulb-switcher-iii/description/)|[python3](./Solutions/1375.灯泡开关-iii.py)|Medium
 [1379.找出克隆二叉树中的相同节点](https://leetcode-cn.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/description/)|[python3](./Solutions/1379.找出克隆二叉树中的相同节点.py)|Medium
 [1392.最长快乐前缀](https://leetcode-cn.com/problems/longest-happy-prefix/description/)|[python3](./Solutions/1392.最长快乐前缀.py)|Hard
+[1453.圆形靶内的最大飞镖数量](https://leetcode-cn.com/problems/maximum-number-of-darts-inside-of-a-circular-dartboard/description/)|[python3](./Solutions/1453.圆形靶内的最大飞镖数量.py)|Hard
