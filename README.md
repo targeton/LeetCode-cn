@@ -2,7 +2,7 @@
 # LeetCode-CN Solutions
 Solved problems of [LeetCode](https://leetcode-cn.com/problemset/all/)
 
-All(193)  Easy(69)  Medium(94)  Hard(30)
+All(194)  Easy(69)  Medium(95)  Hard(30)
 
 Problem|Solution|Level
 :---|:---:|:---:
@@ -184,6 +184,7 @@ Problem|Solution|Level
 [965.单值二叉树](https://leetcode-cn.com/problems/univalued-binary-tree/description/)|[python3](./Solutions/965.单值二叉树.py)|Easy
 [977.有序数组的平方](https://leetcode-cn.com/problems/squares-of-a-sorted-array/description/)|[python3](./Solutions/977.有序数组的平方.py)|Easy
 [1010.总持续时间可被-60-整除的歌曲](https://leetcode-cn.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/description/)|[python3](./Solutions/1010.总持续时间可被-60-整除的歌曲.py)|Easy
+[1014.最佳观光组合](https://leetcode-cn.com/problems/best-sightseeing-pair/description/)|[python3](./Solutions/1014.最佳观光组合.py)|Medium
 [1019.链表中的下一个更大节点](https://leetcode-cn.com/problems/next-greater-node-in-linked-list/description/)|[csharp](./Solutions/1019.链表中的下一个更大节点.cs)|Medium
 [1025.除数博弈](https://leetcode-cn.com/problems/divisor-game/description/)|[csharp](./Solutions/1025.除数博弈.cs)|Easy
 [1035.不相交的线](https://leetcode-cn.com/problems/uncrossed-lines/description/)|[python3](./Solutions/1035.不相交的线.py)|Medium
