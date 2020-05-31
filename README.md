@@ -2,7 +2,7 @@
 # LeetCode-CN Solutions
 Solved problems of [LeetCode](https://leetcode-cn.com/problemset/all/)
 
-All(197)  Easy(71)  Medium(96)  Hard(30)
+All(198)  Easy(71)  Medium(97)  Hard(30)
 
 Problem|Solution|Level
 :---|:---:|:---:
@@ -182,6 +182,7 @@ Problem|Solution|Level
 [896.单调数列](https://leetcode-cn.com/problems/monotonic-array/description/)|[python3](./Solutions/896.单调数列.py)|Easy
 [908.最小差值-i](https://leetcode-cn.com/problems/smallest-range-i/description/)|[python3](./Solutions/908.最小差值-i.py)|Easy
 [910.最小差值-ii](https://leetcode-cn.com/problems/smallest-range-ii/description/)|[python3](./Solutions/910.最小差值-ii.py)|Medium
+[915.分割数组](https://leetcode-cn.com/problems/partition-array-into-disjoint-intervals/description/)|[python3](./Solutions/915.分割数组.py)|Medium
 [931.下降路径最小和](https://leetcode-cn.com/problems/minimum-falling-path-sum/description/)|[csharp](./Solutions/931.下降路径最小和.cs)|Medium
 [946.验证栈序列](https://leetcode-cn.com/problems/validate-stack-sequences/description/)|[python3](./Solutions/946.验证栈序列.py)|Medium
 [965.单值二叉树](https://leetcode-cn.com/problems/univalued-binary-tree/description/)|[python3](./Solutions/965.单值二叉树.py)|Easy
