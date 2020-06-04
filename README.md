@@ -2,7 +2,7 @@
 # LeetCode-CN Solutions
 Solved problems of [LeetCode](https://leetcode-cn.com/problemset/all/)
 
-All(200)  Easy(71)  Medium(99)  Hard(30)
+All(201)  Easy(71)  Medium(100)  Hard(30)
 
 Problem|Solution|Level
 :---|:---:|:---:
@@ -166,6 +166,7 @@ Problem|Solution|Level
 [678.有效的括号字符串](https://leetcode-cn.com/problems/valid-parenthesis-string/description/)|[python3](./Solutions/678.有效的括号字符串.py)|Medium
 [703.数据流中的第k大元素](https://leetcode-cn.com/problems/kth-largest-element-in-a-stream/description/)|[python3](./Solutions/703.数据流中的第k大元素.py)|Easy
 [704.二分查找](https://leetcode-cn.com/problems/binary-search/description/)|[golang](./Solutions/704.二分查找.go)|Easy
+[714.买卖股票的最佳时机含手续费](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/description/)|[python3](./Solutions/714.买卖股票的最佳时机含手续费.py)|Medium
 [719.找出第-k-小的距离对](https://leetcode-cn.com/problems/find-k-th-smallest-pair-distance/description/)|[csharp](./Solutions/719.找出第-k-小的距离对.cs)|Hard
 [744.寻找比目标字母大的最小字母](https://leetcode-cn.com/problems/find-smallest-letter-greater-than-target/description/)|[csharp](./Solutions/744.寻找比目标字母大的最小字母.cs)|Easy
 [746.使用最小花费爬楼梯](https://leetcode-cn.com/problems/min-cost-climbing-stairs/description/)|[csharp](./Solutions/746.使用最小花费爬楼梯.cs)|Easy
