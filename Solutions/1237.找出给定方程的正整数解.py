@@ -79,20 +79,24 @@
 class Solution:
     def findSolution(self, customfunction: 'CustomFunction', z: int) -> List[List[int]]:
         res = []
-        def dfs(x, y):
-            if x < 1 or x > 1000 or y < 1 or y > 1000:
+        def search(x0, y0, x1, y1):
+            if x0 > x1 or y0 > y1:
                 return
-            tmp = customfunction.f(x, y)
+            xm, ym = (x0+x1)//2, (y0+y1)//2
+            tmp = customfunction.f(xm, ym)
             if tmp == z:
-                res.append([x, y])
-                # dfs(x-1, y)
-                dfs(x, y+1)
-            elif tmp < z:
-                dfs(x, y+1)
+                res.append([xm, ym])
+                search(x0, ym, xm-1, y1)
+                search(xm, y0, x1, ym-1)
+            elif tmp > z:
+                search(x0, y0, xm-1, ym-1)
+                search(xm, y0, x1, ym-1)
+                search(x0, ym, xm-1, y1)
             else:
-                dfs(x-1, y)
-        
-        dfs(1000, 1)
+                search(xm+1, ym+1, x1, y1)
+                search(xm+1, y0, x1, ym)
+                search(x0, ym+1, xm, y1)
+        search(1, 1, 1000, 1000)
         return res
 # @lc code=end
 
