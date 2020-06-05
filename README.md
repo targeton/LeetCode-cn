@@ -2,7 +2,7 @@
 # LeetCode-CN Solutions
 Solved problems of [LeetCode](https://leetcode-cn.com/problemset/all/)
 
-All(202)  Easy(72)  Medium(100)  Hard(30)
+All(203)  Easy(72)  Medium(101)  Hard(30)
 
 Problem|Solution|Level
 :---|:---:|:---:
@@ -93,6 +93,7 @@ Problem|Solution|Level
 [162.寻找峰值](https://leetcode-cn.com/problems/find-peak-element/description/)|[csharp](./Solutions/162.寻找峰值.cs)|Medium
 [164.最大间距](https://leetcode-cn.com/problems/maximum-gap/description/)|[csharp](./Solutions/164.最大间距.cs)|Hard
 [165.比较版本号](https://leetcode-cn.com/problems/compare-version-numbers/description/)|[csharp](./Solutions/165.比较版本号.cs)|Medium
+[166.分数到小数](https://leetcode-cn.com/problems/fraction-to-recurring-decimal/description/)|[python3](./Solutions/166.分数到小数.py)|Medium
 [167.两数之和-ii-输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/description/)|[csharp](./Solutions/167.两数之和-ii-输入有序数组.cs)|Easy
 [172.阶乘后的零](https://leetcode-cn.com/problems/factorial-trailing-zeroes/description/)|[python3](./Solutions/172.阶乘后的零.py)|Easy
 [173.二叉搜索树迭代器](https://leetcode-cn.com/problems/binary-search-tree-iterator/description/)|[python3](./Solutions/173.二叉搜索树迭代器.py)|Medium
