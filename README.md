@@ -2,7 +2,7 @@
 # LeetCode-CN Solutions
 Solved problems of [LeetCode](https://leetcode-cn.com/problemset/all/)
 
-All(201)  Easy(71)  Medium(100)  Hard(30)
+All(202)  Easy(72)  Medium(100)  Hard(30)
 
 Problem|Solution|Level
 :---|:---:|:---:
@@ -200,6 +200,7 @@ Problem|Solution|Level
 [1143.最长公共子序列](https://leetcode-cn.com/problems/longest-common-subsequence/description/)|[python3](./Solutions/1143.最长公共子序列.py)|Medium
 [1144.递减元素使数组呈锯齿状](https://leetcode-cn.com/problems/decrease-elements-to-make-array-zigzag/description/)|[python3](./Solutions/1144.递减元素使数组呈锯齿状.py)|Medium
 [1227.飞机座位分配概率](https://leetcode-cn.com/problems/airplane-seat-assignment-probability/description/)|[python3](./Solutions/1227.飞机座位分配概率.py)|Medium
+[1287.有序数组中出现次数超过-25-的元素](https://leetcode-cn.com/problems/element-appearing-more-than-25-in-sorted-array/description/)|[python3](./Solutions/1287.有序数组中出现次数超过-25-的元素.py)|Easy
 [1300.转变数组后最接近目标值的数组和](https://leetcode-cn.com/problems/sum-of-mutated-array-closest-to-target/description/)|[python3](./Solutions/1300.转变数组后最接近目标值的数组和.py)|Medium
 [1306.跳跃游戏-iii](https://leetcode-cn.com/problems/jump-game-iii/description/)|[csharp](./Solutions/1306.跳跃游戏-iii.cs)|Medium
 [1366.通过投票对团队排名](https://leetcode-cn.com/problems/rank-teams-by-votes/description/)|[python3](./Solutions/1366.通过投票对团队排名.py)|Medium
