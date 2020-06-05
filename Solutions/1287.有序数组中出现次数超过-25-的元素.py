@@ -40,15 +40,13 @@
 # @lc code=start
 class Solution:
     def findSpecialInteger(self, arr: List[int]) -> int:
-        cnt, cur, N = 0, arr[0], len(arr)
-        for i in range(N):
-            if arr[i] == cur:
-                cnt += 1
-                if cnt * 4 > N:
-                    return cur
-            else:
-                cnt, cur = 1, arr[i]
+        N = len(arr)
+        span = N // 4 + 1
+        for i in range(0, N, span):
+            index_l = bisect.bisect_left(arr, arr[i])
+            index_r = bisect.bisect_right(arr, arr[i])
+            if index_r - index_l >= span:
+                return arr[i]
         return -1
-
 # @lc code=end
 
