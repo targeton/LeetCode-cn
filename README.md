@@ -2,7 +2,7 @@
 # LeetCode-CN Solutions
 Solved problems of [LeetCode](https://leetcode-cn.com/problemset/all/)
 
-All(205)  Easy(73)  Medium(102)  Hard(30)
+All(206)  Easy(73)  Medium(103)  Hard(30)
 
 Problem|Solution|Level
 :---|:---:|:---:
@@ -191,6 +191,7 @@ Problem|Solution|Level
 [946.验证栈序列](https://leetcode-cn.com/problems/validate-stack-sequences/description/)|[python3](./Solutions/946.验证栈序列.py)|Medium
 [965.单值二叉树](https://leetcode-cn.com/problems/univalued-binary-tree/description/)|[python3](./Solutions/965.单值二叉树.py)|Easy
 [977.有序数组的平方](https://leetcode-cn.com/problems/squares-of-a-sorted-array/description/)|[python3](./Solutions/977.有序数组的平方.py)|Easy
+[983.最低票价](https://leetcode-cn.com/problems/minimum-cost-for-tickets/description/)|[python3](./Solutions/983.最低票价.py)|Medium
 [1010.总持续时间可被-60-整除的歌曲](https://leetcode-cn.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/description/)|[python3](./Solutions/1010.总持续时间可被-60-整除的歌曲.py)|Easy
 [1014.最佳观光组合](https://leetcode-cn.com/problems/best-sightseeing-pair/description/)|[python3](./Solutions/1014.最佳观光组合.py)|Medium
 [1019.链表中的下一个更大节点](https://leetcode-cn.com/problems/next-greater-node-in-linked-list/description/)|[csharp](./Solutions/1019.链表中的下一个更大节点.cs)|Medium
