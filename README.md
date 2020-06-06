@@ -2,7 +2,7 @@
 # LeetCode-CN Solutions
 Solved problems of [LeetCode](https://leetcode-cn.com/problemset/all/)
 
-All(204)  Easy(73)  Medium(101)  Hard(30)
+All(205)  Easy(73)  Medium(102)  Hard(30)
 
 Problem|Solution|Level
 :---|:---:|:---:
@@ -179,6 +179,7 @@ Problem|Solution|Level
 [789.逃脱阻碍者](https://leetcode-cn.com/problems/escape-the-ghosts/description/)|[python3](./Solutions/789.逃脱阻碍者.py)|Medium
 [807.保持城市天际线](https://leetcode-cn.com/problems/max-increase-to-keep-city-skyline/description/)|[python3](./Solutions/807.保持城市天际线.py)|Medium
 [836.矩形重叠](https://leetcode-cn.com/problems/rectangle-overlap/description/)|[python3](./Solutions/836.矩形重叠.py)|Easy
+[837.新-21-点](https://leetcode-cn.com/problems/new-21-game/description/)|[python3](./Solutions/837.新-21-点.py)|Medium
 [875.爱吃香蕉的珂珂](https://leetcode-cn.com/problems/koko-eating-bananas/description/)|[python3](./Solutions/875.爱吃香蕉的珂珂.py)|Medium
 [876.链表的中间结点](https://leetcode-cn.com/problems/middle-of-the-linked-list/description/)|[python3](./Solutions/876.链表的中间结点.py)|Easy
 [877.石子游戏](https://leetcode-cn.com/problems/stone-game/description/)|[csharp](./Solutions/877.石子游戏.cs)|Medium
