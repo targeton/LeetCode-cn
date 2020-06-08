@@ -2,7 +2,7 @@
 # LeetCode-CN Solutions
 Solved problems of [LeetCode](https://leetcode-cn.com/problemset/all/)
 
-All(206)  Easy(73)  Medium(103)  Hard(30)
+All(207)  Easy(73)  Medium(104)  Hard(30)
 
 Problem|Solution|Level
 :---|:---:|:---:
@@ -189,6 +189,7 @@ Problem|Solution|Level
 [915.分割数组](https://leetcode-cn.com/problems/partition-array-into-disjoint-intervals/description/)|[python3](./Solutions/915.分割数组.py)|Medium
 [931.下降路径最小和](https://leetcode-cn.com/problems/minimum-falling-path-sum/description/)|[csharp](./Solutions/931.下降路径最小和.cs)|Medium
 [946.验证栈序列](https://leetcode-cn.com/problems/validate-stack-sequences/description/)|[python3](./Solutions/946.验证栈序列.py)|Medium
+[950.按递增顺序显示卡牌](https://leetcode-cn.com/problems/reveal-cards-in-increasing-order/description/)|[python3](./Solutions/950.按递增顺序显示卡牌.py)|Medium
 [965.单值二叉树](https://leetcode-cn.com/problems/univalued-binary-tree/description/)|[python3](./Solutions/965.单值二叉树.py)|Easy
 [977.有序数组的平方](https://leetcode-cn.com/problems/squares-of-a-sorted-array/description/)|[python3](./Solutions/977.有序数组的平方.py)|Easy
 [983.最低票价](https://leetcode-cn.com/problems/minimum-cost-for-tickets/description/)|[python3](./Solutions/983.最低票价.py)|Medium
