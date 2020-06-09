@@ -2,7 +2,7 @@
 # LeetCode-CN Solutions
 Solved problems of [LeetCode](https://leetcode-cn.com/problemset/all/)
 
-All(209)  Easy(73)  Medium(104)  Hard(32)
+All(210)  Easy(73)  Medium(105)  Hard(32)
 
 Problem|Solution|Level
 :---|:---:|:---:
@@ -111,6 +111,7 @@ Problem|Solution|Level
 [218.天际线问题](https://leetcode-cn.com/problems/the-skyline-problem/description/)|[golang](./Solutions/218.天际线问题.go)|Hard
 [225.用队列实现栈](https://leetcode-cn.com/problems/implement-stack-using-queues/description/)|[csharp](./Solutions/225.用队列实现栈.cs)|Easy
 [226.翻转二叉树](https://leetcode-cn.com/problems/invert-binary-tree/description/)|[python3](./Solutions/226.翻转二叉树.py)|Easy
+[230.二叉搜索树中第k小的元素](https://leetcode-cn.com/problems/kth-smallest-element-in-a-bst/description/)|[python3](./Solutions/230.二叉搜索树中第k小的元素.py)|Medium
 [231.2-的幂](https://leetcode-cn.com/problems/power-of-two/description/)|[csharp](./Solutions/231.2-的幂.cs)|Easy
 [232.用栈实现队列](https://leetcode-cn.com/problems/implement-queue-using-stacks/description/)|[csharp](./Solutions/232.用栈实现队列.cs)|Easy
 [233.数字-1-的个数](https://leetcode-cn.com/problems/number-of-digit-one/description/)|[python3](./Solutions/233.数字-1-的个数.py)|Hard
