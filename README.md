@@ -2,7 +2,7 @@
 # LeetCode-CN Solutions
 Solved problems of [LeetCode](https://leetcode-cn.com/problemset/all/)
 
-All(208)  Easy(73)  Medium(104)  Hard(31)
+All(209)  Easy(73)  Medium(104)  Hard(32)
 
 Problem|Solution|Level
 :---|:---:|:---:
@@ -113,6 +113,7 @@ Problem|Solution|Level
 [226.翻转二叉树](https://leetcode-cn.com/problems/invert-binary-tree/description/)|[python3](./Solutions/226.翻转二叉树.py)|Easy
 [231.2-的幂](https://leetcode-cn.com/problems/power-of-two/description/)|[csharp](./Solutions/231.2-的幂.cs)|Easy
 [232.用栈实现队列](https://leetcode-cn.com/problems/implement-queue-using-stacks/description/)|[csharp](./Solutions/232.用栈实现队列.cs)|Easy
+[233.数字-1-的个数](https://leetcode-cn.com/problems/number-of-digit-one/description/)|[python3](./Solutions/233.数字-1-的个数.py)|Hard
 [235.二叉搜索树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-search-tree/description/)|[csharp](./Solutions/235.二叉搜索树的最近公共祖先.cs)|Easy
 [236.二叉树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/description/)|[csharp](./Solutions/236.二叉树的最近公共祖先.cs)|Medium
 [237.删除链表中的节点](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/description/)|[python3](./Solutions/237.删除链表中的节点.py)|Easy
