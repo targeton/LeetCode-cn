@@ -85,7 +85,7 @@ Problem|Solution|Level
 [142.环形链表-ii](https://leetcode-cn.com/problems/linked-list-cycle-ii/description/)|[csharp](./Solutions/142.环形链表-ii.cs)|Medium
 [144.二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/description/)|[csharp](./Solutions/144.二叉树的前序遍历.cs) [python3](./Solutions/144.二叉树的前序遍历.py)|Medium
 [145.二叉树的后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/description/)|[csharp](./Solutions/145.二叉树的后序遍历.cs)|Hard
-[146.lru缓存机制](https://leetcode-cn.com/problems/lru-cache/description/)|[csharp](./Solutions/146.lru缓存机制.cs)|Medium
+[146.lru缓存机制](https://leetcode-cn.com/problems/lru-cache/description/)|[csharp](./Solutions/146.lru缓存机制.cs) [python3](./Solutions/146.lru缓存机制.py)|Medium
 [148.排序链表](https://leetcode-cn.com/problems/sort-list/description/)|[python3](./Solutions/148.排序链表.py)|Medium
 [152.乘积最大子序列](https://leetcode-cn.com/problems/maximum-product-subarray/description/)|[csharp](./Solutions/152.乘积最大子序列.cs)|Medium
 [153.寻找旋转排序数组中的最小值](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/description/)|[csharp](./Solutions/153.寻找旋转排序数组中的最小值.cs)|Medium
