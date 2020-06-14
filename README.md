@@ -2,7 +2,7 @@
 # LeetCode-CN Solutions
 Solved problems of [LeetCode](https://leetcode-cn.com/problemset/all/)
 
-All(212)  Easy(73)  Medium(106)  Hard(33)
+All(213)  Easy(73)  Medium(106)  Hard(34)
 
 Problem|Solution|Level
 :---|:---:|:---:
@@ -148,6 +148,7 @@ Problem|Solution|Level
 [392.判断子序列](https://leetcode-cn.com/problems/is-subsequence/description/)|[csharp](./Solutions/392.判断子序列.cs)|Medium
 [394.字符串解码](https://leetcode-cn.com/problems/decode-string/description/)|[python3](./Solutions/394.字符串解码.py)|Medium
 [404.左叶子之和](https://leetcode-cn.com/problems/sum-of-left-leaves/description/)|[python3](./Solutions/404.左叶子之和.py)|Easy
+[407.接雨水-ii](https://leetcode-cn.com/problems/trapping-rain-water-ii/description/)|[python3](./Solutions/407.接雨水-ii.py)|Hard
 [410.分割数组的最大值](https://leetcode-cn.com/problems/split-array-largest-sum/description/)|[csharp](./Solutions/410.分割数组的最大值.cs)|Hard
 [424.替换后的最长重复字符](https://leetcode-cn.com/problems/longest-repeating-character-replacement/description/)|[python3](./Solutions/424.替换后的最长重复字符.py)|Medium
 [480.滑动窗口中位数](https://leetcode-cn.com/problems/sliding-window-median/description/)|[csharp](./Solutions/480.滑动窗口中位数.cs)|Hard
