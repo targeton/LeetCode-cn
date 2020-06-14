@@ -2,7 +2,7 @@
 # LeetCode-CN Solutions
 Solved problems of [LeetCode](https://leetcode-cn.com/problemset/all/)
 
-All(213)  Easy(73)  Medium(106)  Hard(34)
+All(214)  Easy(73)  Medium(107)  Hard(34)
 
 Problem|Solution|Level
 :---|:---:|:---:
@@ -98,6 +98,7 @@ Problem|Solution|Level
 [167.两数之和-ii-输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/description/)|[csharp](./Solutions/167.两数之和-ii-输入有序数组.cs)|Easy
 [172.阶乘后的零](https://leetcode-cn.com/problems/factorial-trailing-zeroes/description/)|[python3](./Solutions/172.阶乘后的零.py)|Easy
 [173.二叉搜索树迭代器](https://leetcode-cn.com/problems/binary-search-tree-iterator/description/)|[python3](./Solutions/173.二叉搜索树迭代器.py)|Medium
+[179.最大数](https://leetcode-cn.com/problems/largest-number/description/)|[python3](./Solutions/179.最大数.py)|Medium
 [188.买卖股票的最佳时机-iv](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iv/description/)|[csharp](./Solutions/188.买卖股票的最佳时机-iv.cs) [python3](./Solutions/188.买卖股票的最佳时机-iv.py)|Hard
 [191.位-1-的个数](https://leetcode-cn.com/problems/number-of-1-bits/description/)|[csharp](./Solutions/191.位-1-的个数.cs)|Easy
 [198.打家劫舍](https://leetcode-cn.com/problems/house-robber/description/)|[csharp](./Solutions/198.打家劫舍.cs) [python3](./Solutions/198.打家劫舍.py)|Easy
