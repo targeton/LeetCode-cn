@@ -2,7 +2,7 @@
 # LeetCode-CN Solutions
 Solved problems of [LeetCode](https://leetcode-cn.com/problemset/all/)
 
-All(215)  Easy(73)  Medium(108)  Hard(34)
+All(216)  Easy(73)  Medium(109)  Hard(34)
 
 Problem|Solution|Level
 :---|:---:|:---:
@@ -221,3 +221,4 @@ Problem|Solution|Level
 [1392.最长快乐前缀](https://leetcode-cn.com/problems/longest-happy-prefix/description/)|[python3](./Solutions/1392.最长快乐前缀.py)|Hard
 [1453.圆形靶内的最大飞镖数量](https://leetcode-cn.com/problems/maximum-number-of-darts-inside-of-a-circular-dartboard/description/)|[python3](./Solutions/1453.圆形靶内的最大飞镖数量.py)|Hard
 [1456.定长子串中元音的最大数目](https://leetcode-cn.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/description/)|[python3](./Solutions/1456.定长子串中元音的最大数目.py)|Medium
+[1457.二叉树中的伪回文路径](https://leetcode-cn.com/problems/pseudo-palindromic-paths-in-a-binary-tree/description/)|[python3](./Solutions/1457.二叉树中的伪回文路径.py)|Medium
