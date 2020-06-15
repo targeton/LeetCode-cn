@@ -71,15 +71,14 @@
 class Solution:
     def maxVowels(self, s: str, k: int) -> int:
         ss = {'a', 'e', 'i', 'o', 'u'}
-        tmp, res = [], 0
+        cnt, res = 0, 0
         for i,ch in enumerate(s):
             if ch in ss:
-                tmp.append(i)
-                span = i - tmp[0] + 1
-                while span > k and tmp:
-                    tmp.pop(0)
-                    span = i - tmp[0] + 1
-                res = max(len(tmp), res)
+                cnt += 1
+                if i >= k:
+                    if s[i-k] in ss:
+                        cnt -= 1
+                res = max(res, cnt)
         return res        
         
         
