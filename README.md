@@ -2,7 +2,7 @@
 # LeetCode-CN Solutions
 Solved problems of [LeetCode](https://leetcode-cn.com/problemset/all/)
 
-All(216)  Easy(73)  Medium(109)  Hard(34)
+All(217)  Easy(73)  Medium(110)  Hard(34)
 
 Problem|Solution|Level
 :---|:---:|:---:
@@ -216,6 +216,7 @@ Problem|Solution|Level
 [1300.转变数组后最接近目标值的数组和](https://leetcode-cn.com/problems/sum-of-mutated-array-closest-to-target/description/)|[python3](./Solutions/1300.转变数组后最接近目标值的数组和.py)|Medium
 [1306.跳跃游戏-iii](https://leetcode-cn.com/problems/jump-game-iii/description/)|[csharp](./Solutions/1306.跳跃游戏-iii.cs)|Medium
 [1366.通过投票对团队排名](https://leetcode-cn.com/problems/rank-teams-by-votes/description/)|[python3](./Solutions/1366.通过投票对团队排名.py)|Medium
+[1371.每个元音包含偶数次的最长子字符串](https://leetcode-cn.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/description/)|[python3](./Solutions/1371.每个元音包含偶数次的最长子字符串.py)|Medium
 [1375.灯泡开关-iii](https://leetcode-cn.com/problems/bulb-switcher-iii/description/)|[python3](./Solutions/1375.灯泡开关-iii.py)|Medium
 [1379.找出克隆二叉树中的相同节点](https://leetcode-cn.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/description/)|[python3](./Solutions/1379.找出克隆二叉树中的相同节点.py)|Medium
 [1392.最长快乐前缀](https://leetcode-cn.com/problems/longest-happy-prefix/description/)|[python3](./Solutions/1392.最长快乐前缀.py)|Hard
