@@ -39,18 +39,11 @@
 # @lc code=start
 class Solution:
     def coinChange(self, coins: List[int], amount: int) -> int:
-        if not amount:
-            return 0
-        dp = [0] * (amount+1)
-        for i in range(1, amount+1):
-            tmp = []
-            for c in coins:
-                if i-c == 0 or (i-c > 0 and dp[i-c] > 0):
-                    tmp.append(dp[i-c])
-            if len(tmp) == 0:
-                continue
-            dp[i] = min(tmp) + 1
-
-        return dp[amount] if dp[amount] > 0 else -1        
+        dp = [float('inf')]*(amount+1)
+        dp[0] = 0
+        for coin in coins:
+            for i in range(coin, amount+1):
+                dp[i] = min(dp[i], dp[i-coin]+1)
+        return dp[amount] if dp[amount] != float('inf') else -1     
 # @lc code=end
 
