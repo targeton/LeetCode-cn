@@ -35,13 +35,6 @@
 # @lc code=start
 class Solution:
     def findMaxConsecutiveOnes(self, nums: List[int]) -> int:
-        counter, ma = 0,0
-        for i in range(len(nums)):
-            if nums[i] == 1:
-                counter += 1
-            else:
-                ma = max(ma, counter)
-                counter = 0
-        return max(ma, counter)
+        return max(map(len, ''.join(map(str, nums)).split('0')))
 # @lc code=end
 
