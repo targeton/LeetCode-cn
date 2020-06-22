@@ -2,7 +2,7 @@
 # LeetCode-CN Solutions
 Solved problems of [LeetCode](https://leetcode-cn.com/problemset/all/)
 
-All(219)  Easy(73)  Medium(112)  Hard(34)
+All(221)  Easy(73)  Medium(113)  Hard(35)
 
 Problem|Solution|Level
 :---|:---:|:---:
@@ -131,6 +131,7 @@ Problem|Solution|Level
 [295.数据流的中位数](https://leetcode-cn.com/problems/find-median-from-data-stream/description/)|[csharp](./Solutions/295.数据流的中位数.cs)|Hard
 [300.最长上升子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/description/)|[csharp](./Solutions/300.最长上升子序列.cs) [python3](./Solutions/300.最长上升子序列.py)|Medium
 [303.区域和检索-数组不可变](https://leetcode-cn.com/problems/range-sum-query-immutable/description/)|[csharp](./Solutions/303.区域和检索-数组不可变.cs)|Easy
+[304.二维区域和检索-矩阵不可变](https://leetcode-cn.com/problems/range-sum-query-2d-immutable/description/)|[python3](./Solutions/304.二维区域和检索-矩阵不可变.py)|Medium
 [309.最佳买卖股票时机含冷冻期](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/description/)|[python3](./Solutions/309.最佳买卖股票时机含冷冻期.py)|Medium
 [313.超级丑数](https://leetcode-cn.com/problems/super-ugly-number/description/)|[csharp](./Solutions/313.超级丑数.cs)|Medium
 [319.灯泡开关](https://leetcode-cn.com/problems/bulb-switcher/description/)|[python3](./Solutions/319.灯泡开关.py)|Medium
@@ -205,6 +206,7 @@ Problem|Solution|Level
 [1014.最佳观光组合](https://leetcode-cn.com/problems/best-sightseeing-pair/description/)|[python3](./Solutions/1014.最佳观光组合.py)|Medium
 [1019.链表中的下一个更大节点](https://leetcode-cn.com/problems/next-greater-node-in-linked-list/description/)|[csharp](./Solutions/1019.链表中的下一个更大节点.cs)|Medium
 [1025.除数博弈](https://leetcode-cn.com/problems/divisor-game/description/)|[csharp](./Solutions/1025.除数博弈.cs)|Easy
+[1028.从先序遍历还原二叉树](https://leetcode-cn.com/problems/recover-a-tree-from-preorder-traversal/description/)|[python3](./Solutions/1028.从先序遍历还原二叉树.py)|Hard
 [1035.不相交的线](https://leetcode-cn.com/problems/uncrossed-lines/description/)|[python3](./Solutions/1035.不相交的线.py)|Medium
 [1130.叶值的最小代价生成树](https://leetcode-cn.com/problems/minimum-cost-tree-from-leaf-values/description/)|[csharp](./Solutions/1130.叶值的最小代价生成树.cs)|Medium
 [1137.第-n-个泰波那契数](https://leetcode-cn.com/problems/n-th-tribonacci-number/description/)|[python3](./Solutions/1137.第-n-个泰波那契数.py)|Easy
