@@ -48,14 +48,15 @@
 class NumMatrix:
 
     def __init__(self, matrix: List[List[int]]):
-        self.cache = [[sum(row[:i+1]) for i in range(len(row))] for row in matrix]
-        self.matrix = matrix
+        if len(matrix) == 0 or len(matrix[0]) == 0:
+            return
+        self.dp = [[0 for _ in range(len(matrix[0])+1)] for _ in range(len(matrix)+1)]
+        for i in range(len(matrix)):
+            for j in range(len(matrix[0])):
+                self.dp[i+1][j+1] = self.dp[i][j+1] + self.dp[i+1][j] + matrix[i][j] - self.dp[i][j]
 
     def sumRegion(self, row1: int, col1: int, row2: int, col2: int) -> int:
-        res = 0
-        for row in range(row1, row2+1):
-            res += self.cache[row][col2] - self.cache[row][col1] + self.matrix[row][col1]
-        return res
+        return self.dp[row2+1][col2+1] - self.dp[row1][col2+1] - self.dp[row2+1][col1] + self.dp[row1][col1]
         
 
 
