@@ -78,21 +78,17 @@ class Solution:
         def recur(node, prev, path):
             global res
             if not node:
-                res = max(res, path - 1)
                 return
             res = max(res, path)
             if prev == 'L':
                 recur(node.left, 'L', 1)
                 recur(node.right, 'R', path + 1)
-            elif prev == 'R':
-                recur(node.left, 'L', path + 1)
-                recur(node.right, 'R', 1)
             else:
                 recur(node.left, 'L', path + 1)
-                recur(node.right, 'R', path + 1)
-
-        # res = 0
-        recur(root, '', 0)
+                recur(node.right, 'R', 1)
+       
+        recur(root, 'L', 0)
+        recur(root, 'R', 0)
         return res
 # @lc code=end
 
