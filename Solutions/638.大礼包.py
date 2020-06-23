@@ -57,18 +57,22 @@
 # @lc code=start
 class Solution:    
     def shoppingOffers(self, price: List[int], special: List[List[int]], needs: List[int]) -> int:
-        res = self.dot(price, needs)
-        for s in special:
-            clone = needs[:]
-            isEnough = True
-            for i,n in enumerate(needs):
-                if s[i] > n:
-                    isEnough = False
-                    break
-                clone[i] = n - s[i]
-            if isEnough:
-                res = min(res, s[-1] + self.shoppingOffers(price, special, clone))
-        return res
+        @lru_cache
+        def shopping(needs):
+            res = self.dot(price, needs)
+            for s in special:
+                clone = list(needs)[:]
+                isEnough = True
+                for i,n in enumerate(needs):
+                    if s[i] > n:
+                        isEnough = False
+                        break
+                    clone[i] = n - s[i]
+                if isEnough:
+                    res = min(res, s[-1] + shopping(tuple(clone)))
+            return res
+        
+        return shopping(tuple(needs))
 
     def dot(self, p: List[int], n: List[int]):
         return sum([p[i]*n[i] for i in range(len(p))])
