@@ -2,7 +2,7 @@
 # LeetCode-CN Solutions
 Solved problems of [LeetCode](https://leetcode-cn.com/problemset/all/)
 
-All(224)  Easy(74)  Medium(115)  Hard(35)
+All(225)  Easy(74)  Medium(115)  Hard(36)
 
 Problem|Solution|Level
 :---|:---:|:---:
@@ -210,6 +210,7 @@ Problem|Solution|Level
 [1025.除数博弈](https://leetcode-cn.com/problems/divisor-game/description/)|[csharp](./Solutions/1025.除数博弈.cs)|Easy
 [1028.从先序遍历还原二叉树](https://leetcode-cn.com/problems/recover-a-tree-from-preorder-traversal/description/)|[python3](./Solutions/1028.从先序遍历还原二叉树.py)|Hard
 [1035.不相交的线](https://leetcode-cn.com/problems/uncrossed-lines/description/)|[python3](./Solutions/1035.不相交的线.py)|Medium
+[1125.最小的必要团队](https://leetcode-cn.com/problems/smallest-sufficient-team/description/)|[python3](./Solutions/1125.最小的必要团队.py)|Hard
 [1130.叶值的最小代价生成树](https://leetcode-cn.com/problems/minimum-cost-tree-from-leaf-values/description/)|[csharp](./Solutions/1130.叶值的最小代价生成树.cs)|Medium
 [1137.第-n-个泰波那契数](https://leetcode-cn.com/problems/n-th-tribonacci-number/description/)|[python3](./Solutions/1137.第-n-个泰波那契数.py)|Easy
 [1140.石子游戏-ii](https://leetcode-cn.com/problems/stone-game-ii/description/)|[csharp](./Solutions/1140.石子游戏-ii.cs)|Medium
