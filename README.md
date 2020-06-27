@@ -2,7 +2,7 @@
 # LeetCode-CN Solutions
 Solved problems of [LeetCode](https://leetcode-cn.com/problemset/all/)
 
-All(225)  Easy(74)  Medium(115)  Hard(36)
+All(227)  Easy(74)  Medium(116)  Hard(37)
 
 Problem|Solution|Level
 :---|:---:|:---:
@@ -217,11 +217,13 @@ Problem|Solution|Level
 [1143.最长公共子序列](https://leetcode-cn.com/problems/longest-common-subsequence/description/)|[python3](./Solutions/1143.最长公共子序列.py)|Medium
 [1144.递减元素使数组呈锯齿状](https://leetcode-cn.com/problems/decrease-elements-to-make-array-zigzag/description/)|[python3](./Solutions/1144.递减元素使数组呈锯齿状.py)|Medium
 [1227.飞机座位分配概率](https://leetcode-cn.com/problems/airplane-seat-assignment-probability/description/)|[python3](./Solutions/1227.飞机座位分配概率.py)|Medium
+[1235.规划兼职工作](https://leetcode-cn.com/problems/maximum-profit-in-job-scheduling/description/)|[python3](./Solutions/1235.规划兼职工作.py)|Hard
 [1237.找出给定方程的正整数解](https://leetcode-cn.com/problems/find-positive-integer-solution-for-a-given-equation/description/)|[python3](./Solutions/1237.找出给定方程的正整数解.py)|Easy
 [1287.有序数组中出现次数超过-25-的元素](https://leetcode-cn.com/problems/element-appearing-more-than-25-in-sorted-array/description/)|[python3](./Solutions/1287.有序数组中出现次数超过-25-的元素.py)|Easy
 [1288.删除被覆盖区间](https://leetcode-cn.com/problems/remove-covered-intervals/description/)|[python3](./Solutions/1288.删除被覆盖区间.py)|Medium
 [1300.转变数组后最接近目标值的数组和](https://leetcode-cn.com/problems/sum-of-mutated-array-closest-to-target/description/)|[python3](./Solutions/1300.转变数组后最接近目标值的数组和.py)|Medium
 [1306.跳跃游戏-iii](https://leetcode-cn.com/problems/jump-game-iii/description/)|[csharp](./Solutions/1306.跳跃游戏-iii.cs)|Medium
+[1353.最多可以参加的会议数目](https://leetcode-cn.com/problems/maximum-number-of-events-that-can-be-attended/description/)|[python3](./Solutions/1353.最多可以参加的会议数目.py)|Medium
 [1366.通过投票对团队排名](https://leetcode-cn.com/problems/rank-teams-by-votes/description/)|[python3](./Solutions/1366.通过投票对团队排名.py)|Medium
 [1371.每个元音包含偶数次的最长子字符串](https://leetcode-cn.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/description/)|[python3](./Solutions/1371.每个元音包含偶数次的最长子字符串.py)|Medium
 [1372.二叉树中的最长交错路径](https://leetcode-cn.com/problems/longest-zigzag-path-in-a-binary-tree/description/)|[python3](./Solutions/1372.二叉树中的最长交错路径.py)|Medium
