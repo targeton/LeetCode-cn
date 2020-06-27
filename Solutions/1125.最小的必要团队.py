@@ -58,21 +58,19 @@
 # @lc code=start
 class Solution:
     def smallestSufficientTeam(self, req_skills: List[str], people: List[List[str]]) -> List[int]:
-        dic = {skill: 1<<i for i,skill in enumerate(req_skills)}
-        N = len(req_skills)
-        dp = [(float('inf'),[]) for _ in range(2**N)]
-        dp[0] = (0,[])
-        def getFlag(lst):
-            return reduce(lambda x,y: x|y, map(lambda k:dic[k], lst))
-        
-        for i, p in enumerate(people):
-            skill = getFlag(p) if p else 0
-            for j in range(2**N-1):
-                newSkill = j | skill
-                if newSkill != j and dp[newSkill][0] > dp[j][0] + 1:
-                    dp[newSkill] = (dp[j][0] + 1, dp[j][1][:]+[i])
+        n,m = len(req_skills), len(people)
+        dic = {v:i for i,v in enumerate(req_skills)}
+        dp = {0:[]}
+        for i,p in enumerate(people):
+            his_skill = 0
+            for skill in p:
+                his_skill |= 1<<dic[skill]
+            for skill_set, need in dp.copy().items():
+                with_him = his_skill | skill_set
+                if with_him == skill_set: continue
+                if with_him not in dp or len(dp[with_him]) > len(need) + 1:
+                    dp[with_him] = need + [i]
 
-        return dp[-1][1]
-        
+        return dp[(1<<n) - 1]        
 # @lc code=end
 
