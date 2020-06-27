@@ -74,25 +74,20 @@
 # @lc code=start
 class Solution:
     def maxEvents(self, events: List[List[int]]) -> int:
-        mi, ma = float('inf'), 0
-        dic = collections.defaultdict(list)
-        for e in events:
-            dic[e[0]].append(e[1])
-            ma = max(ma, e[1])
-            mi = min(mi, e[0])
-        
-        res = 0
-        q = []
-        for i in range(mi, ma+1):
-            for item in dic[i]:
-                heapq.heappush(q, item)
-            while q and q[0] < i:
-                heapq.heappop(q)
-            if q:
-                res += 1
-                heapq.heappop(q)
-
-        return res        
+        events.sort(reverse=True)
+        h = []
+        res = d = 0
+        while events or h:
+            if not h:
+                d = events[-1][0]
+            while events and events[-1][0] <= d:
+                heapq.heappush(h, events.pop()[1])
+            heapq.heappop(h)
+            res += 1
+            d += 1
+            while h and h[0] < d:
+                heapq.heappop(h)
+        return res       
                 
 # @lc code=end
 
