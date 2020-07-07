@@ -2,7 +2,7 @@
 # LeetCode-CN Solutions
 Solved problems of [LeetCode](https://leetcode-cn.com/problemset/all/)
 
-All(227)  Easy(74)  Medium(116)  Hard(37)
+All(228)  Easy(74)  Medium(117)  Hard(37)
 
 Problem|Solution|Level
 :---|:---:|:---:
@@ -156,6 +156,7 @@ Problem|Solution|Level
 [424.替换后的最长重复字符](https://leetcode-cn.com/problems/longest-repeating-character-replacement/description/)|[python3](./Solutions/424.替换后的最长重复字符.py)|Medium
 [480.滑动窗口中位数](https://leetcode-cn.com/problems/sliding-window-median/description/)|[csharp](./Solutions/480.滑动窗口中位数.cs)|Hard
 [485.最大连续-1-的个数](https://leetcode-cn.com/problems/max-consecutive-ones/description/)|[python3](./Solutions/485.最大连续-1-的个数.py)|Easy
+[486.预测赢家](https://leetcode-cn.com/problems/predict-the-winner/description/)|[python3](./Solutions/486.预测赢家.py)|Medium
 [509.斐波那契数](https://leetcode-cn.com/problems/fibonacci-number/description/)|[python3](./Solutions/509.斐波那契数.py)|Easy
 [513.找树左下角的值](https://leetcode-cn.com/problems/find-bottom-left-tree-value/description/)|[python3](./Solutions/513.找树左下角的值.py)|Medium
 [515.在每个树行中找最大值](https://leetcode-cn.com/problems/find-largest-value-in-each-tree-row/description/)|[python3](./Solutions/515.在每个树行中找最大值.py)|Medium
