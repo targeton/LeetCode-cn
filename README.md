@@ -10,7 +10,7 @@ Problem|Solution|Level
 [2.两数相加](https://leetcode-cn.com/problems/add-two-numbers/description/)|[csharp](./Solutions/2.两数相加.cs)|Medium
 [3.无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/description/)|[python3](./Solutions/3.无重复字符的最长子串.py)|Medium
 [4.寻找两个有序数组的中位数](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/description/)|[csharp](./Solutions/4.寻找两个有序数组的中位数.cs)|Hard
-[5.最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring/description/)|[csharp](./Solutions/5.最长回文子串.cs)|Medium
+[5.最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring/description/)|[csharp](./Solutions/5.最长回文子串.cs) [python3](./Solutions/5.最长回文子串.py)|Medium
 [6.z-字形变换](https://leetcode-cn.com/problems/zigzag-conversion/description/)|[python3](./Solutions/6.z-字形变换.py)|Medium
 [7.整数反转](https://leetcode-cn.com/problems/reverse-integer/description/)|[csharp](./Solutions/7.整数反转.cs)|Easy
 [9.回文数](https://leetcode-cn.com/problems/palindrome-number/description/)|[csharp](./Solutions/9.回文数.cs)|Easy
