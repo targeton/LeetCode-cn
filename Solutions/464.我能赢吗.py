@@ -47,20 +47,21 @@
 class Solution:
     def canIWin(self, maxChoosableInteger: int, desiredTotal: int) -> bool:
         @lru_cache(maxsize=None)
-        def dfs(state, s, d):
+        def dfs(state, s):
+            if s >= desiredTotal:
+                return False
             for i in range(1, maxChoosableInteger+1):
                 if state & (1<<i-1) != 0:
                     continue
-                if s + i >= d:
+                if not dfs(state|(1<<i-1), s+i):
                     return True
-                else:
-                    if not dfs(state|(1<<i-1), s+i, d):
-                        return True
             return False
         
+        if desiredTotal <= maxChoosableInteger:
+            return True
         if desiredTotal > (maxChoosableInteger+1)*maxChoosableInteger//2:
             return False
-        return dfs(0, 0, desiredTotal)
+        return dfs(0, 0)
 
 # @lc code=end
 
