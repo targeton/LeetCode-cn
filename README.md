@@ -2,7 +2,7 @@
 # LeetCode-CN Solutions
 Solved problems of [LeetCode](https://leetcode-cn.com/problemset/all/)
 
-All(231)  Easy(74)  Medium(119)  Hard(38)
+All(232)  Easy(74)  Medium(120)  Hard(38)
 
 Problem|Solution|Level
 :---|:---:|:---:
@@ -132,6 +132,7 @@ Problem|Solution|Level
 [300.最长上升子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/description/)|[csharp](./Solutions/300.最长上升子序列.cs) [python3](./Solutions/300.最长上升子序列.py)|Medium
 [303.区域和检索-数组不可变](https://leetcode-cn.com/problems/range-sum-query-immutable/description/)|[csharp](./Solutions/303.区域和检索-数组不可变.cs)|Easy
 [304.二维区域和检索-矩阵不可变](https://leetcode-cn.com/problems/range-sum-query-2d-immutable/description/)|[python3](./Solutions/304.二维区域和检索-矩阵不可变.py)|Medium
+[306.累加数](https://leetcode-cn.com/problems/additive-number/description/)|[python3](./Solutions/306.累加数.py)|Medium
 [309.最佳买卖股票时机含冷冻期](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/description/)|[python3](./Solutions/309.最佳买卖股票时机含冷冻期.py)|Medium
 [313.超级丑数](https://leetcode-cn.com/problems/super-ugly-number/description/)|[csharp](./Solutions/313.超级丑数.cs)|Medium
 [319.灯泡开关](https://leetcode-cn.com/problems/bulb-switcher/description/)|[python3](./Solutions/319.灯泡开关.py)|Medium
