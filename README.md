@@ -2,7 +2,7 @@
 # LeetCode-CN Solutions
 Solved problems of [LeetCode](https://leetcode-cn.com/problemset/all/)
 
-All(232)  Easy(74)  Medium(120)  Hard(38)
+All(234)  Easy(74)  Medium(122)  Hard(38)
 
 Problem|Solution|Level
 :---|:---:|:---:
@@ -165,6 +165,7 @@ Problem|Solution|Level
 [513.找树左下角的值](https://leetcode-cn.com/problems/find-bottom-left-tree-value/description/)|[python3](./Solutions/513.找树左下角的值.py)|Medium
 [515.在每个树行中找最大值](https://leetcode-cn.com/problems/find-largest-value-in-each-tree-row/description/)|[python3](./Solutions/515.在每个树行中找最大值.py)|Medium
 [553.最优除法](https://leetcode-cn.com/problems/optimal-division/description/)|[csharp](./Solutions/553.最优除法.cs)|Medium
+[560.和为k的子数组](https://leetcode-cn.com/problems/subarray-sum-equals-k/description/)|[python3](./Solutions/560.和为k的子数组.py)|Medium
 [583.两个字符串的删除操作](https://leetcode-cn.com/problems/delete-operation-for-two-strings/description/)|[python3](./Solutions/583.两个字符串的删除操作.py)|Medium
 [606.根据二叉树创建字符串](https://leetcode-cn.com/problems/construct-string-from-binary-tree/description/)|[python3](./Solutions/606.根据二叉树创建字符串.py)|Easy
 [617.合并二叉树](https://leetcode-cn.com/problems/merge-two-binary-trees/description/)|[python3](./Solutions/617.合并二叉树.py)|Easy
@@ -179,6 +180,7 @@ Problem|Solution|Level
 [672.灯泡开关-ⅱ](https://leetcode-cn.com/problems/bulb-switcher-ii/description/)|[python3](./Solutions/672.灯泡开关-ⅱ.py)|Medium
 [674.最长连续递增序列](https://leetcode-cn.com/problems/longest-continuous-increasing-subsequence/description/)|[python3](./Solutions/674.最长连续递增序列.py)|Easy
 [678.有效的括号字符串](https://leetcode-cn.com/problems/valid-parenthesis-string/description/)|[python3](./Solutions/678.有效的括号字符串.py)|Medium
+[684.冗余连接](https://leetcode-cn.com/problems/redundant-connection/description/)|[python3](./Solutions/684.冗余连接.py)|Medium
 [703.数据流中的第k大元素](https://leetcode-cn.com/problems/kth-largest-element-in-a-stream/description/)|[python3](./Solutions/703.数据流中的第k大元素.py)|Easy
 [704.二分查找](https://leetcode-cn.com/problems/binary-search/description/)|[golang](./Solutions/704.二分查找.go)|Easy
 [714.买卖股票的最佳时机含手续费](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/description/)|[python3](./Solutions/714.买卖股票的最佳时机含手续费.py)|Medium
