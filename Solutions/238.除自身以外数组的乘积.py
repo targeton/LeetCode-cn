@@ -38,13 +38,14 @@
 class Solution:
     def productExceptSelf(self, nums: List[int]) -> List[int]:
         N = len(nums)
-        L, R = [0]*N, [0]*N
-        L[0] = 1
+        res = [0]*N
+        res[0] = 1
         for i in range(1, N):
-            L[i] = nums[i-1]*L[i-1]
-        R[N-1] = 1
-        for i in range(N-2, -1, -1):
-            R[i] = nums[i+1]*R[i+1]
-        return [L[i]*R[i] for i in range(N)]
+            res[i] = nums[i-1] * res[i-1]
+        R = 1
+        for i in range(N-1, -1, -1):
+            res[i] = res[i] * R
+            R = nums[i] * R
+        return res
 # @lc code=end
 
