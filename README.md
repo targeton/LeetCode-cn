@@ -2,7 +2,7 @@
 # LeetCode-CN Solutions
 Solved problems of [LeetCode](https://leetcode-cn.com/problemset/all/)
 
-All(235)  Easy(74)  Medium(123)  Hard(38)
+All(236)  Easy(74)  Medium(123)  Hard(39)
 
 Problem|Solution|Level
 :---|:---:|:---:
@@ -164,6 +164,7 @@ Problem|Solution|Level
 [486.预测赢家](https://leetcode-cn.com/problems/predict-the-winner/description/)|[python3](./Solutions/486.预测赢家.py)|Medium
 [509.斐波那契数](https://leetcode-cn.com/problems/fibonacci-number/description/)|[python3](./Solutions/509.斐波那契数.py)|Easy
 [513.找树左下角的值](https://leetcode-cn.com/problems/find-bottom-left-tree-value/description/)|[python3](./Solutions/513.找树左下角的值.py)|Medium
+[514.自由之路](https://leetcode-cn.com/problems/freedom-trail/description/)|[python3](./Solutions/514.自由之路.py)|Hard
 [515.在每个树行中找最大值](https://leetcode-cn.com/problems/find-largest-value-in-each-tree-row/description/)|[python3](./Solutions/515.在每个树行中找最大值.py)|Medium
 [553.最优除法](https://leetcode-cn.com/problems/optimal-division/description/)|[csharp](./Solutions/553.最优除法.cs)|Medium
 [560.和为k的子数组](https://leetcode-cn.com/problems/subarray-sum-equals-k/description/)|[python3](./Solutions/560.和为k的子数组.py)|Medium
