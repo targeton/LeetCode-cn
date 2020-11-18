@@ -61,7 +61,15 @@
 # @lc code=start
 class Solution:
     def allCellsDistOrder(self, R: int, C: int, r0: int, c0: int) -> List[List[int]]:
-        return sorted([[r,c] for r in range(R) for c in range(C)], key = lambda x: abs(x[0]-r0) + abs(x[1]-c0))
+        N = max(r0, R-r0) + max(c0, C-c0)
+        buckets = [[] for _ in range(N+1)]
+        for r in range(R):
+            for c in range(C):
+                buckets[abs(r-r0)+abs(c-c0)].append([r,c])    
+        res = []
+        for b in buckets:
+            res.extend(b)
+        return res
         
 # @lc code=end
 
