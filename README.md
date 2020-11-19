@@ -2,7 +2,7 @@
 # LeetCode-CN Solutions
 Solved problems of [LeetCode](https://leetcode-cn.com/problemset/all/)
 
-All(238)  Easy(75)  Medium(124)  Hard(39)
+All(239)  Easy(76)  Medium(124)  Hard(39)
 
 Problem|Solution|Level
 :---|:---:|:---:
@@ -129,6 +129,7 @@ Problem|Solution|Level
 [264.丑数-ii](https://leetcode-cn.com/problems/ugly-number-ii/description/)|[csharp](./Solutions/264.丑数-ii.cs)|Medium
 [278.第一个错误的版本](https://leetcode-cn.com/problems/first-bad-version/description/)|[csharp](./Solutions/278.第一个错误的版本.cs)|Easy
 [279.完全平方数](https://leetcode-cn.com/problems/perfect-squares/description/)|[python3](./Solutions/279.完全平方数.py)|Medium
+[283.移动零](https://leetcode-cn.com/problems/move-zeroes/description/)|[python3](./Solutions/283.移动零.py)|Easy
 [287.寻找重复数](https://leetcode-cn.com/problems/find-the-duplicate-number/description/)|[csharp](./Solutions/287.寻找重复数.cs)|Medium
 [295.数据流的中位数](https://leetcode-cn.com/problems/find-median-from-data-stream/description/)|[csharp](./Solutions/295.数据流的中位数.cs)|Hard
 [300.最长上升子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/description/)|[csharp](./Solutions/300.最长上升子序列.cs) [python3](./Solutions/300.最长上升子序列.py)|Medium
