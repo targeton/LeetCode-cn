@@ -2,7 +2,7 @@
 # LeetCode-CN Solutions
 Solved problems of [LeetCode](https://leetcode-cn.com/problemset/all/)
 
-All(239)  Easy(76)  Medium(124)  Hard(39)
+All(240)  Easy(77)  Medium(124)  Hard(39)
 
 Problem|Solution|Level
 :---|:---:|:---:
@@ -124,6 +124,7 @@ Problem|Solution|Level
 [238.除自身以外数组的乘积](https://leetcode-cn.com/problems/product-of-array-except-self/description/)|[python3](./Solutions/238.除自身以外数组的乘积.py)|Medium
 [239.滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/description/)|[csharp](./Solutions/239.滑动窗口最大值.cs)|Hard
 [240.搜索二维矩阵-ii](https://leetcode-cn.com/problems/search-a-2d-matrix-ii/description/)|[python3](./Solutions/240.搜索二维矩阵-ii.py)|Medium
+[242.有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/description/)|[python3](./Solutions/242.有效的字母异位词.py)|Easy
 [260.只出现一次的数字-iii](https://leetcode-cn.com/problems/single-number-iii/description/)|[csharp](./Solutions/260.只出现一次的数字-iii.cs)|Medium
 [263.丑数](https://leetcode-cn.com/problems/ugly-number/description/)|[csharp](./Solutions/263.丑数.cs)|Easy
 [264.丑数-ii](https://leetcode-cn.com/problems/ugly-number-ii/description/)|[csharp](./Solutions/264.丑数-ii.cs)|Medium
