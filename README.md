@@ -2,7 +2,7 @@
 # LeetCode-CN Solutions
 Solved problems of [LeetCode](https://leetcode-cn.com/problemset/all/)
 
-All(240)  Easy(77)  Medium(124)  Hard(39)
+All(241)  Easy(77)  Medium(125)  Hard(39)
 
 Problem|Solution|Level
 :---|:---:|:---:
@@ -161,6 +161,7 @@ Problem|Solution|Level
 [407.接雨水-ii](https://leetcode-cn.com/problems/trapping-rain-water-ii/description/)|[python3](./Solutions/407.接雨水-ii.py)|Hard
 [410.分割数组的最大值](https://leetcode-cn.com/problems/split-array-largest-sum/description/)|[csharp](./Solutions/410.分割数组的最大值.cs)|Hard
 [424.替换后的最长重复字符](https://leetcode-cn.com/problems/longest-repeating-character-replacement/description/)|[python3](./Solutions/424.替换后的最长重复字符.py)|Medium
+[452.用最少数量的箭引爆气球](https://leetcode-cn.com/problems/minimum-number-of-arrows-to-burst-balloons/description/)|[python3](./Solutions/452.用最少数量的箭引爆气球.py)|Medium
 [464.我能赢吗](https://leetcode-cn.com/problems/can-i-win/description/)|[python3](./Solutions/464.我能赢吗.py)|Medium
 [480.滑动窗口中位数](https://leetcode-cn.com/problems/sliding-window-median/description/)|[csharp](./Solutions/480.滑动窗口中位数.cs)|Hard
 [485.最大连续-1-的个数](https://leetcode-cn.com/problems/max-consecutive-ones/description/)|[python3](./Solutions/485.最大连续-1-的个数.py)|Easy
