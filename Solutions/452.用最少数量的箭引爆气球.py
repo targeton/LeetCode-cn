@@ -73,14 +73,12 @@
 # @lc code=start
 class Solution:
     def findMinArrowShots(self, points: List[List[int]]) -> int:
-        points.sort()
+        points.sort(key=lambda p: p[1])
         res, tmp = 0, float('-inf')
         for p in points:
             if p[0] > tmp:
                 tmp = p[1]
                 res += 1
-            else:
-                tmp = min(tmp, p[1])
         return res                
 
 # @lc code=end
