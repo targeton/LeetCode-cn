@@ -2,7 +2,7 @@
 # LeetCode-CN Solutions
 Solved problems of [LeetCode](https://leetcode-cn.com/problemset/all/)
 
-All(232)  Easy(74)  Medium(120)  Hard(38)
+All(233)  Easy(74)  Medium(121)  Hard(38)
 
 Problem|Solution|Level
 :---|:---:|:---:
@@ -156,6 +156,7 @@ Problem|Solution|Level
 [404.左叶子之和](https://leetcode-cn.com/problems/sum-of-left-leaves/description/)|[python3](./Solutions/404.左叶子之和.py)|Easy
 [407.接雨水-ii](https://leetcode-cn.com/problems/trapping-rain-water-ii/description/)|[python3](./Solutions/407.接雨水-ii.py)|Hard
 [410.分割数组的最大值](https://leetcode-cn.com/problems/split-array-largest-sum/description/)|[csharp](./Solutions/410.分割数组的最大值.cs)|Hard
+[421.数组中两个数的最大异或值](https://leetcode-cn.com/problems/maximum-xor-of-two-numbers-in-an-array/description/)|[python3](./Solutions/421.数组中两个数的最大异或值.py)|Medium
 [424.替换后的最长重复字符](https://leetcode-cn.com/problems/longest-repeating-character-replacement/description/)|[python3](./Solutions/424.替换后的最长重复字符.py)|Medium
 [464.我能赢吗](https://leetcode-cn.com/problems/can-i-win/description/)|[python3](./Solutions/464.我能赢吗.py)|Medium
 [480.滑动窗口中位数](https://leetcode-cn.com/problems/sliding-window-median/description/)|[csharp](./Solutions/480.滑动窗口中位数.cs)|Hard
