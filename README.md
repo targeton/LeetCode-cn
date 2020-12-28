@@ -2,7 +2,7 @@
 # LeetCode-CN Solutions
 Solved problems of [LeetCode](https://leetcode-cn.com/problemset/all/)
 
-All(233)  Easy(74)  Medium(121)  Hard(38)
+All(242)  Easy(77)  Medium(126)  Hard(39)
 
 Problem|Solution|Level
 :---|:---:|:---:
@@ -78,6 +78,7 @@ Problem|Solution|Level
 [123.买卖股票的最佳时机-iii](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii/description/)|[csharp](./Solutions/123.买卖股票的最佳时机-iii.cs) [python3](./Solutions/123.买卖股票的最佳时机-iii.py)|Hard
 [124.二叉树中的最大路径和](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/description/)|[python3](./Solutions/124.二叉树中的最大路径和.py)|Hard
 [127.单词接龙](https://leetcode-cn.com/problems/word-ladder/description/)|[csharp](./Solutions/127.单词接龙.cs)|Medium
+[134.加油站](https://leetcode-cn.com/problems/gas-station/description/)|[python3](./Solutions/134.加油站.py)|Medium
 [136.只出现一次的数字](https://leetcode-cn.com/problems/single-number/description/)|[csharp](./Solutions/136.只出现一次的数字.cs)|Easy
 [137.只出现一次的数字-ii](https://leetcode-cn.com/problems/single-number-ii/description/)|[csharp](./Solutions/137.只出现一次的数字-ii.cs)|Medium
 [139.单词拆分](https://leetcode-cn.com/problems/word-break/description/)|[csharp](./Solutions/139.单词拆分.cs)|Medium
@@ -120,13 +121,16 @@ Problem|Solution|Level
 [235.二叉搜索树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-search-tree/description/)|[csharp](./Solutions/235.二叉搜索树的最近公共祖先.cs)|Easy
 [236.二叉树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/description/)|[csharp](./Solutions/236.二叉树的最近公共祖先.cs)|Medium
 [237.删除链表中的节点](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/description/)|[python3](./Solutions/237.删除链表中的节点.py)|Easy
+[238.除自身以外数组的乘积](https://leetcode-cn.com/problems/product-of-array-except-self/description/)|[python3](./Solutions/238.除自身以外数组的乘积.py)|Medium
 [239.滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/description/)|[csharp](./Solutions/239.滑动窗口最大值.cs)|Hard
 [240.搜索二维矩阵-ii](https://leetcode-cn.com/problems/search-a-2d-matrix-ii/description/)|[python3](./Solutions/240.搜索二维矩阵-ii.py)|Medium
+[242.有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/description/)|[python3](./Solutions/242.有效的字母异位词.py)|Easy
 [260.只出现一次的数字-iii](https://leetcode-cn.com/problems/single-number-iii/description/)|[csharp](./Solutions/260.只出现一次的数字-iii.cs)|Medium
 [263.丑数](https://leetcode-cn.com/problems/ugly-number/description/)|[csharp](./Solutions/263.丑数.cs)|Easy
 [264.丑数-ii](https://leetcode-cn.com/problems/ugly-number-ii/description/)|[csharp](./Solutions/264.丑数-ii.cs)|Medium
 [278.第一个错误的版本](https://leetcode-cn.com/problems/first-bad-version/description/)|[csharp](./Solutions/278.第一个错误的版本.cs)|Easy
 [279.完全平方数](https://leetcode-cn.com/problems/perfect-squares/description/)|[python3](./Solutions/279.完全平方数.py)|Medium
+[283.移动零](https://leetcode-cn.com/problems/move-zeroes/description/)|[python3](./Solutions/283.移动零.py)|Easy
 [287.寻找重复数](https://leetcode-cn.com/problems/find-the-duplicate-number/description/)|[csharp](./Solutions/287.寻找重复数.cs)|Medium
 [295.数据流的中位数](https://leetcode-cn.com/problems/find-median-from-data-stream/description/)|[csharp](./Solutions/295.数据流的中位数.cs)|Hard
 [300.最长上升子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/description/)|[csharp](./Solutions/300.最长上升子序列.cs) [python3](./Solutions/300.最长上升子序列.py)|Medium
@@ -158,14 +162,17 @@ Problem|Solution|Level
 [410.分割数组的最大值](https://leetcode-cn.com/problems/split-array-largest-sum/description/)|[csharp](./Solutions/410.分割数组的最大值.cs)|Hard
 [421.数组中两个数的最大异或值](https://leetcode-cn.com/problems/maximum-xor-of-two-numbers-in-an-array/description/)|[python3](./Solutions/421.数组中两个数的最大异或值.py)|Medium
 [424.替换后的最长重复字符](https://leetcode-cn.com/problems/longest-repeating-character-replacement/description/)|[python3](./Solutions/424.替换后的最长重复字符.py)|Medium
+[452.用最少数量的箭引爆气球](https://leetcode-cn.com/problems/minimum-number-of-arrows-to-burst-balloons/description/)|[python3](./Solutions/452.用最少数量的箭引爆气球.py)|Medium
 [464.我能赢吗](https://leetcode-cn.com/problems/can-i-win/description/)|[python3](./Solutions/464.我能赢吗.py)|Medium
 [480.滑动窗口中位数](https://leetcode-cn.com/problems/sliding-window-median/description/)|[csharp](./Solutions/480.滑动窗口中位数.cs)|Hard
 [485.最大连续-1-的个数](https://leetcode-cn.com/problems/max-consecutive-ones/description/)|[python3](./Solutions/485.最大连续-1-的个数.py)|Easy
 [486.预测赢家](https://leetcode-cn.com/problems/predict-the-winner/description/)|[python3](./Solutions/486.预测赢家.py)|Medium
 [509.斐波那契数](https://leetcode-cn.com/problems/fibonacci-number/description/)|[python3](./Solutions/509.斐波那契数.py)|Easy
 [513.找树左下角的值](https://leetcode-cn.com/problems/find-bottom-left-tree-value/description/)|[python3](./Solutions/513.找树左下角的值.py)|Medium
+[514.自由之路](https://leetcode-cn.com/problems/freedom-trail/description/)|[python3](./Solutions/514.自由之路.py)|Hard
 [515.在每个树行中找最大值](https://leetcode-cn.com/problems/find-largest-value-in-each-tree-row/description/)|[python3](./Solutions/515.在每个树行中找最大值.py)|Medium
 [553.最优除法](https://leetcode-cn.com/problems/optimal-division/description/)|[csharp](./Solutions/553.最优除法.cs)|Medium
+[560.和为k的子数组](https://leetcode-cn.com/problems/subarray-sum-equals-k/description/)|[python3](./Solutions/560.和为k的子数组.py)|Medium
 [583.两个字符串的删除操作](https://leetcode-cn.com/problems/delete-operation-for-two-strings/description/)|[python3](./Solutions/583.两个字符串的删除操作.py)|Medium
 [606.根据二叉树创建字符串](https://leetcode-cn.com/problems/construct-string-from-binary-tree/description/)|[python3](./Solutions/606.根据二叉树创建字符串.py)|Easy
 [617.合并二叉树](https://leetcode-cn.com/problems/merge-two-binary-trees/description/)|[python3](./Solutions/617.合并二叉树.py)|Easy
@@ -180,6 +187,7 @@ Problem|Solution|Level
 [672.灯泡开关-ⅱ](https://leetcode-cn.com/problems/bulb-switcher-ii/description/)|[python3](./Solutions/672.灯泡开关-ⅱ.py)|Medium
 [674.最长连续递增序列](https://leetcode-cn.com/problems/longest-continuous-increasing-subsequence/description/)|[python3](./Solutions/674.最长连续递增序列.py)|Easy
 [678.有效的括号字符串](https://leetcode-cn.com/problems/valid-parenthesis-string/description/)|[python3](./Solutions/678.有效的括号字符串.py)|Medium
+[684.冗余连接](https://leetcode-cn.com/problems/redundant-connection/description/)|[python3](./Solutions/684.冗余连接.py)|Medium
 [703.数据流中的第k大元素](https://leetcode-cn.com/problems/kth-largest-element-in-a-stream/description/)|[python3](./Solutions/703.数据流中的第k大元素.py)|Easy
 [704.二分查找](https://leetcode-cn.com/problems/binary-search/description/)|[golang](./Solutions/704.二分查找.go)|Easy
 [714.买卖股票的最佳时机含手续费](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/description/)|[python3](./Solutions/714.买卖股票的最佳时机含手续费.py)|Medium
@@ -215,6 +223,7 @@ Problem|Solution|Level
 [1019.链表中的下一个更大节点](https://leetcode-cn.com/problems/next-greater-node-in-linked-list/description/)|[csharp](./Solutions/1019.链表中的下一个更大节点.cs)|Medium
 [1025.除数博弈](https://leetcode-cn.com/problems/divisor-game/description/)|[csharp](./Solutions/1025.除数博弈.cs)|Easy
 [1028.从先序遍历还原二叉树](https://leetcode-cn.com/problems/recover-a-tree-from-preorder-traversal/description/)|[python3](./Solutions/1028.从先序遍历还原二叉树.py)|Hard
+[1030.距离顺序排列矩阵单元格](https://leetcode-cn.com/problems/matrix-cells-in-distance-order/description/)|[python3](./Solutions/1030.距离顺序排列矩阵单元格.py)|Easy
 [1035.不相交的线](https://leetcode-cn.com/problems/uncrossed-lines/description/)|[python3](./Solutions/1035.不相交的线.py)|Medium
 [1125.最小的必要团队](https://leetcode-cn.com/problems/smallest-sufficient-team/description/)|[python3](./Solutions/1125.最小的必要团队.py)|Hard
 [1130.叶值的最小代价生成树](https://leetcode-cn.com/problems/minimum-cost-tree-from-leaf-values/description/)|[csharp](./Solutions/1130.叶值的最小代价生成树.cs)|Medium
