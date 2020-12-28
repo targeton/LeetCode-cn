@@ -34,13 +34,28 @@
 # @lc code=start
 class Solution:
     def findMaximumXOR(self, nums: List[int]) -> int:
+        L = len(bin(max(nums))) - 2
+        nums = [[num>>i & 1 for i in range(L)[::-1]] for num in nums]
         max_xor = 0
-        L = len(bin(max(nums)))-2
-        for i in range(L)[::-1]:
-            max_xor <<= 1
-            cur_xor = max_xor | 1
-            prefixs = {num >> i for num in nums}
-            max_xor |= any(p^cur_xor in prefixs for p in prefixs)
+        trie = {}
+
+        for num in nums:
+            xor_node = trie
+            node = trie
+            cur_xor = 0
+            for bit in num:
+                if bit not in node:
+                    node[bit] = {}
+                node = node[bit]
+
+                oppo_bit = 1 - bit
+                if oppo_bit in xor_node:
+                    cur_xor = (cur_xor << 1) | 1
+                    xor_node = xor_node[oppo_bit]
+                else:
+                    cur_xor = cur_xor << 1
+                    xor_node = xor_node[bit]
+            max_xor = max(max_xor, cur_xor)
         return max_xor
 # @lc code=end
 
