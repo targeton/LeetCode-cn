@@ -2,7 +2,7 @@
 # LeetCode-CN Solutions
 Solved problems of [LeetCode](https://leetcode-cn.com/problemset/all/)
 
-All(244)  Easy(77)  Medium(127)  Hard(40)
+All(245)  Easy(77)  Medium(128)  Hard(40)
 
 Problem|Solution|Level
 :---|:---:|:---:
@@ -248,5 +248,6 @@ Problem|Solution|Level
 [1453.圆形靶内的最大飞镖数量](https://leetcode-cn.com/problems/maximum-number-of-darts-inside-of-a-circular-dartboard/description/)|[python3](./Solutions/1453.圆形靶内的最大飞镖数量.py)|Hard
 [1456.定长子串中元音的最大数目](https://leetcode-cn.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/description/)|[python3](./Solutions/1456.定长子串中元音的最大数目.py)|Medium
 [1457.二叉树中的伪回文路径](https://leetcode-cn.com/problems/pseudo-palindromic-paths-in-a-binary-tree/description/)|[python3](./Solutions/1457.二叉树中的伪回文路径.py)|Medium
+[1695.删除子数组的最大得分](https://leetcode-cn.com/problems/maximum-erasure-value/description/)|[python3](./Solutions/1695.删除子数组的最大得分.py)|Medium
 [1696.跳跃游戏-vi](https://leetcode-cn.com/problems/jump-game-vi/description/)|[python3](./Solutions/1696.跳跃游戏-vi.py)|Medium
 [1707.与数组中元素的最大异或值](https://leetcode-cn.com/problems/maximum-xor-with-an-element-from-array/description/)|[python3](./Solutions/1707.与数组中元素的最大异或值.py)|Hard
