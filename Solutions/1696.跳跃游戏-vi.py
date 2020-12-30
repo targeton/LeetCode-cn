@@ -62,14 +62,15 @@
 class Solution:
     def maxResult(self, nums: List[int], k: int) -> int:
         N = len(nums)
-        heap = [[-nums[0], 0]]
-        dp = heapq.heapify(heap)
+        q = [[nums[0], 0]]
         ans = nums[0]
         for i in range(1,N):
-            while i- heap[0][1] > k:
-                heapq.heappop(heap)
-            ans = -heap[0][0] + nums[i]
-            heapq.heappush(heap, [-ans, i])
+            while i - q[0][1] > k:
+                q.pop(0)
+            ans = q[0][0] + nums[i]
+            while q and ans > q[-1][0]:
+                q.pop()
+            q.append([ans, i])
         return ans
 # @lc code=end
 
