@@ -2,7 +2,7 @@
 # LeetCode-CN Solutions
 Solved problems of [LeetCode](https://leetcode-cn.com/problemset/all/)
 
-All(242)  Easy(77)  Medium(125)  Hard(40)
+All(246)  Easy(77)  Medium(128)  Hard(41)
 
 Problem|Solution|Level
 :---|:---:|:---:
@@ -161,6 +161,7 @@ Problem|Solution|Level
 [404.左叶子之和](https://leetcode-cn.com/problems/sum-of-left-leaves/description/)|[python3](./Solutions/404.左叶子之和.py)|Easy
 [407.接雨水-ii](https://leetcode-cn.com/problems/trapping-rain-water-ii/description/)|[python3](./Solutions/407.接雨水-ii.py)|Hard
 [410.分割数组的最大值](https://leetcode-cn.com/problems/split-array-largest-sum/description/)|[csharp](./Solutions/410.分割数组的最大值.cs)|Hard
+[421.数组中两个数的最大异或值](https://leetcode-cn.com/problems/maximum-xor-of-two-numbers-in-an-array/description/)|[python3](./Solutions/421.数组中两个数的最大异或值.py)|Medium
 [424.替换后的最长重复字符](https://leetcode-cn.com/problems/longest-repeating-character-replacement/description/)|[python3](./Solutions/424.替换后的最长重复字符.py)|Medium
 [452.用最少数量的箭引爆气球](https://leetcode-cn.com/problems/minimum-number-of-arrows-to-burst-balloons/description/)|[python3](./Solutions/452.用最少数量的箭引爆气球.py)|Medium
 [464.我能赢吗](https://leetcode-cn.com/problems/can-i-win/description/)|[python3](./Solutions/464.我能赢吗.py)|Medium
@@ -248,3 +249,6 @@ Problem|Solution|Level
 [1453.圆形靶内的最大飞镖数量](https://leetcode-cn.com/problems/maximum-number-of-darts-inside-of-a-circular-dartboard/description/)|[python3](./Solutions/1453.圆形靶内的最大飞镖数量.py)|Hard
 [1456.定长子串中元音的最大数目](https://leetcode-cn.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/description/)|[python3](./Solutions/1456.定长子串中元音的最大数目.py)|Medium
 [1457.二叉树中的伪回文路径](https://leetcode-cn.com/problems/pseudo-palindromic-paths-in-a-binary-tree/description/)|[python3](./Solutions/1457.二叉树中的伪回文路径.py)|Medium
+[1695.删除子数组的最大得分](https://leetcode-cn.com/problems/maximum-erasure-value/description/)|[python3](./Solutions/1695.删除子数组的最大得分.py)|Medium
+[1696.跳跃游戏-vi](https://leetcode-cn.com/problems/jump-game-vi/description/)|[python3](./Solutions/1696.跳跃游戏-vi.py)|Medium
+[1707.与数组中元素的最大异或值](https://leetcode-cn.com/problems/maximum-xor-with-an-element-from-array/description/)|[python3](./Solutions/1707.与数组中元素的最大异或值.py)|Hard
