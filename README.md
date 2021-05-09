@@ -2,7 +2,7 @@
 # LeetCode-CN Solutions
 Solved problems of [LeetCode](https://leetcode-cn.com/problemset/all/)
 
-All(246)  Easy(77)  Medium(128)  Hard(41)
+All(247)  Easy(77)  Medium(129)  Hard(41)
 
 Problem|Solution|Level
 :---|:---:|:---:
@@ -163,6 +163,7 @@ Problem|Solution|Level
 [410.分割数组的最大值](https://leetcode-cn.com/problems/split-array-largest-sum/description/)|[csharp](./Solutions/410.分割数组的最大值.cs)|Hard
 [421.数组中两个数的最大异或值](https://leetcode-cn.com/problems/maximum-xor-of-two-numbers-in-an-array/description/)|[python3](./Solutions/421.数组中两个数的最大异或值.py)|Medium
 [424.替换后的最长重复字符](https://leetcode-cn.com/problems/longest-repeating-character-replacement/description/)|[python3](./Solutions/424.替换后的最长重复字符.py)|Medium
+[447.回旋镖的数量](https://leetcode-cn.com/problems/number-of-boomerangs/description/)|[python3](./Solutions/447.回旋镖的数量.py)|Medium
 [452.用最少数量的箭引爆气球](https://leetcode-cn.com/problems/minimum-number-of-arrows-to-burst-balloons/description/)|[python3](./Solutions/452.用最少数量的箭引爆气球.py)|Medium
 [464.我能赢吗](https://leetcode-cn.com/problems/can-i-win/description/)|[python3](./Solutions/464.我能赢吗.py)|Medium
 [480.滑动窗口中位数](https://leetcode-cn.com/problems/sliding-window-median/description/)|[csharp](./Solutions/480.滑动窗口中位数.cs)|Hard
