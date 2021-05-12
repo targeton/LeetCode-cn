@@ -2,7 +2,7 @@
 # LeetCode-CN Solutions
 Solved problems of [LeetCode](https://leetcode-cn.com/problemset/all/)
 
-All(247)  Easy(77)  Medium(129)  Hard(41)
+All(249)  Easy(78)  Medium(130)  Hard(41)
 
 Problem|Solution|Level
 :---|:---:|:---:
@@ -163,6 +163,7 @@ Problem|Solution|Level
 [410.分割数组的最大值](https://leetcode-cn.com/problems/split-array-largest-sum/description/)|[csharp](./Solutions/410.分割数组的最大值.cs)|Hard
 [421.数组中两个数的最大异或值](https://leetcode-cn.com/problems/maximum-xor-of-two-numbers-in-an-array/description/)|[python3](./Solutions/421.数组中两个数的最大异或值.py)|Medium
 [424.替换后的最长重复字符](https://leetcode-cn.com/problems/longest-repeating-character-replacement/description/)|[python3](./Solutions/424.替换后的最长重复字符.py)|Medium
+[441.排列硬币](https://leetcode-cn.com/problems/arranging-coins/description/)|[python3](./Solutions/441.排列硬币.py)|Easy
 [447.回旋镖的数量](https://leetcode-cn.com/problems/number-of-boomerangs/description/)|[python3](./Solutions/447.回旋镖的数量.py)|Medium
 [452.用最少数量的箭引爆气球](https://leetcode-cn.com/problems/minimum-number-of-arrows-to-burst-balloons/description/)|[python3](./Solutions/452.用最少数量的箭引爆气球.py)|Medium
 [464.我能赢吗](https://leetcode-cn.com/problems/can-i-win/description/)|[python3](./Solutions/464.我能赢吗.py)|Medium
@@ -227,6 +228,7 @@ Problem|Solution|Level
 [1028.从先序遍历还原二叉树](https://leetcode-cn.com/problems/recover-a-tree-from-preorder-traversal/description/)|[python3](./Solutions/1028.从先序遍历还原二叉树.py)|Hard
 [1030.距离顺序排列矩阵单元格](https://leetcode-cn.com/problems/matrix-cells-in-distance-order/description/)|[python3](./Solutions/1030.距离顺序排列矩阵单元格.py)|Easy
 [1035.不相交的线](https://leetcode-cn.com/problems/uncrossed-lines/description/)|[python3](./Solutions/1035.不相交的线.py)|Medium
+[1090.受标签影响的最大值](https://leetcode-cn.com/problems/largest-values-from-labels/description/)|[python3](./Solutions/1090.受标签影响的最大值.py)|Medium
 [1125.最小的必要团队](https://leetcode-cn.com/problems/smallest-sufficient-team/description/)|[python3](./Solutions/1125.最小的必要团队.py)|Hard
 [1130.叶值的最小代价生成树](https://leetcode-cn.com/problems/minimum-cost-tree-from-leaf-values/description/)|[csharp](./Solutions/1130.叶值的最小代价生成树.cs)|Medium
 [1137.第-n-个泰波那契数](https://leetcode-cn.com/problems/n-th-tribonacci-number/description/)|[python3](./Solutions/1137.第-n-个泰波那契数.py)|Easy
