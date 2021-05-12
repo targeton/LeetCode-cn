@@ -2,7 +2,7 @@
 # LeetCode-CN Solutions
 Solved problems of [LeetCode](https://leetcode-cn.com/problemset/all/)
 
-All(249)  Easy(78)  Medium(130)  Hard(41)
+All(250)  Easy(78)  Medium(131)  Hard(41)
 
 Problem|Solution|Level
 :---|:---:|:---:
@@ -220,6 +220,7 @@ Problem|Solution|Level
 [956.最高的广告牌](https://leetcode-cn.com/problems/tallest-billboard/description/)|[python3](./Solutions/956.最高的广告牌.py)|Hard
 [965.单值二叉树](https://leetcode-cn.com/problems/univalued-binary-tree/description/)|[python3](./Solutions/965.单值二叉树.py)|Easy
 [977.有序数组的平方](https://leetcode-cn.com/problems/squares-of-a-sorted-array/description/)|[python3](./Solutions/977.有序数组的平方.py)|Easy
+[979.在二叉树中分配硬币](https://leetcode-cn.com/problems/distribute-coins-in-binary-tree/description/)|[python3](./Solutions/979.在二叉树中分配硬币.py)|Medium
 [983.最低票价](https://leetcode-cn.com/problems/minimum-cost-for-tickets/description/)|[python3](./Solutions/983.最低票价.py)|Medium
 [1010.总持续时间可被-60-整除的歌曲](https://leetcode-cn.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/description/)|[python3](./Solutions/1010.总持续时间可被-60-整除的歌曲.py)|Easy
 [1014.最佳观光组合](https://leetcode-cn.com/problems/best-sightseeing-pair/description/)|[python3](./Solutions/1014.最佳观光组合.py)|Medium
