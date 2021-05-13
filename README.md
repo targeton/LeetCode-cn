@@ -2,7 +2,7 @@
 # LeetCode-CN Solutions
 Solved problems of [LeetCode](https://leetcode-cn.com/problemset/all/)
 
-All(251)  Easy(78)  Medium(132)  Hard(41)
+All(252)  Easy(78)  Medium(133)  Hard(41)
 
 Problem|Solution|Level
 :---|:---:|:---:
@@ -257,3 +257,4 @@ Problem|Solution|Level
 [1695.删除子数组的最大得分](https://leetcode-cn.com/problems/maximum-erasure-value/description/)|[python3](./Solutions/1695.删除子数组的最大得分.py)|Medium
 [1696.跳跃游戏-vi](https://leetcode-cn.com/problems/jump-game-vi/description/)|[python3](./Solutions/1696.跳跃游戏-vi.py)|Medium
 [1707.与数组中元素的最大异或值](https://leetcode-cn.com/problems/maximum-xor-with-an-element-from-array/description/)|[python3](./Solutions/1707.与数组中元素的最大异或值.py)|Hard
+[1722.执行交换操作后的最小汉明距离](https://leetcode-cn.com/problems/minimize-hamming-distance-after-swap-operations/description/)|[python3](./Solutions/1722.执行交换操作后的最小汉明距离.py)|Medium
