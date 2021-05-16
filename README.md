@@ -2,7 +2,7 @@
 # LeetCode-CN Solutions
 Solved problems of [LeetCode](https://leetcode-cn.com/problemset/all/)
 
-All(253)  Easy(78)  Medium(134)  Hard(41)
+All(254)  Easy(78)  Medium(135)  Hard(41)
 
 Problem|Solution|Level
 :---|:---:|:---:
@@ -231,6 +231,7 @@ Problem|Solution|Level
 [1030.距离顺序排列矩阵单元格](https://leetcode-cn.com/problems/matrix-cells-in-distance-order/description/)|[python3](./Solutions/1030.距离顺序排列矩阵单元格.py)|Easy
 [1035.不相交的线](https://leetcode-cn.com/problems/uncrossed-lines/description/)|[python3](./Solutions/1035.不相交的线.py)|Medium
 [1090.受标签影响的最大值](https://leetcode-cn.com/problems/largest-values-from-labels/description/)|[python3](./Solutions/1090.受标签影响的最大值.py)|Medium
+[1091.二进制矩阵中的最短路径](https://leetcode-cn.com/problems/shortest-path-in-binary-matrix/description/)|[python3](./Solutions/1091.二进制矩阵中的最短路径.py)|Medium
 [1125.最小的必要团队](https://leetcode-cn.com/problems/smallest-sufficient-team/description/)|[python3](./Solutions/1125.最小的必要团队.py)|Hard
 [1130.叶值的最小代价生成树](https://leetcode-cn.com/problems/minimum-cost-tree-from-leaf-values/description/)|[csharp](./Solutions/1130.叶值的最小代价生成树.cs)|Medium
 [1137.第-n-个泰波那契数](https://leetcode-cn.com/problems/n-th-tribonacci-number/description/)|[python3](./Solutions/1137.第-n-个泰波那契数.py)|Easy
