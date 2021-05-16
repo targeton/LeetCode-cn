@@ -2,7 +2,7 @@
 # LeetCode-CN Solutions
 Solved problems of [LeetCode](https://leetcode-cn.com/problemset/all/)
 
-All(252)  Easy(78)  Medium(133)  Hard(41)
+All(253)  Easy(78)  Medium(134)  Hard(41)
 
 Problem|Solution|Level
 :---|:---:|:---:
@@ -180,6 +180,7 @@ Problem|Solution|Level
 [606.根据二叉树创建字符串](https://leetcode-cn.com/problems/construct-string-from-binary-tree/description/)|[python3](./Solutions/606.根据二叉树创建字符串.py)|Easy
 [617.合并二叉树](https://leetcode-cn.com/problems/merge-two-binary-trees/description/)|[python3](./Solutions/617.合并二叉树.py)|Easy
 [621.任务调度器](https://leetcode-cn.com/problems/task-scheduler/description/)|[python3](./Solutions/621.任务调度器.py)|Medium
+[633.平方数之和](https://leetcode-cn.com/problems/sum-of-square-numbers/description/)|[python3](./Solutions/633.平方数之和.py)|Medium
 [637.二叉树的层平均值](https://leetcode-cn.com/problems/average-of-levels-in-binary-tree/description/)|[python3](./Solutions/637.二叉树的层平均值.py)|Easy
 [638.大礼包](https://leetcode-cn.com/problems/shopping-offers/description/)|[python3](./Solutions/638.大礼包.py)|Medium
 [640.求解方程](https://leetcode-cn.com/problems/solve-the-equation/description/)|[python3](./Solutions/640.求解方程.py)|Medium
