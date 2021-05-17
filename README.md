@@ -2,7 +2,7 @@
 # LeetCode-CN Solutions
 Solved problems of [LeetCode](https://leetcode-cn.com/problemset/all/)
 
-All(254)  Easy(78)  Medium(135)  Hard(41)
+All(255)  Easy(79)  Medium(135)  Hard(41)
 
 Problem|Solution|Level
 :---|:---:|:---:
@@ -200,6 +200,7 @@ Problem|Solution|Level
 [746.使用最小花费爬楼梯](https://leetcode-cn.com/problems/min-cost-climbing-stairs/description/)|[csharp](./Solutions/746.使用最小花费爬楼梯.cs)|Easy
 [754.到达终点数字](https://leetcode-cn.com/problems/reach-a-number/description/)|[csharp](./Solutions/754.到达终点数字.cs)|Easy
 [757.设置交集大小至少为-2](https://leetcode-cn.com/problems/set-intersection-size-at-least-two/description/)|[python3](./Solutions/757.设置交集大小至少为-2.py)|Hard
+[766.托普利茨矩阵](https://leetcode-cn.com/problems/toeplitz-matrix/description/)|[python3](./Solutions/766.托普利茨矩阵.py)|Easy
 [775.全局倒置与局部倒置](https://leetcode-cn.com/problems/global-and-local-inversions/description/)|[python3](./Solutions/775.全局倒置与局部倒置.py)|Medium
 [778.水位上升的泳池中游泳](https://leetcode-cn.com/problems/swim-in-rising-water/description/)|[python3](./Solutions/778.水位上升的泳池中游泳.py)|Hard
 [781.森林中的兔子](https://leetcode-cn.com/problems/rabbits-in-forest/description/)|[python3](./Solutions/781.森林中的兔子.py)|Medium
