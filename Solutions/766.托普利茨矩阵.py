@@ -64,10 +64,13 @@
 class Solution:
     def isToeplitzMatrix(self, matrix: List[List[int]]) -> bool:
         m, n = len(matrix), len(matrix[0])
+        row = matrix[0]
         for i in range(1,m):
+            cur = matrix[i]
             for j in range(1,n):
-                if matrix[i][j] != matrix[i-1][j-1]:
+                if row[j-1] != cur[j]:
                     return False
+            row = cur
         return True
 # @lc code=end
 
