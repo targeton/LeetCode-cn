@@ -2,7 +2,7 @@
 # LeetCode-CN Solutions
 Solved problems of [LeetCode](https://leetcode-cn.com/problemset/all/)
 
-All(255)  Easy(79)  Medium(135)  Hard(41)
+All(256)  Easy(79)  Medium(136)  Hard(41)
 
 Problem|Solution|Level
 :---|:---:|:---:
@@ -253,6 +253,7 @@ Problem|Solution|Level
 [1375.灯泡开关-iii](https://leetcode-cn.com/problems/bulb-switcher-iii/description/)|[python3](./Solutions/1375.灯泡开关-iii.py)|Medium
 [1379.找出克隆二叉树中的相同节点](https://leetcode-cn.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/description/)|[python3](./Solutions/1379.找出克隆二叉树中的相同节点.py)|Medium
 [1392.最长快乐前缀](https://leetcode-cn.com/problems/longest-happy-prefix/description/)|[python3](./Solutions/1392.最长快乐前缀.py)|Hard
+[1404.将二进制表示减到-1-的步骤数](https://leetcode-cn.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/description/)|[python3](./Solutions/1404.将二进制表示减到-1-的步骤数.py)|Medium
 [1453.圆形靶内的最大飞镖数量](https://leetcode-cn.com/problems/maximum-number-of-darts-inside-of-a-circular-dartboard/description/)|[python3](./Solutions/1453.圆形靶内的最大飞镖数量.py)|Hard
 [1456.定长子串中元音的最大数目](https://leetcode-cn.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/description/)|[python3](./Solutions/1456.定长子串中元音的最大数目.py)|Medium
 [1457.二叉树中的伪回文路径](https://leetcode-cn.com/problems/pseudo-palindromic-paths-in-a-binary-tree/description/)|[python3](./Solutions/1457.二叉树中的伪回文路径.py)|Medium
