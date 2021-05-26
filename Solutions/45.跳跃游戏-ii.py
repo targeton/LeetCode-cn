@@ -53,14 +53,12 @@
 # @lc code=start
 class Solution:
     def jump(self, nums: List[int]) -> int:
-        N = len(nums)
-        dp = [float('inf')]*N
-        dp[0] = 0
-        for i in range(N):
-            for j in range(1,nums[i]+1):
-                if i+j >= N:
-                    break
-                dp[i+j] = min(dp[i+j], dp[i] + 1)
-        return dp[N-1]
+        end, maxPos, step = 0, 0, 0
+        for i in range(len(nums)-1):
+            maxPos = max(maxPos, i+nums[i])
+            if i == end:
+                end = maxPos
+                step += 1
+        return step
 # @lc code=end
 
