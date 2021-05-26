@@ -246,7 +246,7 @@ Problem|Solution|Level
 [1287.有序数组中出现次数超过-25-的元素](https://leetcode-cn.com/problems/element-appearing-more-than-25-in-sorted-array/description/)|[python3](./Solutions/1287.有序数组中出现次数超过-25-的元素.py)|Easy
 [1288.删除被覆盖区间](https://leetcode-cn.com/problems/remove-covered-intervals/description/)|[python3](./Solutions/1288.删除被覆盖区间.py)|Medium
 [1300.转变数组后最接近目标值的数组和](https://leetcode-cn.com/problems/sum-of-mutated-array-closest-to-target/description/)|[python3](./Solutions/1300.转变数组后最接近目标值的数组和.py)|Medium
-[1306.跳跃游戏-iii](https://leetcode-cn.com/problems/jump-game-iii/description/)|[csharp](./Solutions/1306.跳跃游戏-iii.cs)|Medium
+[1306.跳跃游戏-iii](https://leetcode-cn.com/problems/jump-game-iii/description/)|[csharp](./Solutions/1306.跳跃游戏-iii.cs) [python3](./Solutions/1306.跳跃游戏-iii.py)|Medium
 [1353.最多可以参加的会议数目](https://leetcode-cn.com/problems/maximum-number-of-events-that-can-be-attended/description/)|[python3](./Solutions/1353.最多可以参加的会议数目.py)|Medium
 [1366.通过投票对团队排名](https://leetcode-cn.com/problems/rank-teams-by-votes/description/)|[python3](./Solutions/1366.通过投票对团队排名.py)|Medium
 [1371.每个元音包含偶数次的最长子字符串](https://leetcode-cn.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/description/)|[python3](./Solutions/1371.每个元音包含偶数次的最长子字符串.py)|Medium
