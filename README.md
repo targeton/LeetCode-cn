@@ -2,7 +2,7 @@
 # LeetCode-CN Solutions
 Solved problems of [LeetCode](https://leetcode-cn.com/problemset/all/)
 
-All(257)  Easy(79)  Medium(137)  Hard(41)
+All(259)  Easy(79)  Medium(139)  Hard(41)
 
 Problem|Solution|Level
 :---|:---:|:---:
@@ -37,6 +37,7 @@ Problem|Solution|Level
 [38.报数](https://leetcode-cn.com/problems/count-and-say/description/)|[csharp](./Solutions/38.报数.cs)|Easy
 [42.接雨水](https://leetcode-cn.com/problems/trapping-rain-water/description/)|[python3](./Solutions/42.接雨水.py)|Hard
 [44.通配符匹配](https://leetcode-cn.com/problems/wildcard-matching/description/)|[csharp](./Solutions/44.通配符匹配.cs)|Hard
+[45.跳跃游戏-ii](https://leetcode-cn.com/problems/jump-game-ii/description/)|[python3](./Solutions/45.跳跃游戏-ii.py)|Medium
 [46.全排列](https://leetcode-cn.com/problems/permutations/description/)|[csharp](./Solutions/46.全排列.cs)|Medium
 [47.全排列-ii](https://leetcode-cn.com/problems/permutations-ii/description/)|[csharp](./Solutions/47.全排列-ii.cs)|Medium
 [51.n皇后](https://leetcode-cn.com/problems/n-queens/description/)|[python3](./Solutions/51.n皇后.py)|Hard
@@ -258,6 +259,7 @@ Problem|Solution|Level
 [1456.定长子串中元音的最大数目](https://leetcode-cn.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/description/)|[python3](./Solutions/1456.定长子串中元音的最大数目.py)|Medium
 [1457.二叉树中的伪回文路径](https://leetcode-cn.com/problems/pseudo-palindromic-paths-in-a-binary-tree/description/)|[python3](./Solutions/1457.二叉树中的伪回文路径.py)|Medium
 [1524.和为奇数的子数组数目](https://leetcode-cn.com/problems/number-of-sub-arrays-with-odd-sum/description/)|[python3](./Solutions/1524.和为奇数的子数组数目.py)|Medium
+[1669.合并两个链表](https://leetcode-cn.com/problems/merge-in-between-linked-lists/description/)|[python3](./Solutions/1669.合并两个链表.py)|Medium
 [1695.删除子数组的最大得分](https://leetcode-cn.com/problems/maximum-erasure-value/description/)|[python3](./Solutions/1695.删除子数组的最大得分.py)|Medium
 [1696.跳跃游戏-vi](https://leetcode-cn.com/problems/jump-game-vi/description/)|[python3](./Solutions/1696.跳跃游戏-vi.py)|Medium
 [1707.与数组中元素的最大异或值](https://leetcode-cn.com/problems/maximum-xor-with-an-element-from-array/description/)|[python3](./Solutions/1707.与数组中元素的最大异或值.py)|Hard
