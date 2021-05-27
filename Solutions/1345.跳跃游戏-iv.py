@@ -82,6 +82,7 @@ class Solution:
         
         N = len(arr)
         target, s, ss, cnt, q = N-1, set([0]), set(), 0, [0]
+        # s用于存储已bfs已搜索过的下标
         while target not in s:
             nq = []
             for pos in q:
@@ -91,6 +92,7 @@ class Solution:
                 if pos+1 not in s and pos+1 < N:
                     nq.append(pos+1)
                     s.add(pos+1)
+                # ss用于存储已搜索过的元素值，防止bfs再次碰到同样元素值时再一次遍历同元素位置
                 if arr[pos] not in ss:
                     for item in dic[arr[pos]]:
                         if item not in s:
