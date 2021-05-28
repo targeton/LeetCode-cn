@@ -2,7 +2,7 @@
 # LeetCode-CN Solutions
 Solved problems of [LeetCode](https://leetcode-cn.com/problemset/all/)
 
-All(260)  Easy(79)  Medium(139)  Hard(42)
+All(261)  Easy(79)  Medium(139)  Hard(43)
 
 Problem|Solution|Level
 :---|:---:|:---:
@@ -247,6 +247,7 @@ Problem|Solution|Level
 [1288.删除被覆盖区间](https://leetcode-cn.com/problems/remove-covered-intervals/description/)|[python3](./Solutions/1288.删除被覆盖区间.py)|Medium
 [1300.转变数组后最接近目标值的数组和](https://leetcode-cn.com/problems/sum-of-mutated-array-closest-to-target/description/)|[python3](./Solutions/1300.转变数组后最接近目标值的数组和.py)|Medium
 [1306.跳跃游戏-iii](https://leetcode-cn.com/problems/jump-game-iii/description/)|[csharp](./Solutions/1306.跳跃游戏-iii.cs) [python3](./Solutions/1306.跳跃游戏-iii.py)|Medium
+[1340.跳跃游戏-v](https://leetcode-cn.com/problems/jump-game-v/description/)|[python3](./Solutions/1340.跳跃游戏-v.py)|Hard
 [1345.跳跃游戏-iv](https://leetcode-cn.com/problems/jump-game-iv/description/)|[python3](./Solutions/1345.跳跃游戏-iv.py)|Hard
 [1353.最多可以参加的会议数目](https://leetcode-cn.com/problems/maximum-number-of-events-that-can-be-attended/description/)|[python3](./Solutions/1353.最多可以参加的会议数目.py)|Medium
 [1366.通过投票对团队排名](https://leetcode-cn.com/problems/rank-teams-by-votes/description/)|[python3](./Solutions/1366.通过投票对团队排名.py)|Medium
