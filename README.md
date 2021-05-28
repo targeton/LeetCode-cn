@@ -2,7 +2,7 @@
 # LeetCode-CN Solutions
 Solved problems of [LeetCode](https://leetcode-cn.com/problemset/all/)
 
-All(261)  Easy(79)  Medium(139)  Hard(43)
+All(262)  Easy(79)  Medium(140)  Hard(43)
 
 Problem|Solution|Level
 :---|:---:|:---:
@@ -267,3 +267,4 @@ Problem|Solution|Level
 [1707.与数组中元素的最大异或值](https://leetcode-cn.com/problems/maximum-xor-with-an-element-from-array/description/)|[python3](./Solutions/1707.与数组中元素的最大异或值.py)|Hard
 [1721.交换链表中的节点](https://leetcode-cn.com/problems/swapping-nodes-in-a-linked-list/description/)|[python3](./Solutions/1721.交换链表中的节点.py)|Medium
 [1722.执行交换操作后的最小汉明距离](https://leetcode-cn.com/problems/minimize-hamming-distance-after-swap-operations/description/)|[python3](./Solutions/1722.执行交换操作后的最小汉明距离.py)|Medium
+[1871.跳跃游戏-vii](https://leetcode-cn.com/problems/jump-game-vii/description/)|[python3](./Solutions/1871.跳跃游戏-vii.py)|Medium
