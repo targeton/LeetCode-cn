@@ -52,13 +52,18 @@
 # @lc code=start
 class Solution:
     def stoneGame(self, piles: List[int]) -> bool:
-
-        def dfs(score, flag, p, q):
-            if p >= q:
-                return score > 0
-            return dfs(score + (piles[p] if flag else -piles[p]), not flag, p+1, q) \
-                or dfs(score + (piles[q] if flag else -piles[q]), not flag, p, q-1)
+        N = len(piles)
+        dp = [[0 for _ in range(N)] for _ in range(N)]
+        for i in range(N):
+            dp[i][i] = -piles[i]
+        for span in range(1,N):
+            for i in range(N-span):
+                j = i+span
+                if span % 2:
+                    dp[i][j] = max(dp[i+1][j]+piles[i], dp[i][j-1]+piles[j])
+                else:
+                    dp[i][j] = min(dp[i+1][j]-piles[i], dp[i][j-1]-piles[j])
+        return dp[0][N-1] > 0
         
-        return dfs(0, True, 0, len(piles)-1)
 # @lc code=end
 
