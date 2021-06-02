@@ -2,7 +2,7 @@
 # LeetCode-CN Solutions
 Solved problems of [LeetCode](https://leetcode-cn.com/problemset/all/)
 
-All(263)  Easy(79)  Medium(141)  Hard(43)
+All(264)  Easy(79)  Medium(141)  Hard(44)
 
 Problem|Solution|Level
 :---|:---:|:---:
@@ -237,7 +237,7 @@ Problem|Solution|Level
 [1125.最小的必要团队](https://leetcode-cn.com/problems/smallest-sufficient-team/description/)|[python3](./Solutions/1125.最小的必要团队.py)|Hard
 [1130.叶值的最小代价生成树](https://leetcode-cn.com/problems/minimum-cost-tree-from-leaf-values/description/)|[csharp](./Solutions/1130.叶值的最小代价生成树.cs)|Medium
 [1137.第-n-个泰波那契数](https://leetcode-cn.com/problems/n-th-tribonacci-number/description/)|[python3](./Solutions/1137.第-n-个泰波那契数.py)|Easy
-[1140.石子游戏-ii](https://leetcode-cn.com/problems/stone-game-ii/description/)|[csharp](./Solutions/1140.石子游戏-ii.cs)|Medium
+[1140.石子游戏-ii](https://leetcode-cn.com/problems/stone-game-ii/description/)|[csharp](./Solutions/1140.石子游戏-ii.cs) [python3](./Solutions/1140.石子游戏-ii.py)|Medium
 [1143.最长公共子序列](https://leetcode-cn.com/problems/longest-common-subsequence/description/)|[python3](./Solutions/1143.最长公共子序列.py)|Medium
 [1144.递减元素使数组呈锯齿状](https://leetcode-cn.com/problems/decrease-elements-to-make-array-zigzag/description/)|[python3](./Solutions/1144.递减元素使数组呈锯齿状.py)|Medium
 [1227.飞机座位分配概率](https://leetcode-cn.com/problems/airplane-seat-assignment-probability/description/)|[python3](./Solutions/1227.飞机座位分配概率.py)|Medium
@@ -257,6 +257,7 @@ Problem|Solution|Level
 [1379.找出克隆二叉树中的相同节点](https://leetcode-cn.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/description/)|[python3](./Solutions/1379.找出克隆二叉树中的相同节点.py)|Medium
 [1392.最长快乐前缀](https://leetcode-cn.com/problems/longest-happy-prefix/description/)|[python3](./Solutions/1392.最长快乐前缀.py)|Hard
 [1404.将二进制表示减到-1-的步骤数](https://leetcode-cn.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/description/)|[python3](./Solutions/1404.将二进制表示减到-1-的步骤数.py)|Medium
+[1406.石子游戏-iii](https://leetcode-cn.com/problems/stone-game-iii/description/)|[python3](./Solutions/1406.石子游戏-iii.py)|Hard
 [1453.圆形靶内的最大飞镖数量](https://leetcode-cn.com/problems/maximum-number-of-darts-inside-of-a-circular-dartboard/description/)|[python3](./Solutions/1453.圆形靶内的最大飞镖数量.py)|Hard
 [1456.定长子串中元音的最大数目](https://leetcode-cn.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/description/)|[python3](./Solutions/1456.定长子串中元音的最大数目.py)|Medium
 [1457.二叉树中的伪回文路径](https://leetcode-cn.com/problems/pseudo-palindromic-paths-in-a-binary-tree/description/)|[python3](./Solutions/1457.二叉树中的伪回文路径.py)|Medium

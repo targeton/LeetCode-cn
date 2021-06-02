@@ -55,14 +55,11 @@ class Solution:
         N = len(piles)
         dp = [[0 for _ in range(N)] for _ in range(N)]
         for i in range(N):
-            dp[i][i] = -piles[i]
+            dp[i][i] = piles[i]
         for span in range(1,N):
             for i in range(N-span):
                 j = i+span
-                if span % 2:
-                    dp[i][j] = max(dp[i+1][j]+piles[i], dp[i][j-1]+piles[j])
-                else:
-                    dp[i][j] = min(dp[i+1][j]-piles[i], dp[i][j-1]-piles[j])
+                dp[i][j] = max(piles[i]-dp[i+1][j], piles[j]-dp[i][j-1])
         return dp[0][N-1] > 0
         
 # @lc code=end
