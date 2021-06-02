@@ -49,25 +49,19 @@
 # @lc code=start
 class Solution:
     def stoneGameII(self, piles: List[int]) -> int:
-        N, memo = len(piles), dict()
-        s = [0]*N
-        s[-1] = piles[-1]
-        for i in range(N-2,-1,-1):
-            s[i] = piles[i] + s[i+1]
-        
-        def dfs(i,M):
-            if (i,M) in memo:
-                return memo[(i,M)]
-            if i >= N:
-                return 0
-            if i+2*M >= N:
-                return s[i]
-            best = 0
-            for x in range(1,2*M+1):
-                best = max(best, s[i]-dfs(i+x, max(x,M)))
-            memo[(i,M)] = best
-            return best
-        return dfs(0,1)
+        N = len(piles)
+
+        dp = [[0 for _ in range(N+1)] for _ in range(N)]
+        s = 0
+        for i in range(N-1, -1, -1):
+            s += piles[i]
+            for M in range(1, N+1):
+                if i+2*M >= N:
+                    dp[i][M] = s
+                else:
+                    for x in range(1, 2*M+1):
+                        dp[i][M] = max(dp[i][M], s-dp[i+x][max(x, M)])
+        return dp[0][1]
         
 # @lc code=end
 
