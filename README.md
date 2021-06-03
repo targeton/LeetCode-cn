@@ -2,7 +2,7 @@
 # LeetCode-CN Solutions
 Solved problems of [LeetCode](https://leetcode-cn.com/problemset/all/)
 
-All(265)  Easy(79)  Medium(141)  Hard(45)
+All(266)  Easy(79)  Medium(141)  Hard(46)
 
 Problem|Solution|Level
 :---|:---:|:---:
@@ -263,6 +263,7 @@ Problem|Solution|Level
 [1457.二叉树中的伪回文路径](https://leetcode-cn.com/problems/pseudo-palindromic-paths-in-a-binary-tree/description/)|[python3](./Solutions/1457.二叉树中的伪回文路径.py)|Medium
 [1510.石子游戏-iv](https://leetcode-cn.com/problems/stone-game-iv/description/)|[python3](./Solutions/1510.石子游戏-iv.py)|Hard
 [1524.和为奇数的子数组数目](https://leetcode-cn.com/problems/number-of-sub-arrays-with-odd-sum/description/)|[python3](./Solutions/1524.和为奇数的子数组数目.py)|Medium
+[1563.石子游戏-v](https://leetcode-cn.com/problems/stone-game-v/description/)|[python3](./Solutions/1563.石子游戏-v.py)|Hard
 [1654.到家的最少跳跃次数](https://leetcode-cn.com/problems/minimum-jumps-to-reach-home/description/)|[python3](./Solutions/1654.到家的最少跳跃次数.py)|Medium
 [1669.合并两个链表](https://leetcode-cn.com/problems/merge-in-between-linked-lists/description/)|[python3](./Solutions/1669.合并两个链表.py)|Medium
 [1695.删除子数组的最大得分](https://leetcode-cn.com/problems/maximum-erasure-value/description/)|[python3](./Solutions/1695.删除子数组的最大得分.py)|Medium
