@@ -2,7 +2,7 @@
 # LeetCode-CN Solutions
 Solved problems of [LeetCode](https://leetcode-cn.com/problemset/all/)
 
-All(264)  Easy(79)  Medium(141)  Hard(44)
+All(265)  Easy(79)  Medium(141)  Hard(45)
 
 Problem|Solution|Level
 :---|:---:|:---:
@@ -261,6 +261,7 @@ Problem|Solution|Level
 [1453.圆形靶内的最大飞镖数量](https://leetcode-cn.com/problems/maximum-number-of-darts-inside-of-a-circular-dartboard/description/)|[python3](./Solutions/1453.圆形靶内的最大飞镖数量.py)|Hard
 [1456.定长子串中元音的最大数目](https://leetcode-cn.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/description/)|[python3](./Solutions/1456.定长子串中元音的最大数目.py)|Medium
 [1457.二叉树中的伪回文路径](https://leetcode-cn.com/problems/pseudo-palindromic-paths-in-a-binary-tree/description/)|[python3](./Solutions/1457.二叉树中的伪回文路径.py)|Medium
+[1510.石子游戏-iv](https://leetcode-cn.com/problems/stone-game-iv/description/)|[python3](./Solutions/1510.石子游戏-iv.py)|Hard
 [1524.和为奇数的子数组数目](https://leetcode-cn.com/problems/number-of-sub-arrays-with-odd-sum/description/)|[python3](./Solutions/1524.和为奇数的子数组数目.py)|Medium
 [1654.到家的最少跳跃次数](https://leetcode-cn.com/problems/minimum-jumps-to-reach-home/description/)|[python3](./Solutions/1654.到家的最少跳跃次数.py)|Medium
 [1669.合并两个链表](https://leetcode-cn.com/problems/merge-in-between-linked-lists/description/)|[python3](./Solutions/1669.合并两个链表.py)|Medium
