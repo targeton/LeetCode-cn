@@ -2,7 +2,7 @@
 # LeetCode-CN Solutions
 Solved problems of [LeetCode](https://leetcode-cn.com/problemset/all/)
 
-All(267)  Easy(79)  Medium(142)  Hard(46)
+All(268)  Easy(79)  Medium(143)  Hard(46)
 
 Problem|Solution|Level
 :---|:---:|:---:
@@ -267,6 +267,7 @@ Problem|Solution|Level
 [1654.到家的最少跳跃次数](https://leetcode-cn.com/problems/minimum-jumps-to-reach-home/description/)|[python3](./Solutions/1654.到家的最少跳跃次数.py)|Medium
 [1669.合并两个链表](https://leetcode-cn.com/problems/merge-in-between-linked-lists/description/)|[python3](./Solutions/1669.合并两个链表.py)|Medium
 [1686.石子游戏-vi](https://leetcode-cn.com/problems/stone-game-vi/description/)|[python3](./Solutions/1686.石子游戏-vi.py)|Medium
+[1690.石子游戏-vii](https://leetcode-cn.com/problems/stone-game-vii/description/)|[python3](./Solutions/1690.石子游戏-vii.py)|Medium
 [1695.删除子数组的最大得分](https://leetcode-cn.com/problems/maximum-erasure-value/description/)|[python3](./Solutions/1695.删除子数组的最大得分.py)|Medium
 [1696.跳跃游戏-vi](https://leetcode-cn.com/problems/jump-game-vi/description/)|[python3](./Solutions/1696.跳跃游戏-vi.py)|Medium
 [1707.与数组中元素的最大异或值](https://leetcode-cn.com/problems/maximum-xor-with-an-element-from-array/description/)|[python3](./Solutions/1707.与数组中元素的最大异或值.py)|Hard
