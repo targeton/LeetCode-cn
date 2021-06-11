@@ -2,7 +2,7 @@
 # LeetCode-CN Solutions
 Solved problems of [LeetCode](https://leetcode-cn.com/problemset/all/)
 
-All(269)  Easy(79)  Medium(143)  Hard(47)
+All(270)  Easy(79)  Medium(144)  Hard(47)
 
 Problem|Solution|Level
 :---|:---:|:---:
@@ -163,6 +163,7 @@ Problem|Solution|Level
 [407.接雨水-ii](https://leetcode-cn.com/problems/trapping-rain-water-ii/description/)|[python3](./Solutions/407.接雨水-ii.py)|Hard
 [410.分割数组的最大值](https://leetcode-cn.com/problems/split-array-largest-sum/description/)|[csharp](./Solutions/410.分割数组的最大值.cs)|Hard
 [421.数组中两个数的最大异或值](https://leetcode-cn.com/problems/maximum-xor-of-two-numbers-in-an-array/description/)|[python3](./Solutions/421.数组中两个数的最大异或值.py)|Medium
+[423.从英文中重建数字](https://leetcode-cn.com/problems/reconstruct-original-digits-from-english/description/)|[python3](./Solutions/423.从英文中重建数字.py)|Medium
 [424.替换后的最长重复字符](https://leetcode-cn.com/problems/longest-repeating-character-replacement/description/)|[python3](./Solutions/424.替换后的最长重复字符.py)|Medium
 [441.排列硬币](https://leetcode-cn.com/problems/arranging-coins/description/)|[python3](./Solutions/441.排列硬币.py)|Easy
 [447.回旋镖的数量](https://leetcode-cn.com/problems/number-of-boomerangs/description/)|[python3](./Solutions/447.回旋镖的数量.py)|Medium
