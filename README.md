@@ -2,7 +2,7 @@
 # LeetCode-CN Solutions
 Solved problems of [LeetCode](https://leetcode-cn.com/problemset/all/)
 
-All(270)  Easy(79)  Medium(144)  Hard(47)
+All(271)  Easy(79)  Medium(145)  Hard(47)
 
 Problem|Solution|Level
 :---|:---:|:---:
@@ -208,6 +208,7 @@ Problem|Solution|Level
 [781.森林中的兔子](https://leetcode-cn.com/problems/rabbits-in-forest/description/)|[python3](./Solutions/781.森林中的兔子.py)|Medium
 [789.逃脱阻碍者](https://leetcode-cn.com/problems/escape-the-ghosts/description/)|[python3](./Solutions/789.逃脱阻碍者.py)|Medium
 [807.保持城市天际线](https://leetcode-cn.com/problems/max-increase-to-keep-city-skyline/description/)|[python3](./Solutions/807.保持城市天际线.py)|Medium
+[823.带因子的二叉树](https://leetcode-cn.com/problems/binary-trees-with-factors/description/)|[python3](./Solutions/823.带因子的二叉树.py)|Medium
 [836.矩形重叠](https://leetcode-cn.com/problems/rectangle-overlap/description/)|[python3](./Solutions/836.矩形重叠.py)|Easy
 [837.新-21-点](https://leetcode-cn.com/problems/new-21-game/description/)|[python3](./Solutions/837.新-21-点.py)|Medium
 [838.推多米诺](https://leetcode-cn.com/problems/push-dominoes/description/)|[python3](./Solutions/838.推多米诺.py)|Medium
