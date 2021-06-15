@@ -2,7 +2,7 @@
 # LeetCode-CN Solutions
 Solved problems of [LeetCode](https://leetcode-cn.com/problemset/all/)
 
-All(271)  Easy(79)  Medium(145)  Hard(47)
+All(272)  Easy(79)  Medium(145)  Hard(48)
 
 Problem|Solution|Level
 :---|:---:|:---:
@@ -264,6 +264,7 @@ Problem|Solution|Level
 [1456.定长子串中元音的最大数目](https://leetcode-cn.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/description/)|[python3](./Solutions/1456.定长子串中元音的最大数目.py)|Medium
 [1457.二叉树中的伪回文路径](https://leetcode-cn.com/problems/pseudo-palindromic-paths-in-a-binary-tree/description/)|[python3](./Solutions/1457.二叉树中的伪回文路径.py)|Medium
 [1483.树节点的第-k-个祖先](https://leetcode-cn.com/problems/kth-ancestor-of-a-tree-node/description/)|[python3](./Solutions/1483.树节点的第-k-个祖先.py)|Hard
+[1499.满足不等式的最大值](https://leetcode-cn.com/problems/max-value-of-equation/description/)|[python3](./Solutions/1499.满足不等式的最大值.py)|Hard
 [1510.石子游戏-iv](https://leetcode-cn.com/problems/stone-game-iv/description/)|[python3](./Solutions/1510.石子游戏-iv.py)|Hard
 [1524.和为奇数的子数组数目](https://leetcode-cn.com/problems/number-of-sub-arrays-with-odd-sum/description/)|[python3](./Solutions/1524.和为奇数的子数组数目.py)|Medium
 [1563.石子游戏-v](https://leetcode-cn.com/problems/stone-game-v/description/)|[python3](./Solutions/1563.石子游戏-v.py)|Hard
