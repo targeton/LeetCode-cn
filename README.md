@@ -2,7 +2,7 @@
 # LeetCode-CN Solutions
 Solved problems of [LeetCode](https://leetcode-cn.com/problemset/all/)
 
-All(275)  Easy(80)  Medium(146)  Hard(49)
+All(276)  Easy(81)  Medium(146)  Hard(49)
 
 Problem|Solution|Level
 :---|:---:|:---:
@@ -194,6 +194,7 @@ Problem|Solution|Level
 [674.最长连续递增序列](https://leetcode-cn.com/problems/longest-continuous-increasing-subsequence/description/)|[python3](./Solutions/674.最长连续递增序列.py)|Easy
 [678.有效的括号字符串](https://leetcode-cn.com/problems/valid-parenthesis-string/description/)|[python3](./Solutions/678.有效的括号字符串.py)|Medium
 [684.冗余连接](https://leetcode-cn.com/problems/redundant-connection/description/)|[python3](./Solutions/684.冗余连接.py)|Medium
+[697.数组的度](https://leetcode-cn.com/problems/degree-of-an-array/description/)|[python3](./Solutions/697.数组的度.py)|Easy
 [703.数据流中的第k大元素](https://leetcode-cn.com/problems/kth-largest-element-in-a-stream/description/)|[python3](./Solutions/703.数据流中的第k大元素.py)|Easy
 [704.二分查找](https://leetcode-cn.com/problems/binary-search/description/)|[golang](./Solutions/704.二分查找.go)|Easy
 [714.买卖股票的最佳时机含手续费](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/description/)|[python3](./Solutions/714.买卖股票的最佳时机含手续费.py)|Medium
