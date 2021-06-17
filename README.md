@@ -2,7 +2,7 @@
 # LeetCode-CN Solutions
 Solved problems of [LeetCode](https://leetcode-cn.com/problemset/all/)
 
-All(273)  Easy(79)  Medium(146)  Hard(48)
+All(274)  Easy(79)  Medium(146)  Hard(49)
 
 Problem|Solution|Level
 :---|:---:|:---:
@@ -207,6 +207,7 @@ Problem|Solution|Level
 [778.水位上升的泳池中游泳](https://leetcode-cn.com/problems/swim-in-rising-water/description/)|[python3](./Solutions/778.水位上升的泳池中游泳.py)|Hard
 [781.森林中的兔子](https://leetcode-cn.com/problems/rabbits-in-forest/description/)|[python3](./Solutions/781.森林中的兔子.py)|Medium
 [789.逃脱阻碍者](https://leetcode-cn.com/problems/escape-the-ghosts/description/)|[python3](./Solutions/789.逃脱阻碍者.py)|Medium
+[798.得分最高的最小轮调](https://leetcode-cn.com/problems/smallest-rotation-with-highest-score/description/)|[python3](./Solutions/798.得分最高的最小轮调.py)|Hard
 [807.保持城市天际线](https://leetcode-cn.com/problems/max-increase-to-keep-city-skyline/description/)|[python3](./Solutions/807.保持城市天际线.py)|Medium
 [823.带因子的二叉树](https://leetcode-cn.com/problems/binary-trees-with-factors/description/)|[python3](./Solutions/823.带因子的二叉树.py)|Medium
 [836.矩形重叠](https://leetcode-cn.com/problems/rectangle-overlap/description/)|[python3](./Solutions/836.矩形重叠.py)|Easy
