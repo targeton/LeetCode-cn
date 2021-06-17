@@ -63,22 +63,25 @@ class Solution:
         N = len(nums)
         diff = [0 for _ in range(N+1)]
         for i,n in enumerate(nums):
-            if n==N:
-                continue
-            if n <= i:
+            left, right = (i+1)%N, (i-n+1)%N
+            diff[left] += 1
+            diff[right] -= 1
+            if left > right:
                 diff[0] += 1
-                diff[i-n+1] -= 1
-                diff[i+1] += 1
-                diff[N] -= 1
-                # for k in range(i-n+1):
-                #     diff[k] += 1
-                # for k in range(i+1, N):
-                #     diff[k] += 1
-            else:
-                diff[i+1] += 1
-                diff[i+N-n+1] -= 1
-                # for k in range(i+1, i+N-n+1):
-                #     diff[k] += 1
+            # if n <= i:
+            #     diff[0] += 1
+            #     diff[i-n+1] -= 1
+            #     diff[i+1] += 1
+            #     diff[N] -= 1
+            #     # for k in range(i-n+1):
+            #     #     diff[k] += 1
+            #     # for k in range(i+1, N):
+            #     #     diff[k] += 1
+            # else:
+            #     diff[i+1] += 1
+            #     diff[i+N-n+1] -= 1
+            #     # for k in range(i+1, i+N-n+1):
+            #     #     diff[k] += 1
         ma, pos, tmp = 0, 0, 0
         for i in range(N):
             tmp += diff[i]
