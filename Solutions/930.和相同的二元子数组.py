@@ -55,15 +55,12 @@
 class Solution:
     def numSubarraysWithSum(self, nums: List[int], goal: int) -> int:
         dic = collections.defaultdict(int)
-        ans = [0]*len(nums)
+        ans = 0
         tmp = 0
         for i,n in enumerate(nums):
-            tmp += n
-            if tmp >= goal:
-                ans[i] = dic[tmp-goal]
-                if tmp == goal:
-                    ans[i] += 1
             dic[tmp] += 1
-        return sum(ans)
+            tmp += n
+            ans += dic[tmp-goal]
+        return ans
 # @lc code=end
 
