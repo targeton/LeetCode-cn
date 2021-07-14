@@ -2,7 +2,7 @@
 # LeetCode-CN Solutions
 Solved problems of [LeetCode](https://leetcode-cn.com/problemset/all/)
 
-All(278)  Easy(82)  Medium(147)  Hard(49)
+All(279)  Easy(82)  Medium(148)  Hard(49)
 
 Problem|Solution|Level
 :---|:---:|:---:
@@ -282,5 +282,6 @@ Problem|Solution|Level
 [1721.交换链表中的节点](https://leetcode-cn.com/problems/swapping-nodes-in-a-linked-list/description/)|[python3](./Solutions/1721.交换链表中的节点.py)|Medium
 [1722.执行交换操作后的最小汉明距离](https://leetcode-cn.com/problems/minimize-hamming-distance-after-swap-operations/description/)|[python3](./Solutions/1722.执行交换操作后的最小汉明距离.py)|Medium
 [1790.仅执行一次字符串交换能否使两个字符串相等](https://leetcode-cn.com/problems/check-if-one-string-swap-can-make-strings-equal/description/)|[python3](./Solutions/1790.仅执行一次字符串交换能否使两个字符串相等.py)|Easy
+[1818.绝对差值和](https://leetcode-cn.com/problems/minimum-absolute-sum-difference/description/)|[python3](./Solutions/1818.绝对差值和.py)|Medium
 [1871.跳跃游戏-vii](https://leetcode-cn.com/problems/jump-game-vii/description/)|[python3](./Solutions/1871.跳跃游戏-vii.py)|Medium
 [91710.主要元素](https://leetcode-cn.com/problems/find-majority-element-lcci/)|[python3](./Solutions/91710.主要元素.py)|Easy
