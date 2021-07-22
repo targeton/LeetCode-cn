@@ -2,7 +2,7 @@
 # LeetCode-CN Solutions
 Solved problems of [LeetCode](https://leetcode-cn.com/problemset/all/)
 
-All(279)  Easy(82)  Medium(148)  Hard(49)
+All(280)  Easy(82)  Medium(149)  Hard(49)
 
 Problem|Solution|Level
 :---|:---:|:---:
@@ -83,6 +83,7 @@ Problem|Solution|Level
 [134.加油站](https://leetcode-cn.com/problems/gas-station/description/)|[python3](./Solutions/134.加油站.py)|Medium
 [136.只出现一次的数字](https://leetcode-cn.com/problems/single-number/description/)|[csharp](./Solutions/136.只出现一次的数字.cs)|Easy
 [137.只出现一次的数字-ii](https://leetcode-cn.com/problems/single-number-ii/description/)|[csharp](./Solutions/137.只出现一次的数字-ii.cs)|Medium
+[138.复制带随机指针的链表](https://leetcode-cn.com/problems/copy-list-with-random-pointer/description/)|[python3](./Solutions/138.复制带随机指针的链表.py)|Medium
 [139.单词拆分](https://leetcode-cn.com/problems/word-break/description/)|[csharp](./Solutions/139.单词拆分.cs)|Medium
 [140.单词拆分-ii](https://leetcode-cn.com/problems/word-break-ii/description/)|[csharp](./Solutions/140.单词拆分-ii.cs)|Hard
 [141.环形链表](https://leetcode-cn.com/problems/linked-list-cycle/description/)|[csharp](./Solutions/141.环形链表.cs)|Easy
