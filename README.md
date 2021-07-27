@@ -2,7 +2,7 @@
 # LeetCode-CN Solutions
 Solved problems of [LeetCode](https://leetcode-cn.com/problemset/all/)
 
-All(280)  Easy(82)  Medium(149)  Hard(49)
+All(281)  Easy(83)  Medium(149)  Hard(49)
 
 Problem|Solution|Level
 :---|:---:|:---:
@@ -191,6 +191,7 @@ Problem|Solution|Level
 [654.最大二叉树](https://leetcode-cn.com/problems/maximum-binary-tree/description/)|[python3](./Solutions/654.最大二叉树.py)|Medium
 [658.找到-k-个最接近的元素](https://leetcode-cn.com/problems/find-k-closest-elements/description/)|[csharp](./Solutions/658.找到-k-个最接近的元素.cs)|Medium
 [662.二叉树最大宽度](https://leetcode-cn.com/problems/maximum-width-of-binary-tree/description/)|[python3](./Solutions/662.二叉树最大宽度.py)|Medium
+[671.二叉树中第二小的节点](https://leetcode-cn.com/problems/second-minimum-node-in-a-binary-tree/description/)|[python3](./Solutions/671.二叉树中第二小的节点.py)|Easy
 [672.灯泡开关-ⅱ](https://leetcode-cn.com/problems/bulb-switcher-ii/description/)|[python3](./Solutions/672.灯泡开关-ⅱ.py)|Medium
 [674.最长连续递增序列](https://leetcode-cn.com/problems/longest-continuous-increasing-subsequence/description/)|[python3](./Solutions/674.最长连续递增序列.py)|Easy
 [678.有效的括号字符串](https://leetcode-cn.com/problems/valid-parenthesis-string/description/)|[python3](./Solutions/678.有效的括号字符串.py)|Medium
