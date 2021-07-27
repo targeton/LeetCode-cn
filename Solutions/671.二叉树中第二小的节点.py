@@ -59,16 +59,20 @@
 #         self.right = right
 class Solution:
     def findSecondMinimumValue(self, root: TreeNode) -> int:
-        def dfs(node, val):
-            if not node.left:
-                return float('inf')
-            if node.left.val == val and node.right.val == val:
-                return min(dfs(node.left, val), dfs(node.right, val))
-            if node.left.val == val:
-                return min(dfs(node.left, val), node.right.val)
-            return min(node.left.val, dfs(node.right, val))
-
-        tmp = dfs(root, root.val)
-        return -1 if tmp == float('inf') else tmp
+        ans, rootval = -1, root.val
+        
+        def dfs(node):
+            nonlocal ans
+            if not node:
+                return
+            if ans != -1 and node.val > ans:
+                return
+            if node.val > rootval:
+                ans = node.val
+            dfs(node.left)
+            dfs(node.right)
+            
+        dfs(root)
+        return ans
 # @lc code=end
 
