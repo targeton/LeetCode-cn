@@ -2,7 +2,7 @@
 # LeetCode-CN Solutions
 Solved problems of [LeetCode](https://leetcode-cn.com/problemset/all/)
 
-All(283)  Easy(84)  Medium(149)  Hard(50)
+All(284)  Easy(84)  Medium(150)  Hard(50)
 
 Problem|Solution|Level
 :---|:---:|:---:
@@ -287,5 +287,6 @@ Problem|Solution|Level
 [1818.绝对差值和](https://leetcode-cn.com/problems/minimum-absolute-sum-difference/description/)|[python3](./Solutions/1818.绝对差值和.py)|Medium
 [1871.跳跃游戏-vii](https://leetcode-cn.com/problems/jump-game-vii/description/)|[python3](./Solutions/1871.跳跃游戏-vii.py)|Medium
 [1952.三除数](https://leetcode-cn.com/problems/three-divisors/description/)|[python3](./Solutions/1952.三除数.py)|Easy
+[1953.你可以工作的最大周数](https://leetcode-cn.com/problems/maximum-number-of-weeks-for-which-you-can-work/description/)|[python3](./Solutions/1953.你可以工作的最大周数.py)|Medium
 [1955.统计特殊子序列的数目](https://leetcode-cn.com/problems/count-number-of-special-subsequences/description/)|[python3](./Solutions/1955.统计特殊子序列的数目.py)|Hard
 [91710.主要元素](https://leetcode-cn.com/problems/find-majority-element-lcci/)|[python3](./Solutions/91710.主要元素.py)|Easy
