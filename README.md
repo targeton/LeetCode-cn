@@ -2,7 +2,7 @@
 # LeetCode-CN Solutions
 Solved problems of [LeetCode](https://leetcode-cn.com/problemset/all/)
 
-All(281)  Easy(83)  Medium(149)  Hard(49)
+All(282)  Easy(83)  Medium(149)  Hard(50)
 
 Problem|Solution|Level
 :---|:---:|:---:
@@ -286,4 +286,5 @@ Problem|Solution|Level
 [1790.仅执行一次字符串交换能否使两个字符串相等](https://leetcode-cn.com/problems/check-if-one-string-swap-can-make-strings-equal/description/)|[python3](./Solutions/1790.仅执行一次字符串交换能否使两个字符串相等.py)|Easy
 [1818.绝对差值和](https://leetcode-cn.com/problems/minimum-absolute-sum-difference/description/)|[python3](./Solutions/1818.绝对差值和.py)|Medium
 [1871.跳跃游戏-vii](https://leetcode-cn.com/problems/jump-game-vii/description/)|[python3](./Solutions/1871.跳跃游戏-vii.py)|Medium
+[1955.统计特殊子序列的数目](https://leetcode-cn.com/problems/count-number-of-special-subsequences/description/)|[python3](./Solutions/1955.统计特殊子序列的数目.py)|Hard
 [91710.主要元素](https://leetcode-cn.com/problems/find-majority-element-lcci/)|[python3](./Solutions/91710.主要元素.py)|Easy
