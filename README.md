@@ -2,7 +2,7 @@
 # LeetCode-CN Solutions
 Solved problems of [LeetCode](https://leetcode-cn.com/problemset/all/)
 
-All(286)  Easy(84)  Medium(152)  Hard(50)
+All(288)  Easy(84)  Medium(154)  Hard(50)
 
 Problem|Solution|Level
 :---|:---:|:---:
@@ -153,6 +153,7 @@ Problem|Solution|Level
 [350.两个数组的交集-ii](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/description/)|[csharp](./Solutions/350.两个数组的交集-ii.cs)|Easy
 [367.有效的完全平方数](https://leetcode-cn.com/problems/valid-perfect-square/description/)|[csharp](./Solutions/367.有效的完全平方数.cs)|Easy
 [368.最大整除子集](https://leetcode-cn.com/problems/largest-divisible-subset/description/)|[python3](./Solutions/368.最大整除子集.py)|Medium
+[371.两整数之和](https://leetcode-cn.com/problems/sum-of-two-integers/description/)|[python3](./Solutions/371.两整数之和.py)|Medium
 [374.猜数字大小](https://leetcode-cn.com/problems/guess-number-higher-or-lower/description/)|[python](./Solutions/374.猜数字大小.py)|Easy
 [375.猜数字大小-ii](https://leetcode-cn.com/problems/guess-number-higher-or-lower-ii/description/)|[python](./Solutions/375.猜数字大小-ii.py)|Medium
 [389.找不同](https://leetcode-cn.com/problems/find-the-difference/description/)|[python3](./Solutions/389.找不同.py)|Easy
@@ -210,6 +211,7 @@ Problem|Solution|Level
 [775.全局倒置与局部倒置](https://leetcode-cn.com/problems/global-and-local-inversions/description/)|[python3](./Solutions/775.全局倒置与局部倒置.py)|Medium
 [778.水位上升的泳池中游泳](https://leetcode-cn.com/problems/swim-in-rising-water/description/)|[python3](./Solutions/778.水位上升的泳池中游泳.py)|Hard
 [781.森林中的兔子](https://leetcode-cn.com/problems/rabbits-in-forest/description/)|[python3](./Solutions/781.森林中的兔子.py)|Medium
+[787.k-站中转内最便宜的航班](https://leetcode-cn.com/problems/cheapest-flights-within-k-stops/description/)|[python3](./Solutions/787.k-站中转内最便宜的航班.py)|Medium
 [789.逃脱阻碍者](https://leetcode-cn.com/problems/escape-the-ghosts/description/)|[python3](./Solutions/789.逃脱阻碍者.py)|Medium
 [798.得分最高的最小轮调](https://leetcode-cn.com/problems/smallest-rotation-with-highest-score/description/)|[python3](./Solutions/798.得分最高的最小轮调.py)|Hard
 [807.保持城市天际线](https://leetcode-cn.com/problems/max-increase-to-keep-city-skyline/description/)|[python3](./Solutions/807.保持城市天际线.py)|Medium
