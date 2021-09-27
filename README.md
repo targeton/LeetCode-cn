@@ -2,7 +2,7 @@
 # LeetCode-CN Solutions
 Solved problems of [LeetCode](https://leetcode-cn.com/problemset/all/)
 
-All(288)  Easy(84)  Medium(154)  Hard(50)
+All(289)  Easy(84)  Medium(155)  Hard(50)
 
 Problem|Solution|Level
 :---|:---:|:---:
@@ -60,6 +60,7 @@ Problem|Solution|Level
 [83.删除排序链表中的重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/description/)|[golang](./Solutions/83.删除排序链表中的重复元素.go)|Easy
 [84.柱状图中最大的矩形](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/description/)|[golang](./Solutions/84.柱状图中最大的矩形.go)|Hard
 [85.最大矩形](https://leetcode-cn.com/problems/maximal-rectangle/description/)|[golang](./Solutions/85.最大矩形.go)|Hard
+[91.解码方法](https://leetcode-cn.com/problems/decode-ways/description/)|[python3](./Solutions/91.解码方法.py)|Medium
 [92.反转链表-ii](https://leetcode-cn.com/problems/reverse-linked-list-ii/description/)|[csharp](./Solutions/92.反转链表-ii.cs)|Medium
 [95.不同的二叉搜索树-ii](https://leetcode-cn.com/problems/unique-binary-search-trees-ii/description/)|[csharp](./Solutions/95.不同的二叉搜索树-ii.cs)|Medium
 [96.不同的二叉搜索树](https://leetcode-cn.com/problems/unique-binary-search-trees/description/)|[csharp](./Solutions/96.不同的二叉搜索树.cs)|Medium
