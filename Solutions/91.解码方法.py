@@ -90,7 +90,7 @@ class Solution:
         for i in range(N):
             if '1' <= s[i] <= '9':
                 dp[i+1] += dp[i]
-            if i > 0 and (s[i-1] == '1' or (s[i-1] == '2' and '0' <= s[i] <= '6')):
+            if i > 0 and s[i-1] != '0' and int(s[i-1:i+1]) <= 26:
                 dp[i+1] += dp[i-1]
         return dp[-1]        
 
