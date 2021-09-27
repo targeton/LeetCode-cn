@@ -2,7 +2,7 @@
 # LeetCode-CN Solutions
 Solved problems of [LeetCode](https://leetcode-cn.com/problemset/all/)
 
-All(290)  Easy(84)  Medium(155)  Hard(51)
+All(291)  Easy(84)  Medium(156)  Hard(51)
 
 Problem|Solution|Level
 :---|:---:|:---:
@@ -169,6 +169,7 @@ Problem|Solution|Level
 [423.从英文中重建数字](https://leetcode-cn.com/problems/reconstruct-original-digits-from-english/description/)|[python3](./Solutions/423.从英文中重建数字.py)|Medium
 [424.替换后的最长重复字符](https://leetcode-cn.com/problems/longest-repeating-character-replacement/description/)|[python3](./Solutions/424.替换后的最长重复字符.py)|Medium
 [430.扁平化多级双向链表](https://leetcode-cn.com/problems/flatten-a-multilevel-doubly-linked-list/description/)|[python3](./Solutions/430.扁平化多级双向链表.py)|Medium
+[437.路径总和-iii](https://leetcode-cn.com/problems/path-sum-iii/description/)|[python3](./Solutions/437.路径总和-iii.py)|Medium
 [441.排列硬币](https://leetcode-cn.com/problems/arranging-coins/description/)|[python3](./Solutions/441.排列硬币.py)|Easy
 [447.回旋镖的数量](https://leetcode-cn.com/problems/number-of-boomerangs/description/)|[python3](./Solutions/447.回旋镖的数量.py)|Medium
 [452.用最少数量的箭引爆气球](https://leetcode-cn.com/problems/minimum-number-of-arrows-to-burst-balloons/description/)|[python3](./Solutions/452.用最少数量的箭引爆气球.py)|Medium
