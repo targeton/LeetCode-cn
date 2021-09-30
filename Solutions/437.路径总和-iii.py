@@ -57,19 +57,21 @@
 #         self.right = right
 class Solution:
     def pathSum(self, root: TreeNode, targetSum: int) -> int:
-        def rootSum(root, targetSum):
-            if not root:
+        prefix = collections.defaultdict(int)
+        prefix[0] = 1
+
+        def dfs(node, curr):
+            if not node:
                 return 0
-            ret = 1 if root.val == targetSum else 0
-            ret += rootSum(root.left, targetSum-root.val)
-            ret += rootSum(root.right, targetSum-root.val)
+            ret = 0
+            curr += node.val
+            ret = prefix[curr - targetSum]
+            prefix[curr] += 1
+            ret += dfs(node.left, curr)
+            ret += dfs(node.right, curr)
+            prefix[curr] -= 1
             return ret
         
-        if not root:
-            return 0
-        ans = rootSum(root, targetSum)
-        ans += rootSum(root.left, targetSum)
-        ans += rootSum(root.right, targetSum)
-        return ans
+        return dfs(root, 0)
 # @lc code=end
 
